@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/navbar";
 import { BackgroundSvg } from "@/components/ui/background";
+import Footer from "@/components/footer/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-no-repeat bg-cover bg-[url('/bg.svg')]`}>
+      <body className={`${inter.className} scroll-smooth md:bg-no-repeat md:bg-cover bg-[#F5F5F5] md:bg-[url('/bg.svg')]`}>
           <Navbar />
           {children}
+          <Footer />
         </body>
     </html>
   );

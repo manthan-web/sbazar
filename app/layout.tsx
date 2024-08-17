@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} scroll-smooth md:bg-no-repeat md:bg-cover bg-[#F5F5F5] md:bg-[url('/bg.svg')]`}>
+      <body className={`${inter.className} scroll-smooth bg-[#F5F5F5]`}>
           <Navbar />
           {children}
           <Footer />

@@ -1,6 +1,4 @@
 import React from "react";
-import Video from "next-video";
-import ThePotVideo from "@/videos/pot-video.mp4.json";
 import EcommerceTabs from "./tabs";
 
 const page = () => {

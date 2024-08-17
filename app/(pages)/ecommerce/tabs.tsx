@@ -1,5 +1,4 @@
 import React from "react";
-import Video from "next-video";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 

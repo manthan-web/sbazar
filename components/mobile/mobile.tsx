@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import Image from "next/image";
 
-const MobileSection = ({ src }: { src?: string }) => {
+const MobileSection = ({ src }: { src: string }) => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [isMobile, setIsMobile] = useState(false);
 

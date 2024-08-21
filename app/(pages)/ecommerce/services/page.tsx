@@ -1,8 +1,11 @@
+import PhoneAnimation from '@/components/mockup-animation/animationm'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>ecom services page</div>
+    <div>
+      <PhoneAnimation />
+    </div>
   )
 }
 

@@ -6,6 +6,7 @@ import InfiniteSlider from "@/components/infinite-scroller/infinite-scroll";
 import MobileSection from "@/components/mobile/mobile";
 import ThreeSections from "@/components/three-sections/three-sections";
 import React from "react";
+import FAQSection from "./(pages)/ecommerce/grocery/faq-section";
 
 const page = () => {
 
@@ -19,7 +20,7 @@ const page = () => {
       <InfiniteSlider items={items} />
       <ThreeSections />
       <FeaturesSection />
-      <AccordionDemo />
+      <FAQSection />
     </main>
   );
 };

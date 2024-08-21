@@ -79,6 +79,13 @@
   100% { transform: translate(0, 0); }
 }
 
+
+.card  {
+  width: 1000px;
+  height: 500px;
+}
+
+
 .animate-random-move {
   animation: random-move 8s infinite alternate;
 }

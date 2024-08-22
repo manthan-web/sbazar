@@ -27,7 +27,7 @@ const InfoCard: React.FC<InfoCardProps> = ({ title, items }) => (
   </motion.div>
 );
 
-const SCoinsSpecialSection: React.FC = () => {
+export const SCoinsSpecialSection: React.FC = () => {
   const specialFeatures = [
     {
       title: "Stored Separately:",

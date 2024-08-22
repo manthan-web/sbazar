@@ -17,7 +17,7 @@ export default function page() {
             <TrendsSection />
             <SaveFoodSection />
             <FAQSection />
-
+        
         </div>
     )
 }

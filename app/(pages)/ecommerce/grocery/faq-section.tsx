@@ -9,8 +9,8 @@ import {
 
 const FAQSection = () => {
   return (
-    <section className='w-full mt-12 py-12 flex items-center flex-col'>
-      <div className="mx-auto md:mb-12 mb-4 container grid md:grid-cols-2 gap-8 animate-in">
+    <section className='w-full max-w-7xl mx-auto mt-12 py-12 flex items-center flex-col'>
+      <div className="mx-auto  md:mb-12 mb-4 container grid md:grid-cols-2 gap-8 animate-in">
 
 
         <div className="text-left flex items-center space-y-6">

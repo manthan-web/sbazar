@@ -10,7 +10,7 @@ import {
 const FAQSection = () => {
   return (
     <section className='w-full max-w-7xl mx-auto mt-12 py-12 flex items-center flex-col'>
-      <div className="mx-auto  md:mb-12 mb-4 container grid md:grid-cols-2 gap-8 animate-in">
+      <div className="mx-auto md:mb-12 mb-4 container grid md:grid-cols-2 gap-8 animate-in">
 
 
         <div className="text-left flex items-center space-y-6">
@@ -23,7 +23,7 @@ const FAQSection = () => {
         </div>
 
 
-        <div className="w-full animate-in flex items-center justify-center">
+        <div className="w-full animate-in border border-zinc-300 px-10 py-6 rounded-xl flex items-center justify-center">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
               <AccordionTrigger className='text-lg md:text-xl'>Is it accessible?</AccordionTrigger>

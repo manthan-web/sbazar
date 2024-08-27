@@ -30,7 +30,7 @@ const HeroSection = () => {
           className="text-zinc-600 text-xl md:text-2xl text-center max-w-3xl mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
         >
           Experience joy with every delivery. We're not just a service; we're your partners in creating moments of delight.
         </motion.p>
@@ -39,7 +39,7 @@ const HeroSection = () => {
           className="md:flex flex-col hidden items-center gap-4 text-zinc-600"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.6 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
         >
           <div className="flex">
             {[...Array(5)].map((_, i) => (

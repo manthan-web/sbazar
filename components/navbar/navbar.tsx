@@ -19,9 +19,9 @@ import { BiLogoPlayStore } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <nav className="flex max-w-screen-2xl mx-auto z-10 backdrop-blur-lg sticky top-0 items-center py-6 justify-between px-6 md:px-12">
+    <nav className="flex max-w-full z-50 backdrop-blur-lg sticky top-0 items-center py-6 justify-between px-6 md:px-12">
     <Link href="/" className="text-4xl font-bold">
-      <Image src={"/logo.png"} height={110} width={140} alt="logo of sbazar" className="object-cover" />
+      <Image src={"/logo.png"} height={110} width={140} alt="logo of sbazar" className="object-cover text-white" />
     </Link>
 
 

@@ -19,7 +19,7 @@ import { BiLogoPlayStore } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <nav className="flex bg-transparent z-10 md:backdrop-blur-none backdrop-blur-lg sticky top-0 items-center p-6 justify-between px-6 md:px-12">
+    <nav className="flex bg-transparent z-10 backdrop-blur-lg sticky top-0 items-center p-6 justify-between px-6 md:px-12">
     <Link href="/" className="text-4xl font-bold">
       <Image src={"/logo.png"} height={110} width={140} alt="logo of sbazar" className="object-cover" />
     </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
           borderRadius: "12px",
         }}
       >
-        <Button className="rounded-2xl bg-[#BC1E3A] flex py-6 items-center">
+        <Button className="rounded-2xl bg-[#BC1E3A] shadow-md flex py-6 items-center">
           <div className="flex items-center justify-center gap-1">
             <FaApple size={24} />
             <BiLogoPlayStore size={24} />

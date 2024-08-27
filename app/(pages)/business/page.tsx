@@ -1,10 +1,10 @@
 import React from 'react'
-import SocialInfos from './info'
+import BusinessInfo from './info'
 
 const page = () => {
   return (
     <div>
-      <SocialInfos />
+        <BusinessInfo />
     </div>
   )
 }

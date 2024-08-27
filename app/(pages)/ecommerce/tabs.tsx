@@ -106,7 +106,7 @@ const EcommerceTabs = () => {
                   </p>
                 </div>
 
-                <Link className="" href={'/ecommerce/services'}>
+                <Link className="" href={'/ecommerce/services/movies'}>
 
                   <Button className="rounded-sm mt-4 bg-[#BC1E3A] text-lg py-6 px-11">
                     Explore

@@ -42,7 +42,7 @@ const ThreeSections = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:px-36 px-8 py-12 mt-14 gap-6 w-full md:h-[500px]">
+    <div className="flex flex-col md:flex-row md:px-36 px-8 py-24 gap-6 w-full md:h-[500px]">
       {sections.map((section, index) => (
         <div
           key={index}

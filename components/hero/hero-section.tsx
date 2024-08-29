@@ -6,7 +6,7 @@ import { Star } from "lucide-react";
 const HeroSection = () => {
   return (
     <motion.section
-      className="w-full min-h-screen flex flex-col items-center py-20 md:py-12 px-6 md:px-12 bg-white"
+      className="w-full min-h-screen flex flex-col items-center py-20 md:py-24 px-6 md:px-12 bg-white"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -25,7 +25,7 @@ const HeroSection = () => {
           </span>
         </motion.h1>
         
-        <motion.p
+        {/* <motion.p
           className="text-zinc-600 text-xl md:text-2xl text-center max-w-3xl mx-auto"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ const HeroSection = () => {
           </div>
           <p className="text-lg font-semibold">Trusted by over 10,000 happy customers</p>
           
-        </motion.div>
+        </motion.div> */}
       </div>
     </motion.section>
   );

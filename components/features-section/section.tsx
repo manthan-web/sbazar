@@ -1,95 +1,46 @@
-"use client";
-import Image from "next/image";
-import { motion, useScroll, useTransform, useSpring } from "framer-motion";
-import React, { useRef } from "react";
+import React from 'react'
+import Image from 'next/image'
+import { Button } from '../ui/button'
+import Link from 'next/link'
 
-const FeaturesSection = () => {
-  const sectionRef = useRef(null);
-
-  const { scrollYProgress } = useScroll({
-    target: sectionRef,
-    offset: ["start start", "end start"],
-  });
-
-  const smoothY = useSpring(useTransform(scrollYProgress, [0, 1], [100, 0]), {
-    stiffness: 50,
-    damping: 20,
-  });
-
+const SCoinsSection = () => {
   return (
-    <div
-      ref={sectionRef}
-      className="w-full min-h-[200vh] md:flex-row border-t-2 flex flex-col gap-4 mt-14 px-12 pt-6"
-    >
-      <h2 className="text-4xl font-bold mb-4">Feature Of Sbazar</h2>
-
-      {/* Scoins */}
-      <div className="relative h-[100vh] flex items-center justify-center">
-        {" "}
-        {/* Center content */}
-        <div className="absolute inset-0">
-          {" "}
-          {/* Make this container cover the full area */}
+    <div className='w-full bg-white py-12'>
+      <div className='max-w-6xl mx-auto   flex flex-col md:flex-row items-center justify-between'>
+        {/* Left side - Image */}
+        <div className="w-full md:w-1/2 mb-8 md:mb-0">
           <Image
-            src="/ask-aditi.png"
-            alt="Background"
-            height={500}
+            src="/scoins-image.png"
+            alt='SCoins'
             width={500}
-            objectFit="cover"
-            className="rounded-3xl object-cover bg-gray-200"
+            height={500}
+            className='object-contain'
           />
         </div>
-        <motion.div
-          style={{ y: smoothY }}
-          className="relative overflow-hidden rounded-3xl z-[2] shadow-md flex justify-center items-center"
-        >
-          <div className="flex flex-col p-12 w-full gap-6 h-full bg-gray-400/20 backdrop-blur-2xl">
-            <h1 className="text-3xl font-bold">Scoins</h1>
-            <p>DOUBLE THE REWARDS, DOUBLE THE JOY</p>
-            <p>
-              We believe in rewarding our customers in more ways than one. Thats
-              why we have two rewarding systems: SCoins and SPoints, each stored
-              in different fields but both incredibly rewarding!
-            </p>
-          </div>
-        </motion.div>
-      </div>
 
-
-      {/* another  */}
-      <div className="relative h-[100vh] flex items-center justify-center">
-        {" "}
-        {/* Center content */}
-        <div className="absolute inset-0">
-          {" "}
-          {/* Make this container cover the full area */}
-          <Image
-            src="/ask-aditi.png"
-            alt="Background"
-            height={500}
-            width={500}
-            objectFit="cover"
-            className="rounded-3xl object-cover bg-gray-200"
-          />
+        {/* Right side - Content */}
+        <div className="w-full md:w-1/2 px-4 text-left space-y-6">
+          <h2 className="text-4xl md:text-5xl font-bold">
+            <span className="text-[#BC1E3A]">S</span>Coins
+          </h2>
+          <p className="text-xl font-semibold">
+            DOUBLE THE REWARDS, DOUBLE THE JOY!
+          </p>
+          <p className="text-gray-600 md:text-xl text-lg">
+            We believe in rewarding our customers in more ways than one. That's why we have two rewarding systems: SCoins and SPoints, each stored in different fields but both incredibly rewarding!
+          </p>
+          <Link
+            href={"/scoins"}
+            className="inline-block"
+          >
+            <Button className="bg-[#BC1E3A] hover:bg-[#9A1730] text-white font-medium text-lg md:text-xl  px-8 py-6 rounded-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50">
+              Explore
+            </Button>
+          </Link>
         </div>
-        <motion.div
-          style={{ y: smoothY }}
-          className="relative overflow-hidden rounded-3xl z-[2] shadow-md flex justify-center items-center"
-        >
-          <div className="flex flex-col p-12 w-full gap-6 h-full bg-gray-400/20 backdrop-blur-2xl">
-            <h1 className="text-3xl font-bold">Scoins</h1>
-            <p>DOUBLE THE REWARDS, DOUBLE THE JOY</p>
-            <p>
-              We believe in rewarding our customers in more ways than one. Thats
-              why we have two rewarding systems: SCoins and SPoints, each stored
-              in different fields but both incredibly rewarding!
-            </p>
-          </div>
-        </motion.div>
       </div>
-
     </div>
-  );
-};
+  )
+}
 
-export default FeaturesSection;
+export default SCoinsSection

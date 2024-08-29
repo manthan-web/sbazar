@@ -15,8 +15,8 @@ const FAQSection = () => {
 
         <div className="text-left flex items-center space-y-6">
 
-          <h2 className="text-4xl text-center md:text-left md:text-6xl font-bold text-zinc-900">
-            Frequently asked questions
+          <h2 className="text-4xl text-center mx-auto md:text-left md:text-8xl font-bold text-zinc-900">
+          FAQ's
           </h2>
 
 
@@ -26,21 +26,22 @@ const FAQSection = () => {
         <div className="w-full animate-in border border-zinc-300 px-10 py-6 rounded-xl flex items-center justify-center">
           <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
-              <AccordionTrigger className='text-lg md:text-xl'>Is it accessible?</AccordionTrigger>
-              <AccordionContent className=''>
-                Yes. It adheres to the WAI-ARIA design pattern.
+              <AccordionTrigger className='text-lg md:text-xl [&[data-state=open]]:text-zinc-400'>Is it accessible?</AccordionTrigger>
+              <AccordionContent className='text-[1rem]'>
+                Yes. It&apos;s animated by default, but you can disable it if you
+                prefer.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2">
-              <AccordionTrigger className='text-lg md:text-xl'>Is it styled?</AccordionTrigger>
-              <AccordionContent>
-                Yes. It comes with default styles that matches the other
-                components&apos; aesthetic.
+              <AccordionTrigger className='text-lg md:text-xl [&[data-state=open]]:text-zinc-400'>Is it styled?</AccordionTrigger>
+              <AccordionContent className='text-[1rem]'>
+                Yes. It&apos;s animated by default, but you can disable it if you
+                prefer.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
-              <AccordionTrigger className='text-lg md:text-xl'>Is it animated?</AccordionTrigger>
-              <AccordionContent>
+              <AccordionTrigger className='text-lg md:text-xl [&[data-state=open]]:text-zinc-500'>Is it animated?</AccordionTrigger>
+              <AccordionContent className='text-[1rem]'>
                 Yes. It&apos;s animated by default, but you can disable it if you
                 prefer.
               </AccordionContent>

@@ -7,17 +7,17 @@ interface Logo {
 }
 
 const logos: Logo[] = [
-  { name: 'Truffi' },
-  { name: 'Altall' },
-  { name: 'Kinua' },
-  { name: 'TANO' },
-  { name: 'Sarala' },
-  { name: 'Kalo' },
-  { name: 'KRATE' },
-  { name: 'Massui' },
+  { name: 'Empowering' },
+  { name: 'India' },
+  { name: 'Empowering' },
+  { name: 'India' },
+  { name: 'Empowering' },
+  { name: 'India' },
+  { name: 'Empowering' },
+  { name: 'India' },
 ];
 
-const InfiniteScrollCarousel: React.FC = () => {
+const SecondInfiniteScrool: React.FC = () => {
   const carouselRef = useRef<HTMLDivElement>(null);
   const controls = useAnimation();
   const x = useMotionValue(0);
@@ -51,7 +51,7 @@ const InfiniteScrollCarousel: React.FC = () => {
 
   return (
     <motion.div
-      className="relative mx-auto max-w-7xl w-full overflow-hidden md:mt-44 my-4"
+      className="relative mx-auto max-w-7xl w-full md:mt-12 overflow-hidden my-4"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -79,7 +79,7 @@ const InfiniteScrollCarousel: React.FC = () => {
   );
 };
 
-export default InfiniteScrollCarousel;
+export default SecondInfiniteScrool;
 
 
 

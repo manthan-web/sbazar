@@ -39,8 +39,8 @@ const Navbar = () => {
       >
         <Button className="rounded-2xl bg-[#BC1E3A] shadow-md flex py-6 items-center">
           <div className="flex items-center justify-center gap-1">
-            <FaApple size={24} />
-            <BiLogoPlayStore size={24} />
+            <FaApple className="text-white" size={24} />
+            <BiLogoPlayStore className="text-white" size={24} />
           </div>
           {/* <p></p> */}
         </Button>

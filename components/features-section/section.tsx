@@ -45,9 +45,9 @@ const ScoinsSection = () => {
             </p>
 
             <Link href={"/scoins"} className="inline-block">
-              <Button className="bg-[#BC1E3A] hover:bg-[#9A1730] text-white font-medium text-lg md:text-xl px-8 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
+              <Button className="bg-[#BC1E3A] hover:bg-[#9A1730] text-white font-normal text-lg md:text-xl px-8 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
                 Explore 
-              </Button>
+              </Button> 
             </Link>
           </motion.div>
 

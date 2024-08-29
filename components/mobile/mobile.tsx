@@ -45,7 +45,7 @@ const MobileSection = ({ src }: { src: string }) => {
   return (
     <div
       ref={sectionRef}
-      className="min-h-[35rem] md:py-14 pb-16 overflow-hidden md:mt-0 mb-16 min-w-full flex md:gap-16 items-center justify-center relative"
+      className="min-h-[35rem] md:py-14  overflow-hidden md:mt-0 mb-16 min-w-full flex md:gap-16 items-center justify-center relative"
     >
       <motion.div
         {...animationPropsLeft}
@@ -66,7 +66,7 @@ const MobileSection = ({ src }: { src: string }) => {
           alt="shadow"
           height={500}
           width={200}
-          className="absolute opacity-75 top-2 -right-20"
+          className="absolute opacity-75 top-2 -right-16"
         />
         <Image
           src={src}

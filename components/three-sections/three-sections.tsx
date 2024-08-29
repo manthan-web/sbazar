@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import Link from "next/link";
 
 const ThreeSections = () => {
   const [activeSection, setActiveSection] = useState<number | null>(null);
@@ -20,86 +21,100 @@ const ThreeSections = () => {
   const sections = [
     {
       title: "Ecommerce",
-      shortText: "Elevate your cooking",
-      bgColor: "bg-amber-100",
-      hoverBgColor: "bg-amber-200",
-      image: "/pot-image.jpg", // Replace with actual image path
+      shortText: "Elevate your cooking experience with our premium kitchenware.",
+      bgColor: "from-amber-100 to-amber-200",
+      image: "/pot-image.jpg",
+      href: "/ecommerce"
     },
     {
       title: "Social",
-      shortText: "Set a stunning table",
-      bgColor: "bg-emerald-100",
-      hoverBgColor: "bg-emerald-200",
-      image: "/social-image.jpg", // Replace with actual image path
+      shortText: "Set a stunning table and create memorable dining experiences.",
+      bgColor: "from-emerald-100 to-emerald-200",
+      image: "/social-image.png",
+      href: "/social"
     },
     {
       title: "Business",
-      shortText: "Cook with precision",
-      bgColor: "bg-sky-100",
-      hoverBgColor: "bg-sky-200",
-      image: "/business-image.jpg", // Replace with actual image path
+      shortText: "Cook with precision using our professional-grade tools.",
+      bgColor: "from-sky-100 to-sky-200",
+      image: "/business-img.png",
+      href: "/business"
     },
   ];
 
   return (
-    <div className="flex flex-col md:flex-row md:px-36 px-8 py-24 gap-6 w-full md:h-[500px]">
-      {sections.map((section, index) => (
-        <div
-          key={index}
-          className={cn(
-            "relative flex flex-col justify-end rounded-3xl transition-all duration-300 overflow-hidden cursor-pointer",
-            section.bgColor,
-            isMobile ? "mb-6 h-96" : (activeSection === index ? "md:flex-[2]" : "md:flex-[0.5]")
-          )}
-          onMouseEnter={() => !isMobile && setActiveSection(index)}
-          onMouseLeave={() => !isMobile && setActiveSection(null)}
-        >
-          <div className="absolute inset-0 z-0">
-            <Image
-              src={section.image}
-              alt={section.title}
-              layout="fill"
-              objectFit="cover"
-              className={cn(
-                "transition-opacity duration-300",
-                !isMobile && activeSection === index ? "opacity-20" : "opacity-100"
-              )}
-            />
-          </div>
-
-          <div className={cn(
-            "relative z-10 p-6 md:p-8",
-            isMobile ? "bg-black bg-opacity-50" : ""
-          )}>
-            <h2 className="text-3xl font-bold mb-2 text-white">{section.title}</h2>
-            {(isMobile || activeSection === index) && (
-              <>
-                <p className="text-lg mb-4 text-white">{section.shortText}</p>
-                <div className="flex gap-4">
-                  <button className="bg-white text-black px-4 py-2 rounded-full hover:bg-opacity-90 transition-colors">
-                    Shop Now
-                  </button>
-                  <button className="bg-transparent border border-white text-white px-4 py-2 rounded-full hover:bg-white hover:text-black transition-colors">
-                    Learn More
-                  </button>
-                </div>
-              </>
+    <div className="container mx-auto px-4 md:mb-24 py-16">
+      {/* <h1 className='md:text-5xl text-center md:mb-12  mb-6 text-3xl font-bold'>Modules Of <span className='text-[#BC1E3A]'>Sbazar</span></h1> */}
+      <div className="flex px-4 flex-col  max-w-7xl mx-auto md:flex-row gap-6 w-full md:h-[400px]">
+        {sections.map((section, index) => (
+          <motion.div
+            key={index}
+            className={cn(
+              "relative flex flex-col justify-end rounded-xl overflow-hidden cursor-pointer shadow-lg",
+              `bg-gradient-to-br ${section.bgColor}`,
+              isMobile ? "h-96 mb-6" : "flex-1"
             )}
-          </div>
-
-          {!isMobile && activeSection !== index && (
+            onMouseEnter={() => !isMobile && setActiveSection(index)}
+            onMouseLeave={() => !isMobile && setActiveSection(null)}
+            layout
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+          >
             <motion.div
-              className="absolute inset-0 flex items-center justify-center"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
+              className="absolute inset-0 z-0"
+              initial={false}
+              animate={{ opacity: activeSection === index ? 0.2 : 1 }}
               transition={{ duration: 0.3 }}
             >
-              <h2 className="text-4xl font-bold text-white text-center">{section.title}</h2>
+              <Image
+                src={section.image}
+                alt={section.title}
+                layout="fill"
+                objectFit="cover"
+                className="transition-all duration-300"
+              />
             </motion.div>
-          )}
-        </div>
-      ))}
+
+            <motion.div
+              className="relative z-10 p-8 bg-gradient-to-t from-black to-transparent"
+              initial={false}
+              animate={{ y: activeSection === index ? 0 : 100 }}
+              transition={{ duration: 0.3 }}
+            >
+              <h2 className="text-3xl font-bold mb-4 text-white">{section.title}</h2>
+              <motion.p
+                className="text-lg mb-6 text-white"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: activeSection === index ? 1 : 0 }}
+                transition={{ duration: 0.3, delay: 0.1 }}
+              >
+                {section.shortText}
+              </motion.p>
+              <motion.div
+                className="flex gap-4"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: activeSection === index ? 1 : 0 }}
+                transition={{ duration: 0.3, delay: 0.2 }}
+              >
+                
+                <Link href={section.href} className="bg-transparent border border-white text-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition-colors">
+                  Explore
+                </Link>
+              </motion.div>
+            </motion.div>
+
+            {!isMobile && activeSection !== index && (
+              <motion.div
+                className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.3 }}
+              >
+              </motion.div>
+            )}
+          </motion.div>
+        ))}
+      </div>
     </div>
   );
 };

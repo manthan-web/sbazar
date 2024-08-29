@@ -1,46 +1,75 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import { Button } from '../ui/button'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 
-const SCoinsSection = () => {
+const ScoinsSection = () => {
+  
+
   return (
-    <div className='w-full bg-white py-12'>
-      <div className='max-w-6xl mx-auto   flex flex-col md:flex-row items-center justify-between'>
-        {/* Left side - Image */}
-        <div className="w-full md:w-1/2 mb-8 md:mb-0">
-          <Image
-            src="/scoins-image.png"
-            alt='SCoins'
-            width={500}
-            height={500}
-            className='object-contain'
-          />
-        </div>
+    <motion.section 
+      initial={{ opacity: 0, y: 50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      className="w-full max-w-full bg-gray-50  px-6 py-20 md:py-32"
+    >
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.2, duration: 0.6 }}
+          className="text-center mb-12 md:mb-20"
+        >
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+            <span className="text-zinc-800">Sbazar</span> <span className="text-[#BC1E3A]">Scoins</span>
+          </h1>
+        </motion.div>
 
-        {/* Right side - Content */}
-        <div className="w-full md:w-1/2 px-4 text-left space-y-6">
-          <h2 className="text-4xl md:text-5xl font-bold">
-            <span className="text-[#BC1E3A]">S</span>Coins
-          </h2>
-          <p className="text-xl font-semibold">
-            DOUBLE THE REWARDS, DOUBLE THE JOY!
-          </p>
-          <p className="text-gray-600 md:text-xl text-lg">
-            We believe in rewarding our customers in more ways than one. That's why we have two rewarding systems: SCoins and SPoints, each stored in different fields but both incredibly rewarding!
-          </p>
-          <Link
-            href={"/scoins"}
-            className="inline-block"
+        <div className="grid md:grid-cols-2 gap-16 md:items-center">
+          <motion.div 
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.4, duration: 0.6 }}
+            className="md:space-y-10 space-y-8"
           >
-            <Button className="bg-[#BC1E3A] hover:bg-[#9A1730] text-white font-medium text-lg md:text-xl  px-8 py-6 rounded-md transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50">
-              Explore
-            </Button>
-          </Link>
+            <h2 className="text-3xl md:text-4xl text-zinc-800 font-semibold tracking-wide leading-tight">
+              Double the Rewards, Double the Joy!
+            </h2>
+            <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
+              The Green Ticket initiative transforms your entertainment choices into environmental action.
+              By linking ticket purchases to tree planting, we're creating a community-driven approach to
+              sustainability. Every ticket is a step towards a greener future, making environmental
+              responsibility an integral part of your event experience.
+            </p>
+
+            <Link href={"/scoins"} className="inline-block">
+              <Button className="bg-[#BC1E3A] hover:bg-[#9A1730] text-white font-medium text-lg md:text-xl px-8 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
+                Explore Scoins
+              </Button>
+            </Link>
+          </motion.div>
+
+          <motion.div 
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.6, duration: 0.6 }}
+            className="relative flex items-center justify-center"
+          >
+            <div className="absolute inset-0 rounded-2xl transform rotate-3"></div>
+            <Image
+              src="/scoins-image.png"
+              alt="Green leaf symbolizing sustainability"
+              width={500}
+              height={500}
+              className="relative z-10 object-cover rounded-xl shadow-2xl transform -rotate-3 transition-transform duration-300 hover:rotate-0"
+            />
+          </motion.div>
         </div>
       </div>
-    </div>
+    </motion.section>
   )
 }
 
-export default SCoinsSection
+export default ScoinsSection

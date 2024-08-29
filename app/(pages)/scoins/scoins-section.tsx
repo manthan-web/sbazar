@@ -97,7 +97,7 @@ const SCoinsSectionComplete: React.FC = () => {
   ];
 
   return (
-    <div className="bg-gray-50 py-12 md:py-16 lg:py-20">
+    <div className="bg-gray-50 py-12 md:mt-32 md:py-16 lg:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
         <motion.h2 
           className="text-4xl sm:text-5xl md:text-6xl font-bold text-zinc-900 text-center mb-6 md:mb-8"

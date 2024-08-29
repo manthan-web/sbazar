@@ -51,7 +51,7 @@ const SecondInfiniteScrool: React.FC = () => {
 
   return (
     <motion.div
-      className="relative mx-auto max-w-7xl w-full md:mt-12 overflow-hidden my-4"
+      className="relative mx-auto max-w-7xl py-11 bg-white w-full  overflow-hidden my-4"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}

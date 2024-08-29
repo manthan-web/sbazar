@@ -51,7 +51,7 @@ const InfiniteScrollCarousel: React.FC = () => {
 
   return (
     <motion.div
-      className="relative mx-auto max-w-7xl w-full overflow-hidden md:mt-44 my-4"
+      className="relative mx-auto bg-gray-200 py-6 max-w-7xl w-full overflow-hidden md:mt-44 my-4"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -71,7 +71,7 @@ const InfiniteScrollCarousel: React.FC = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <span className="text-4xl md:text-5xl md:mr-24 mr-12 hover:cursor-pointer font-bold text-opacity-20 text-zinc-800">{logo.name}</span>
+            <span className="text-4xl italic md:text-5xl md:mr-24 mr-12 hover:cursor-pointer font-normal text-opacity-20 text-zinc-800">{logo.name}</span>
           </motion.div>
         ))}
       </motion.div>

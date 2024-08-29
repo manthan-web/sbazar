@@ -1,11 +1,11 @@
 "use client"
-import React,  { useEffect } from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 import Lenis from "@studio-freight/lenis"
 
 
-  
+
 const HeroSection = () => {
 
 
@@ -17,9 +17,9 @@ const HeroSection = () => {
 
     function raf(time: any) {
 
-        lenis.raf(time)
+      lenis.raf(time)
 
-        requestAnimationFrame(raf)
+      requestAnimationFrame(raf)
 
     }
 
@@ -27,7 +27,7 @@ const HeroSection = () => {
 
     requestAnimationFrame(raf)
 
-})
+  })
 
 
   return (

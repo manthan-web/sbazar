@@ -23,7 +23,7 @@ const ScoinsSection = () => {
           className="text-center mb-12 md:mb-20"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-zinc-800">Sbazar</span> <span className="text-[#BC1E3A]">Scoins</span>
+            <span className="text-zinc-800"></span> <span className="text-[#BC1E3A]">S</span>Coins
           </h1>
         </motion.div>
 
@@ -46,7 +46,7 @@ const ScoinsSection = () => {
 
             <Link href={"/scoins"} className="inline-block">
               <Button className="bg-[#BC1E3A] hover:bg-[#9A1730] text-white font-medium text-lg md:text-xl px-8 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
-                Explore Scoins
+                Explore 
               </Button>
             </Link>
           </motion.div>

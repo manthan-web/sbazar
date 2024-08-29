@@ -51,7 +51,7 @@ const InfiniteScrollCarousel: React.FC = () => {
 
   return (
     <motion.div
-      className="relative mx-auto bg-gray-200 py-6 max-w-7xl w-full overflow-hidden md:mt-44 my-4"
+      className="relative mx-auto py-6 max-w-7xl w-full overflow-hidden md:mt-44 my-4"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}

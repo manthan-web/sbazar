@@ -45,7 +45,7 @@ const MobileSection = ({ src }: { src: string }) => {
   return (
     <div
       ref={sectionRef}
-      className="min-h-[35rem] md:py-24 pb-16 overflow-hidden md:mt-0 mb-12 min-w-full flex md:gap-16 items-center justify-center relative"
+      className="min-h-[35rem] md:py-14 pb-16 overflow-hidden md:mt-0 mb-16 min-w-full flex md:gap-16 items-center justify-center relative"
     >
       <motion.div
         {...animationPropsLeft}

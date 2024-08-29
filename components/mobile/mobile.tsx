@@ -1,7 +1,19 @@
-"use client";
+"use client"
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import Image from "next/image";
+
+const animationPropsLeft = {
+  initial: { y: 100 },
+  animate: { y: 0 },
+  transition: { duration: 0.8, ease: "easeInOut", delay: 0.2 },
+};
+
+const animationPropsRight = {
+  initial: { y: 100 },
+  animate: { y: 0 },
+  transition: { duration: 0.8, ease: "easeInOut", delay: 0.4 },
+};
 
 const MobileSection = ({ src }: { src: string }) => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -12,69 +24,52 @@ const MobileSection = ({ src }: { src: string }) => {
     offset: ["start end", "center center"],
   });
 
-  // Use useSpring for smoother motion
   const smoothYLeft = useSpring(
     useTransform(scrollYProgress, [0, 1], [150, 0]),
-    {
-      stiffness: 50,
-      damping: 20,
-    }
+    { stiffness: 50, damping: 20 }
   );
   const smoothYRight = useSpring(
     useTransform(scrollYProgress, [0, 1], [150, 0]),
-    {
-      stiffness: 50,
-      damping: 20,
-    }
+    { stiffness: 50, damping: 20 }
   );
 
   useEffect(() => {
-    if (typeof window !== "undefined" && window.innerWidth < 768) {
-      setIsMobile(true);
-    }
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
   }, []);
-
-  const animationPropsLeft = {
-    initial: { y: 200, opacity: 0 },
-    animate: { y: 0, opacity: 1 },
-    transition: { duration: 0.8, ease: "easeInOut", delay: 0.2 },
-  };
-
-  const animationPropsRight = {
-    initial: { y: 200, opacity: 0 },
-    animate: { y: 0, opacity: 1 },
-    transition: { duration: 0.8, ease: "easeInOut", delay: 0.4 },
-  };
 
   return (
     <div
       ref={sectionRef}
-      className="min-h-[35rem] py-24 overflow-hidden md:mt-0 mb-12 min-w-full gap-5 flex md:gap-16 items-center justify-center overflow-x-hidden"
+      className="min-h-[35rem] md:py-24 pb-16 overflow-hidden md:mt-0 mb-12 min-w-full flex md:gap-16 items-center justify-center relative"
     >
       <motion.div
         {...animationPropsLeft}
         style={{ y: smoothYLeft }}
-        // className="drop-shadow-2xl"
+        className={`${isMobile ? '-ml-20' : ''} z-10`}
       >
         <Image
-          src={src as string}
+          src={src}
           alt="left Animated image"
           height={isMobile ? 150 : 250}
           width={isMobile ? 150 : 250}
           className="object-cover shrink-0 rounded-lg"
         />
       </motion.div>
-      <div className="drop-shadow-2xl relative">
+      <div className=" mx-6 relative z-20">
         <Image
-          src={"/drop-shadow.avif"}
+          src="/drop-shadow.avif"
           alt="shadow"
           height={500}
           width={200}
           className="absolute opacity-75 top-2 -right-20"
         />
-
         <Image
-          src={src as string}
+          src={src}
           alt="center image"
           height={isMobile ? 350 : 450}
           width={isMobile ? 250 : 350}
@@ -84,10 +79,10 @@ const MobileSection = ({ src }: { src: string }) => {
       <motion.div
         {...animationPropsRight}
         style={{ y: smoothYRight }}
-        // className="drop-shadow-2xl"
+        className={`${isMobile ? '-mr-20' : ''} z-10`}
       >
         <Image
-          src={src as string}
+          src={src}
           alt="right Animated image"
           height={isMobile ? 150 : 250}
           width={isMobile ? 150 : 250}
@@ -99,72 +94,3 @@ const MobileSection = ({ src }: { src: string }) => {
 };
 
 export default MobileSection;
-
-// "use client";
-// import React, { useEffect, useRef, useState } from "react";
-// import { motion, useScroll, useTransform } from "framer-motion";
-// import Image from "next/image";
-
-// const MobileSection = ({ src }: { src?: string }) => {
-//   const sectionRef = useRef<HTMLDivElement>(null);
-//   const [isMobile, setIsMobile] = useState(false);
-
-//   const { scrollYProgress } = useScroll({
-//     target: sectionRef,
-//     offset: ["start end", "center center"],
-//   });
-
-//   const yLeft = useTransform(scrollYProgress, [0, 1], [200, 0]);
-//   const yRight = useTransform(scrollYProgress, [0, 1], [200, 0]);
-
-//   useEffect(() => {
-//     if (typeof window !== "undefined" && window.innerWidth < 768) {
-//       setIsMobile(true);
-//     }
-//   }, []);
-
-//   const animationProps = {
-//     initial: { y: 200, opacity: 0 },
-//     animate: { y: 0, opacity: 1 },
-//     transition: {
-//       duration: 0.8,
-//       ease: "easeInOut",
-//       delay: 0.2,
-//     },
-//   };
-
-//   return (
-//     <div
-//       ref={sectionRef}
-//       className="min-h-[20vh] bg-green-300 overflow-hidden mt-32 md:mt-0 mb-12 min-w-full gap-5 flex md:gap-16 items-center justify-center overflow-x-hidden"
-//     >
-//       <motion.div {...animationProps} style={{ y: yLeft }}>
-//         <Image
-//           src={src as string}
-//           alt="left Animated image"
-//           height={isMobile ? 150 : 250}
-//           width={isMobile ? 150 : 250}
-//           className="object-cover shrink-0 rounded-lg"
-//         />
-//       </motion.div>
-//       <Image
-//         src={src as string}
-//         alt="center Animated image"
-//         height={isMobile ? 300 : 450}
-//         width={isMobile ? 200 : 350}
-//         className="object-cover shrink-0 rounded-lg"
-//       />
-//       <motion.div  {...animationProps} style={{ y: yRight }}>
-//         <Image
-//           src={src as string}
-//           alt="right Animated image"
-//           height={isMobile ? 150 : 250}
-//           width={isMobile ? 150 : 250}
-//           className="object-cover shrink-0 rounded-lg"
-//         />
-//       </motion.div>
-//     </div>
-//   );
-// };
-
-// export default MobileSection;

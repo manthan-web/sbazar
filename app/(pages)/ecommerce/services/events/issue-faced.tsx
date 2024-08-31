@@ -76,8 +76,8 @@ const IssueFacedSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-16 mx-auto max-w-full w-full bg-gray-50 overflow-hidden" ref={sectionRef}>
-      <div className='md:space-y-3 text-center mb-12'>
+    <section className="py-16 mx-auto px-6 max-w-full w-full bg-gray-50 overflow-hidden" ref={sectionRef}>
+      <div className='md:space-y-3 px-6 text-center mb-12'>
         <h1 className='md:text-5xl text-3xl font-bold'><span className='text-[#BC1E3A]'>Key</span> Challenges</h1>
         <p className='text-lg md:text-2xl text-gray-600'>Our community faces several obstacles in bringing people together for events</p>
       </div>

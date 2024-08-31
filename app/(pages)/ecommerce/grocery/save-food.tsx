@@ -1,66 +1,83 @@
+// pages/index.tsx
 import Image from 'next/image';
-import React from 'react';
+import { Button } from '@/components/ui/button';
+import { Apple, ShoppingBag, Sandwich, LucideIcon } from 'lucide-react';
 
-const SaveFoodSection = () => {
-
-
-    return (
-        <section className="w-full mt-24 py-6 rounded-[3rem] shadow-lg bg-[#FEFBD8] flex items-center flex-col">
-
-            <div className='mb-6 text-center md:py-6 md:space-y-3'>
-
-                        <h2 className="text-4xl text-center md:text-6xl font-bold text-[#BC1E3A]">
-                            Save <span className='text-zinc-900'>Food</span>
-                        </h2>
-                        <p className="text-zinc-500 tracking-widest md:max-w-xl font-normal text-base md:text-xl">
-                        Join SBazar in Reducing Food Waste                      </p>
-                    </div>
-            <div className="mx-auto md:mb-12 mb-4 container grid md:grid-cols-2 gap-8 animate-in">
-
-                <div className="text-left space-y-6">
-                
-                    <div className="flex flex-col gap-2">
-                        <p className="font-bold text-lg md:text-xl">Short Expiry
-                        </p>
-                        <p className="text-zinc-500 font-normal text-lg md:text-xl">
-                            Save perfectly good food from being wasted and enjoy unbeatable deals
-                        </p>
-                    </div>
-                    <div className="flex flex-col gap-2">
-                        <p className="font-bold text-lg md:text-xl">Still Good
-                        </p>
-                        <p className="text-zinc-500 font-normal text-lg md:text-xl">
-                            Go beyond dates—pick still-tasty past-best items to lessen waste. Trust in their enduring quality.
-
-                        </p>
-                    </div>
-                    <div className="flex flex-col gap-2">
-                        <p className="font-bold text-lg md:text-xl">
-                            Dancing Products
-
-                        </p>
-                        <p className="text-zinc-500 font-normal max-w-xl text-lg md:text-xl">
-                            Opt for items with packaging flaws, not quality issues. Your choice boosts sustainability and savings.
-                        </p>
-                    </div>
-                    <div className="flex flex-col gap-2">
-                        <p className="font-bold text-lg md:text-xl">
-                            Our Mission
-
-                        </p>
-                        <p className="text-zinc-500 font-normal text-lg md:text-xl">
-                            Selecting these items joins you in the vital effort to cut food waste for a healthier planet and community.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="w-full animate-random-move flex items-center justify-center">
-                <Image src={"/food.png"} className='' height={500} width={500} alt="" />
-              </div>
-            </div>
-        </section>
-
-    )
+interface Features {
+  icon: LucideIcon;
+  title: string;
+  description: string;
 }
 
-export default SaveFoodSection
+interface FeaturesCardProps {
+  icon: LucideIcon;
+  title: string;
+  description: string;
+}
+
+const FeaturesCard: React.FC<FeaturesCardProps> = ({ icon: Icon, title, description }) => (
+  <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
+    <div className="flex items-center mb-2">
+      <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
+      <h3 className="text-lg font-semibold">{title}</h3>
+    </div>
+    <p className="text-sm text-gray-600">{description}</p>
+  </div>
+);
+
+export default function SaveFoodSection() {
+  const features: Features[] = [
+    {
+      icon: Apple,
+      title: "Short Expiry",
+      description: "Save perfectly good food from being wasted and enjoy unbeatable deals"
+    },
+    {
+      icon: ShoppingBag,
+      title: "Still Good",
+      description: "Go beyond dates—pick still-tasty past-best items to lessen waste. Trust in their enduring quality"
+    },
+    {
+      icon: Sandwich,
+      title: "Imperfect Packaging",
+      description: "Opt for items with packaging flaws, not quality issues. Your choice boosts sustainability and savings."
+    },
+  ];
+
+  return (
+    <div className=" mt-20">
+      <div className="max-w-7xl mx-auto py-12">
+        <main className="flex flex-col lg:flex-row gap-8 items-center">
+          {/* Left Section */}
+          <div className="lg:w-1/2 flex flex-col justify-center">
+            <h1 className='text-3xl md:text-5xl font-bold mb-6'>Save <span className='text-green-500'>Food</span></h1>
+            <p className="text-zinc-500 text-left mb-6 font-normal text-base md:text-xl">
+              Join our mission to reduce food waste and make a positive impact on the environment. By choosing to save food, you're not just getting great deals, but also contributing to a more sustainable future. Every meal saved is a step towards a greener planet.
+            </p>
+            <Button className="rounded-md bg-green-500 text-white text-lg py-3 px-8 self-start">
+              Explore
+            </Button>
+          </div>
+
+          {/* Right Section (Image) */}
+          <div className="lg:w-1/2 flex justify-center">
+            <Image
+              src="/food.png"
+              alt="Save Food Initiative"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover"
+            />
+          </div>
+        </main>
+
+        {/* Bottom Section */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+          {features.map((feature, index) => (
+            <FeaturesCard key={index} {...feature} />
+          ))}
+        </div>
+      </div>
+    </div>
+  )
+}

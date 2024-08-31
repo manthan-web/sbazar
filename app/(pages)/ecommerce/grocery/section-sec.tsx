@@ -31,7 +31,7 @@ const SecondSection = () => {
 
 
     return (
-        <main className="">
+        <main className="px-4">
             {
                 projects.map((project, index) => {
                     return <Card i={index} key={index}  {...project} />

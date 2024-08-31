@@ -30,7 +30,7 @@ const AnimatedTabsSection = () => {
     })
 
     return (
-        <main className="py-12 px-4">
+        <main className="py-12 px-8">
             {
                 projects.map((project, index) => {
                     return <Card i={index} key={index}  {...project} />

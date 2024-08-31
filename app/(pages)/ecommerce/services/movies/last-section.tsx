@@ -64,10 +64,10 @@ export default function LastSections() {
         {/* Right Section (Image) */}
         <div className="lg:w-1/2">
           <Image
-            src="/grocery.png"
+            src="/ticket.png"
             alt="Team meeting"
-            width={600}
-            height={400}
+            width={500}
+            height={300}
             className="rounded-lg object-cover"
           />
         </div>

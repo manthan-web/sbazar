@@ -5,7 +5,7 @@ const Card = ({ i, title, description, src, link, color }: { i: number, title: s
 
 
     return (
-        <div className="h-[100vh] flex items-center justify-center sticky md:top-10 top-14">
+        <div className="h-[100vh] flex items-center justify-center sticky md:top-16 top-14">
 
             <div
                 className="card flex flex-col min-h-[35rem] py-6 md:py-8 relative rounded-lg max-w-screen-lg mx-auto"

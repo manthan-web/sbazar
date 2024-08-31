@@ -22,7 +22,7 @@ const AppReviewsSection = () => {
     ];
 
     return (    
-        <section className="bg-gray-100 py-16 px-4 md:px-0">
+        <section className="bg-gray-100 py-16 px-4 mx-4 md:px-0">
             <div className='mx-auto text-center md:mb-20 mb-10 space-y-4'>
                 <h2 className="text-4xl md:text-6xl mx-auto font-bold text-[#BC1E3A] mb-4">
                     SBAZAR <span className='text-zinc-900'>Combos & Bundles</span>

@@ -1,17 +1,20 @@
 import React from "react";
 import EcommerceTabs from "./tabs";
-import { TransitionPanelCard } from "./coming-up";
-import Image from "next/image";
+import HeroSection from "@/components/hero/hero-section";
+import EcommerceModule from "./ecom-module";
+
 
 const page = () => {
   return (
     <div className="flex flex-col">
-      <section className="w-full py-12 flex items-start">
-        <div className="mx-auto container grid md:grid-cols-2 gap-8 animate-in">
+
+      <EcommerceModule />
+
+
+      <section className="w-full py-12 md:py-24 flex items-start">
+        <div className="mx-auto  max-w-7xl container grid md:grid-cols-2 gap-8 animate-in">
           <div className="text-left space-y-6">
-            <h2 className="text-4xl md:mb-8 md:text-6xl font-bold text-[#BC1E3A]">
-              Ecommerce
-            </h2>
+            
             <div className="flex flex-col gap-2">
               <p className="font-bold text-lg md:text-xl">Open For All</p>
               <p className="text-zinc-500 font-normal text-lg md:text-xl">

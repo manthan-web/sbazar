@@ -9,7 +9,7 @@ import FAQSection from '../../grocery/faq-section'
 const MoviePage = () => {
   return (
     <main className='flex flex-col w-full'>
-      <section className='py-8 md:py-24 bg-gradient-to-r from-gray-100 to-gray-200'>
+      <section className='py-8 md:py-24 bg-gradient-to-r px-6'>
         <div className='container mx-auto px-4'>
           <div className='text-center mb-8 md:mb-12'>
             <h1 className='text-3xl md:text-6xl font-bold mb-2 md:mb-4'>

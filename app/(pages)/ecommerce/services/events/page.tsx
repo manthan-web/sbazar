@@ -3,13 +3,12 @@ import IssueFacedSection from './issue-faced'
 import Solutions from './solutions'
 import AnimatedTabsSection from './animated-tabs'
 import GreenTicketSection from './green-ticket'
-import ComingUpSection from './coming-up'
 import FAQSection from '../../grocery/faq-section'
 
 const Page = () => {
   return (
     <main className='flex flex-col w-full'>
-      <section className='py-16 md:py-24 bg-gradient-to-r from-gray-100 to-gray-200'>
+      <section className='py-16 px-6'>
         <div className='container mx-auto px-4 md:px-8'>
           <div className='text-center mb-12 md:mb-16'>
             <h1 className='text-4xl md:text-6xl font-bold mb-4 text-gray-800'>
@@ -48,7 +47,7 @@ const Page = () => {
       <Solutions />
       <AnimatedTabsSection />
       <GreenTicketSection />
-      <ComingUpSection />
+      {/* <ComingUpSection /> */}
       <FAQSection />
     </main>
   )

@@ -8,7 +8,7 @@
   } from "@/components/ui/accordion"
 
   const GreenTicketSection = () => {
-    const content = [
+    const content = [ 
       {
         value: "item-1",
         title: "For Our Planet",
@@ -36,7 +36,7 @@
     ]
 
     return (
-      <section className="w-full max-w-full bg-gray-50 py-16 md:py-24">
+      <section className="w-full max-w-full px-6 bg-gray-50 py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h1 className="text-5xl md:text-7xl font-bold mb-4">

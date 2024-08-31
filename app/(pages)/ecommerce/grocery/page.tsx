@@ -8,7 +8,7 @@ import FAQSection from './faq-section'
 
 export default function page() {
     return (
-        <div className="container max-w-7xl mx-auto py-8">
+        <div className="py-8">
 
 
             <FirstSection />

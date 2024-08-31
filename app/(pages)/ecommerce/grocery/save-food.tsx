@@ -45,8 +45,8 @@ export default function SaveFoodSection() {
   ];
 
   return (
-    <div className=" mt-20">
-      <div className="max-w-7xl mx-auto py-12">
+    <div className=" max-w-full bg-gray-50 w-full pb-12 mt-20">
+      <div className="max-w-7xl mx-auto px-8 py-12">
         <main className="flex flex-col lg:flex-row gap-8 items-center">
           {/* Left Section */}
           <div className="lg:w-1/2 flex flex-col justify-center">

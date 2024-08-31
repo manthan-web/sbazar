@@ -1,69 +1,100 @@
+"use client"
+import React, { useRef, useEffect } from 'react';
+import { Calendar, ShoppingBag, PiggyBank, Repeat } from 'lucide-react';
+import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import Image from 'next/image';
 
-const ReviewCard = (props: any) => (
-    <div className="bg-white mt-6 p-6 rounded-[2rem] shadow-md">
-        <p className="font-bold text-lg md:text-xl text-[#BC1E3A]">{props.name}</p>
-        <p className="text-zinc-500 max-w-sm font-normal text-lg md:text-xl">
-            {props.comment}
-        </p>
+interface FeaturesCardProps {
+  icon: React.ElementType;
+  title: string;
+  description: string;
+}
+
+const FeaturesCard: React.FC<FeaturesCardProps> = ({ icon: Icon, title, description }) => (
+  <div className="bg-white p-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg border border-gray-100">
+    <div className="flex items-center mb-3">
+      <Icon className="w-7 h-7 text-[#BC1E3A] mr-3" />
+      <h3 className="text-xl font-semibold">{title}</h3>
     </div>
+    <p className="text-sm text-gray-600 leading-relaxed">{description}</p>
+  </div>
 );
 
-const AppReviewsSection = () => {
-    const reviews = [
-        { name: "INDIAN City-Themed Combos", comment: "offering regional culinary experiences." },
-        { name: "Discounted Pairings", comment: "Complementary products bundled together for savings" },
-        { name: "Monthly New Picks", comment: "Ten unique combos introduced each month for variety" },
-        { name: "Cultural Exploration", comment: "Encourages discovery of India's diverse culinary heritage" },
-        { name: "Local City Bundles", comment: "Monthly, city-themed bundles for savings" },
-        { name: "Savings Across Categories", comment: "Quality at great prices" },
-        { name: "5 New Each Month", comment: "Budget-friendly, diverse products" },
-        { name: "Explore & Save", comment: "Discover flavors, maximize savings" },
-    ];
+const ExistingIssuesSection: React.FC = () => {
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const { scrollY } = useScroll();
+  const y = useTransform(scrollY, [0, 100], [0, -30]);
+  const springY = useSpring(y, { stiffness: 100, damping: 20 });
 
-    return (    
-        <section className="bg-gray-100 py-16 px-4 mx-4 md:px-0">
-            <div className='mx-auto text-center md:mb-20 mb-10 space-y-4'>
-                <h2 className="text-4xl md:text-6xl mx-auto font-bold text-[#BC1E3A] mb-4">
-                    SBAZAR <span className='text-zinc-900'>Combos & Bundles</span>
-                </h2>
-                <p className="text-zinc-500 mb-4 tracking-widest mx-auto md:max-w-xl font-normal text-base md:text-xl">
-                    MULTIPRODUCTS DEALS
-                </p>
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      springY.set(y.get());
+    }, 500);
+
+    return () => clearTimeout(timeout);
+  }, [springY, y]);
+
+  const dealsFeatures: FeaturesCardProps[] = [
+    {
+      icon: Calendar,
+      title: "Weekly Curation",
+      description: "Handpicked items offered at special prices for a whole week"
+    },
+    {
+      icon: ShoppingBag,
+      title: "Diverse Selections",
+      description: "A mix of staples, snacks, and essentials to cater to all your kitchen needs"
+    },
+    {
+      icon: PiggyBank,
+      title: "Plan Ahead",
+      description: "Perfect for stocking up on weekly groceries with the benefit of savings"
+    },
+    {
+      icon: Repeat,
+      title: "Always New",
+      description: "The selection refreshes every week, giving you something new to look forward to"
+    },
+  ];
+
+  return (
+    <section className="py-24 px-6 bg-gray-50" ref={sectionRef}>
+      <div className='max-w-4xl mx-auto text-center mb-16'>
+        <h1 className='text-4xl md:text-5xl font-bold mb-4'>Weekly & Flash <span className='text-[#BC1E3A]'>Deals</span></h1>
+        <p className='text-xl md:text-2xl font-normal text-gray-600'>Distribution and Viewing</p>
+      </div>
+
+      <div className="container max-w-7xl mx-auto px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="space-y-8">
+            {dealsFeatures.slice(0, 2).map((issue, index) => (
+              <FeaturesCard key={index} {...issue} />
+            ))}
+          </div>
+
+          <div className="hidden md:block">
+            <div className="relative bg-green-300 h-full rounded-2xl overflow-hidden shadow-lg">
+              <motion.div style={{ y: springY }} className="absolute top-[5rem] left-[6rem] transform -translate-x-1/2 -translate-y-1/2">
+                <Image
+                  src="/iphone-mockup.svg"
+                  alt="Movie Distribution App Mockup"
+                  width={200}
+                  height={200}
+                  className="object-cover"
+                />
+              </motion.div>
             </div>
-            <div className="max-w-7xl mx-auto">
-                <div className="flex flex-col md:flex-row items-center justify-between">
-                    {/* Left Reviews */}
-                    <div className="w-full md:w-1/3 space-y-4 order-2 md:order-1">
-                        {reviews.slice(0, 4).map((review, index) => (
-                            <ReviewCard key={index} {...review} />
-                        ))}
-                    </div>
+          </div>
 
-                    {/* Central Image */}
-                    <div className="w-full md:w-1/3 my-8 md:my-0 order-1 md:order-2">
-                        <div className="relative">
-                            <Image src="/iphone-mockup.svg" width={300} height={600} alt="App mockup" className="mx-auto" />
-                            <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-                                <p className="text-xs mb-2">FEATURED BY APPLE</p>
-                                <p className="text-sm font-semibold mb-4">ON THE APP STORE</p>
-                                <button className="bg-white text-black px-4 py-2 rounded-full text-sm font-semibold">
-                                    Get the app
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Right Reviews */}
-                    <div className="w-full md:w-1/3 space-y-6 order-3">
-                        {reviews.slice(4).map((review, index) => (
-                            <ReviewCard key={index} {...review} />
-                        ))}
-                    </div>
-                </div>
-            </div>
-        </section>
-    );
+          <div className="space-y-8">
+            {dealsFeatures.slice(2).map((issue, index) => (
+              <FeaturesCard key={index} {...issue} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
-export default AppReviewsSection;
+export default ExistingIssuesSection;

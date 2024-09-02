@@ -2,7 +2,12 @@
 import { withNextVideo } from "next-video/process";
 const nextConfig = {
   images: {
-    domains: ["www.ignant.com"],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.ignant.com',
+      },
+    ],
   },
 };
 export default withNextVideo(nextConfig);

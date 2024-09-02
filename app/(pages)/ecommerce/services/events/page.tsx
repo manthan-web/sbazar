@@ -12,7 +12,7 @@ const Page = () => {
         <div className='container mx-auto px-4 md:px-8'>
           <div className='text-center mb-12 md:mb-16'>
             <h1 className='text-4xl md:text-6xl font-bold mb-4 text-gray-800'>
-              Welcome To <span className='text-[#BC1E3A]'>SBazar</span> Events
+              <span className='text-[#BC1E3A]'>Events</span> Module
             </h1>
             <p className='text-xl md:text-2xl text-gray-600 font-light'>Where Every Event Matters</p>
           </div>

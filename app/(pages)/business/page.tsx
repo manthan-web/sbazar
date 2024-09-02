@@ -1,9 +1,11 @@
 import React from 'react'
 import BusinessInfo from './info'
+import BusinessHeading from './heading'
 
 const page = () => {
   return (
-    <div>
+    <div className='flex flex-col'>
+        <BusinessHeading />
         <BusinessInfo />
     </div>
   )

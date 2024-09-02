@@ -42,17 +42,7 @@ const BusinessInfo = () => {
   return (
     <section className="w-full max-w-full bg-white py-12 md:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12 md:mb-16">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-3 md:mb-4">
-            <span className="text-red-600">SBazar</span>
-          </h1>
-          <p className="text-xl md:text-2xl lg:text-3xl text-gray-400 font-light tracking-wide">
-            Entrepreneurs
-          </p>
-          <p className="text-sm md:text-base lg:text-lg text-gray-500 mt-2">
-            YOUR PASSION, YOUR BUSINESS
-          </p>
-        </div>
+       
 
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
           <div className="space-y-6 flex h-full items-center md:space-y-8">

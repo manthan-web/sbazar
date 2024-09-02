@@ -5,6 +5,7 @@ import AppReviewsSection from './third-sec'
 import SaveFoodSection from './save-food'
 import TrendsSection from './tabs-sec'
 import FAQSection from './faq-section'
+import { CardStackDemo } from '@/components/card-stack/demo'
 
 export default function page() {
     return (
@@ -12,7 +13,7 @@ export default function page() {
 
 
             <FirstSection />
-            <SecondSection />
+            <CardStackDemo />
             <AppReviewsSection />
             <TrendsSection />
             <SaveFoodSection />

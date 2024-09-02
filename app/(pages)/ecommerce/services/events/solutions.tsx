@@ -8,15 +8,17 @@ interface SolutionsCardProps {
     description: string;
 }
 
-const IssueCard: React.FC<SolutionsCardProps> = ({ icon: Icon, title, description }) => (
-    <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
+const SolutionsCard: React.FC<SolutionsCardProps> = ({ icon: Icon, title, description }) => (
+    <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-200 group/solution">
+      <div className="group-hover/solution:translate-x-2 hover:cursor-pointer transition duration-200">
         <div className="flex items-center mb-2">
-            <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
-            <h3 className="text-lg font-semibold">{title}</h3>
+          <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
+          <h3 className="text-lg font-semibold">{title}</h3>
         </div>
         <p className="text-sm text-gray-600">{description}</p>
+      </div>
     </div>
-);
+  );
 
 interface Solutions {
     icon: LucideIcon;
@@ -107,7 +109,7 @@ const Solutions = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {solutions.map((issue, index) => (
-                        <IssueCard key={index} {...issue} />
+                        <SolutionsCard key={index} {...issue} />
                     ))}
                 </div>
             </div>

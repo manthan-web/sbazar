@@ -13,12 +13,14 @@ interface IssueCardProps {
 }
 
 const IssueCard: React.FC<IssueCardProps> = ({ icon: Icon, title, description }) => (
-  <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
-    <div className="flex items-center mb-2">
-      <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
-      <h3 className="text-lg font-semibold">{title}</h3>
+  <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-200 hover:cursor-pointer  group/issue">
+    <div className="group-hover/issue:translate-x-2 transition duration-200">
+      <div className="flex items-center mb-2">
+        <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
+        <h3 className="text-lg font-semibold">{title}</h3>
+      </div>
+      <p className="text-sm text-gray-600">{description}</p>
     </div>
-    <p className="text-sm text-gray-600">{description}</p>
   </div>
 );
 

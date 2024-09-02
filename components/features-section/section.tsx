@@ -6,17 +6,17 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 
 const ScoinsSection = () => {
-  
+
 
   return (
-    <motion.section 
+    <motion.section
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       className="w-full max-w-full bg-gray-50  px-6 py-20 md:py-32"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -28,7 +28,7 @@ const ScoinsSection = () => {
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-16 md:items-center">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
@@ -46,24 +46,24 @@ const ScoinsSection = () => {
 
             <Link href={"/scoins"} className="inline-block">
               <Button className="bg-[#BC1E3A] hover:bg-[#9A1730] text-white font-normal text-lg md:text-xl px-8 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
-                Explore 
-              </Button> 
+                Explore
+              </Button>
             </Link>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
             className="relative flex items-center justify-center"
           >
-            <div className="absolute inset-0 rounded-2xl transform rotate-3"></div>
+            {/* <div className="relative flex items-center justify-center rounded-2xl "></div> */}
             <Image
               src="/scoins-image.png"
               alt="Green leaf symbolizing sustainability"
               width={500}
               height={500}
-              className="relative z-10 object-cover rounded-xl shadow-2xl transform -rotate-3 transition-transform duration-300 hover:rotate-0"
+              className="relative z-10 object-cover "
             />
           </motion.div>
         </div>

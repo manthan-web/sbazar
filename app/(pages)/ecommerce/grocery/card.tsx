@@ -3,13 +3,14 @@ import Image from 'next/image'
 
 const Card = ({ i, title, description, src, link, color }: { i: number, title: string, description: string, src: string, link: string, color: string }) => {
 
+    // backgroundColor: color,
 
     return (
         <div className="h-[100vh] flex items-center justify-center sticky md:top-16 top-14">
 
             <div
-                className="card flex flex-col min-h-[35rem] py-6 md:py-8 relative rounded-lg max-w-screen-lg mx-auto"
-                style={{ backgroundColor: color, top: `calc(-5% + ${i * 25}px)` }}
+                className="card bg-green-400 flex flex-col min-h-[35rem] py-6 md:py-8 relative rounded-lg max-w-screen-lg mx-auto"
+                style={{  top: `calc(-5% + ${i * 25}px)` }}
             >
                 <div className='mx-auto mb-8 text-center'>
 

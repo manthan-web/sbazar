@@ -51,7 +51,7 @@ const page = () => {
 
           <div className="w-full flex items-center justify-center">
             {/* <Video src={"/videos/pot-video.mp4"} loop= /> */}
-            <video className="w-full h-full" loop autoPlay muted>
+            <video className="md:w-[25rem] md:h-[25rem] w-full h-full md:ml-24" loop autoPlay muted>
               <source src="./ecommerce/pot-video.mp4" />
             </video>
           </div>

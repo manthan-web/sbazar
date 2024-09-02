@@ -47,44 +47,34 @@ const SocialInfos = () => {
   ]
 
   return (
-    <section className="w-full max-w-full bg-white py-12 md:py-20">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12 md:mb-16">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-3 md:mb-4">
-            <span className="text-red-600">Sbazar Social</span>
-          </h1>
-          <p className="text-xl md:text-2xl lg:text-3xl text-gray-400 font-light tracking-wide">
-            Connect - Uniting through culture
-          </p>
+    <section className="w-full py-12 md:py-24 flex items-start">
+      <div className="mx-auto  max-w-7xl container grid md:grid-cols-2 gap-8 animate-in">
+        <div className="text-left space-y-6">
+
+          {content.map((info) => {
+            return (
+
+              <div key={info.value} className="flex flex-col gap-2">
+                <p className="font-bold text-lg md:text-xl">{info.title}</p>
+                <p className="text-zinc-500 font-normal text-lg md:text-xl">
+                  {info.description}
+                </p>
+              </div>
+            )
+          })}
+
+
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-start">
-          <div className="space-y-6 flex h-full items-center md:space-y-8">
-            <Accordion type="single" collapsible className="w-full">
-              {content.map((info, index) => (
-                <AccordionItem key={info.value} value={info.value}>
-                  <AccordionTrigger className="font-semibold text-base md:text-lg lg:text-xl">{info.title}</AccordionTrigger>
-                  <AccordionContent className="text-gray-600 text-sm md:text-base lg:text-lg">
-                    <ul className="list-disc pl-4 md:pl-5 space-y-2 md:space-y-3">
-                      {info.description.map((item, idx) => (
-                        <li key={idx}>{item}</li>
-                      ))}
-                    </ul>
-                  </AccordionContent>
-                </AccordionItem>
-              ))}
-            </Accordion>
-          </div>
-
-          <div className="relative  flex items-center justify-center mt-8 md:mt-0">
-            <Image 
-              src="/eye-image.png" 
-              alt="Colorful eye representing cultural diversity" 
-              width={400} 
-              height={400} 
-              className="object-contain w-full max-w-[400px]"
-            />
-          </div>
+        <div className="w-full flex h-full">
+          {/* <Video src={"/videos/pot-video.mp4"} loop= /> */}
+          <Image
+            src={"/social-image.png"}
+            alt='social image'
+            height={500}
+            width={500}
+            className='object-contain'
+          />
         </div>
       </div>
     </section>

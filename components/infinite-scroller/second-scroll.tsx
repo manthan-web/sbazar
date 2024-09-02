@@ -7,14 +7,11 @@ interface Logo {
 }
 
 const logos: Logo[] = [
-  { name: 'Empowering' },
-  { name: 'India' },
-  { name: 'Empowering' },
-  { name: 'India' },
-  { name: 'Empowering' },
-  { name: 'India' },
-  { name: 'Empowering' },
-  { name: 'India' },
+  { name: 'Empowering India' },
+  { name: 'Empowering India' },
+  { name: 'Empowering India' },
+  { name: 'Empowering India' },
+  { name: 'Empowering India' },
 ];
 
 const SecondInfiniteScrool: React.FC = () => {

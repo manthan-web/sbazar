@@ -1,9 +1,11 @@
 import React from 'react'
 import SocialInfos from './info'
+import SocialsModule from './socialHeading'
 
 const page = () => {
   return (
-    <div>
+    <div className='flex flex-col'>
+      <SocialsModule />
       <SocialInfos />
     </div>
   )

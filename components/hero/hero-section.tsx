@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 import Lenis from "@studio-freight/lenis"
+import { MemoizedStars } from "../text-animate/animate";
 
 
 
@@ -32,7 +33,7 @@ const HeroSection = () => {
 
   return (
     <motion.section
-      className="w-full md:min-h-[30rem]  min-h-[23rem] flex flex-col items-center py-20 md:py-24 px-6 md:px-12"
+      className="w-full md:min-h-[30rem] min-h-[23rem] flex flex-col items-center py-20 md:py-24 px-6 md:px-12"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -48,6 +49,7 @@ const HeroSection = () => {
           <span className="relative inline-block mx-4 my-2">
             {/* <span className="absolute inset-0 bg-[#FFCCCB] -rotate-1 rounded-lg p-2"></span> */}
             <span className="relative text-[#BC1E3A] px-4 py-2">Happiness</span>
+          <MemoizedStars />
           </span>
         </motion.h1>
       </div>

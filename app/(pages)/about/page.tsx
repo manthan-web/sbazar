@@ -30,18 +30,16 @@ const AboutUs: React.FC = () => {
               <Image
                 src="/ask-aditi.png"
                 alt="Image 1"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-2xl bg-green-100/50 backdrop-blur-xl p-4 shadow-lg"
+                fill={true}
+                className="rounded-2xl object-cover bg-green-100/50 backdrop-blur-xl p-4 shadow-lg"
               />
             </div>
             <div className="absolute bottom-0 left-0 w-4/5 h-3/5 md:w-3/4 md:h-2/3 animate-random-move">
               <Image
                 src="/ask-aditi.png"
                 alt="Image 2"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-2xl bg-yellow-100/50 backdrop-blur-xl p-4 shadow-lg"
+                fill={true}
+                className="rounded-2xl object-cover bg-yellow-100/50 backdrop-blur-xl p-4 shadow-lg"
               />
             </div>
           </div>

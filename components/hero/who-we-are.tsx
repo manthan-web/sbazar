@@ -9,9 +9,9 @@ const WhoWeAreSection = () => {
           <Image 
             src="/who-we-are-image.png"
             alt="Who We Are"
+            className='object-cover'
             fill
             style={{
-              objectFit: 'cover',
               objectPosition: 'left center' // Align image to the left
             }}
             quality={100}

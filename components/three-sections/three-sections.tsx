@@ -68,9 +68,8 @@ const ThreeSections = () => {
               <Image
                 src={section.image}
                 alt={section.title}
-                layout="fill"
-                objectFit="cover"
-                className="transition-all duration-300"
+                fill
+                className="object-cover transition-all duration-300"
               />
             </motion.div>
 

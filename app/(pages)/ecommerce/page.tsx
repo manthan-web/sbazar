@@ -13,7 +13,7 @@ const page = () => {
 
       <section className="w-full py-12 md:py-24 flex items-start">
         <div className="mx-auto  max-w-7xl container grid md:grid-cols-2 gap-8 animate-in">
-          <div className="text-left space-y-6">
+          <div className="text-left order-2 md:order-1 space-y-6">
             
             <div className="flex flex-col gap-2">
               <p className="font-bold text-lg md:text-xl">Open For All</p>
@@ -43,13 +43,13 @@ const page = () => {
                 Diverse Opportunities
               </p>
               <p className="text-zinc-500 font-normal text-lg md:text-xl">
-                A platform for all talents, celebrating every entrepreneur's
+                A platform for all talents, celebrating every entrepreneurs
                 journey.
               </p>
             </div>
           </div>
 
-          <div className="w-full flex items-center justify-center">
+          <div className="w-full order-1 md:order-2 flex items-center justify-center">
             {/* <Video src={"/videos/pot-video.mp4"} loop= /> */}
             <video className="md:w-[25rem] md:h-[25rem] w-full h-full md:ml-24" loop autoPlay muted>
               <source src="./ecommerce/pot-video.mp4" />

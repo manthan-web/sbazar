@@ -1,58 +1,72 @@
 "use client"
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
-import { Star } from "lucide-react";
 import Lenis from "@studio-freight/lenis"
 import { MemoizedStars } from "../text-animate/animate";
 
-
-
 const HeroSection = () => {
-
-
   useEffect(() => {
-
     const lenis = new Lenis()
-
-
-
     function raf(time: any) {
-
       lenis.raf(time)
-
       requestAnimationFrame(raf)
-
     }
-
-
-
     requestAnimationFrame(raf)
+  }, [])
 
-  })
+  const headingVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { 
+      opacity: 1, 
+      y: 0,
+      transition: { 
+        duration: 0.8,
+        ease: [0.6, -0.05, 0.01, 0.99] // Custom easing function for a smooth, bouncy effect
+      }
+    }
+  };
 
+  const wordVariants = {
+    hidden: { scale: 0.9, opacity: 0 },
+    visible: { 
+      scale: 1, 
+      opacity: 1,
+      transition: { 
+        duration: 0.6,
+        ease: "easeOut"
+      }
+    }
+  };
 
   return (
     <motion.section
-      className="w-full md:min-h-[30rem] min-h-[23rem] flex flex-col items-center py-20 md:py-24 px-6 md:px-12"
+      className="w-full md:min-h-[30rem] min-h-[23rem] flex flex-col items-center justify-center py-20 md:py-24 px-6 md:px-12"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <div className="max-w-5xl w-full space-y-6">
-        <motion.h1
-          className="font-extrabold text-6xl md:text-9xl text-center text-zinc-800 leading-[4rem] md:leading-[8rem]"
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.2 }}
-        >
-          Bringing
-          <span className="relative inline-block mx-4 my-2">
-            {/* <span className="absolute inset-0 bg-[#FFCCCB] -rotate-1 rounded-lg p-2"></span> */}
-            <span className="relative text-[#BC1E3A] px-4 py-2">Happiness</span>
-          <MemoizedStars />
-          </span>
-        </motion.h1>
-      </div>
+      <motion.div 
+        className="max-w-5xl w-full"
+        variants={headingVariants}
+        initial="hidden"
+        animate="visible"
+      >
+        <h1 className="font-extrabold text-6xl md:text-9xl text-center text-zinc-800 leading-[4rem] md:leading-[8rem] flex flex-wrap justify-center items-center gap-4">
+          <motion.span
+            variants={wordVariants}
+            className="inline-block"
+          >
+            Bringing
+          </motion.span>
+          <motion.span
+            variants={wordVariants}
+            className="relative inline-block text-[#BC1E3A]"
+          >
+            Happiness
+            <MemoizedStars />
+          </motion.span>
+        </h1>
+      </motion.div>
     </motion.section>
   );
 };

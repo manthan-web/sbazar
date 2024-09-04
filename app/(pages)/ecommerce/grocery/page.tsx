@@ -13,7 +13,8 @@ export default function page() {
 
 
             <FirstSection />
-            <CardStackDemo />
+            <SecondSection />
+            {/* <CardStackDemo /> */}
             <AppReviewsSection />
             <TrendsSection />
             <SaveFoodSection />

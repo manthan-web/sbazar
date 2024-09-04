@@ -89,15 +89,15 @@ const EcommerceTabs = () => {
   return (
     <section className="flex w-full py-6 md:py-12">
       <Tabs defaultValue="products" className="w-full max-w-full">
-        <TabsList className="grid p-0 rounded-none text-white bg-[#BC1E3A] md:min-h-[6rem] min-h-[5rem] w-full grid-cols-2 gap-0">
+        <TabsList className="flex gap-5 w-full">
           <TabsTrigger
-            className="h-[3rem] md:h-[4rem] rounded-r-full text-lg md:text-2xl"
+            className="flex-1 rounded-r-full py-4 md:py-6 md:text-xl text-lg font-medium transition-all data-[state=active]:bg-[#BC1E3A] data-[state=active]:text-white shadow-lg"
             value="products"
           >
             Products
           </TabsTrigger>
           <TabsTrigger
-            className="h-[3rem] md:h-[4rem] rounded-l-full text-lg md:text-2xl"
+            className="flex-1 rounded-l-full py-4 md:py-6 md:text-xl text-lg  font-medium transition-all data-[state=active]:bg-[#BC1E3A] data-[state=active]:text-white shadow-lg"
             value="services"
           >
             Services
@@ -130,7 +130,7 @@ const EcommerceTabs = () => {
                 </div>
 
                 <Link href={"/ecommerce/grocery"} className="inline-block">
-                  <Button className="bg-[#BC1E3A] hover:bg-[#9A1730] text-white font-normal text-lg md:text-xl px-8 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
+                  <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
                     Explore
                   </Button>
                 </Link>
@@ -195,7 +195,7 @@ const EcommerceTabs = () => {
                 </div>
 
                 <Link href={"/ecommerce/services/movies"} className="inline-block">
-                  <Button className="bg-[#BC1E3A] hover:bg-[#9A1730] text-white font-normal text-lg md:text-xl px-8 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
+                  <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
                     Explore
                   </Button>
                 </Link>

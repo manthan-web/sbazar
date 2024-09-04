@@ -9,7 +9,7 @@ const HeadingSection = () => {
             <p className='text-zinc-600 max-w-full md:max-w-4xl font-semibold text-lg md:text-xl'>Double the Rewards, Double the Joy!</p>
 
             <p className="text-zinc-500 mt-4 max-w-full md:max-w-4xl font-normal text-base md:text-xl">
-                We believe in rewarding our customers in more ways than one. That's why we have two rewarding systems: <span className='text-zinc-900 font-medium'>SCoins</span> and <span className='text-zinc-900 font-medium'>SPoints</span>, each stored in different fields but both incredibly rewarding!            
+                We believe in rewarding our customers in more ways than one. Thats why we have two rewarding systems: <span className='text-zinc-900 font-medium'>SCoins</span> and <span className='text-zinc-900 font-medium'>SPoints</span>, each stored in different fields but both incredibly rewarding!            
             </p>
         </section>
     )

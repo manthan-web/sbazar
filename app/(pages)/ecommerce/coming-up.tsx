@@ -62,7 +62,8 @@ export function TransitionPanelCard() {
   useEffect(() => {
     if (activeIndex < 0) setActiveIndex(0);
     if (activeIndex >= FEATURES.length) setActiveIndex(FEATURES.length - 1);
-  }, [activeIndex]);
+  }, [activeIndex, FEATURES.length]);
+  
 
   const variants = {
     enter: (direction: number) => ({

@@ -113,7 +113,7 @@ const SCoinsSectionComplete: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          SCoins are SBazar's very own digital currency, designed to make your shopping experience even more rewarding. Every time you make a purchase, we round up the value to the nearest whole number and gift you those SCoins. For example, a €100 purchase will earn you approximately 100 SCoins.
+          SCoins are SBazars very own digital currency, designed to make your shopping experience even more rewarding. Every time you make a purchase, we round up the value to the nearest whole number and gift you those SCoins. For example, a €100 purchase will earn you approximately 100 SCoins.
         </motion.p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">

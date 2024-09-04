@@ -21,7 +21,7 @@ const Page = () => {
             <p className='text-center font-semibold text-xl md:text-2xl mb-6 text-gray-800'>Dear Sbazar Family,</p>
             <div className='space-y-6 text-gray-700 text-base md:text-lg leading-relaxed'>
               <p>
-                We're excited to launch our Events Module, a blend of Commercial and Non-Profit gatherings, each designed to enrich, entertain, and empower our community.
+                Were excited to launch our Events Module, a blend of Commercial and Non-Profit gatherings, each designed to enrich, entertain, and empower our community.
               </p>
               <p>
                 Commercial Events bring you the best of cultural and entertainment experiences, offering a window to our heritage and traditions.

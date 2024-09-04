@@ -64,7 +64,7 @@ const Solutions = () => {
         <div className="py-12 px-6 animate-fade-in bg-gray-100">
             <div className="max-w-7xl space-y-8 mx-auto px-4 sm:px-6 lg:px-8">
                 <div className='md:space-y-3 text-center mb-12'>
-                    <h1 className='md:text-5xl text-3xl font-bold'>SBazar's <span className='text-[#BC1E3A]'>Solutions</span></h1>
+                    <h1 className='md:text-5xl text-3xl font-bold'>SBazars <span className='text-[#BC1E3A]'>Solutions</span></h1>
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-8">

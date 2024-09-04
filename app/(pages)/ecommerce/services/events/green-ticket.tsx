@@ -51,7 +51,7 @@
             <div className="space-y-8">
               <p className="text-lg text-gray-700 leading-relaxed">
                 The Green Ticket initiative transforms your entertainment choices into environmental action. 
-                By linking ticket purchases to tree planting, we're creating a community-driven approach to 
+                By linking ticket purchases to tree planting, were creating a community-driven approach to 
                 sustainability. Every ticket is a step towards a greener future, making environmental 
                 responsibility an integral part of your event experience.
               </p>

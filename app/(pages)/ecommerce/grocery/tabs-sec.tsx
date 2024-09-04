@@ -23,7 +23,7 @@ const TrendsSection = () => {
           <div className="flex flex-col gap-2">
             <p className="font-bold text-xl md:text-2xl">Wellness Focus</p>
             <p className="text-zinc-500 font-normal text-lg md:text-xl">
-              Traditional models don't incorporate sustainability efforts
+              Traditional models dont incorporate sustainability efforts
             </p>
           </div>
           <div className="flex flex-col gap-2">

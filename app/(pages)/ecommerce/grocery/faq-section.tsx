@@ -16,7 +16,7 @@ const FAQSection = () => {
         <div className="text-left flex items-center space-y-6">
 
           <h2 className="text-4xl text-center mx-auto md:text-left md:text-8xl font-bold text-zinc-900">
-          FAQ's
+          FAQs
           </h2>
 
 

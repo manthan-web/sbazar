@@ -52,7 +52,7 @@ export default function SaveFoodSection() {
           <div className="lg:w-1/2 flex flex-col justify-center">
             <h1 className='text-3xl md:text-5xl font-bold mb-6'>Save <span className='text-green-500'>Food</span></h1>
             <p className="text-zinc-500 text-left mb-6 font-normal text-base md:text-xl">
-              Join our mission to reduce food waste and make a positive impact on the environment. By choosing to save food, you're not just getting great deals, but also contributing to a more sustainable future. Every meal saved is a step towards a greener planet.
+              Join our mission to reduce food waste and make a positive impact on the environment. By choosing to save food, youre not just getting great deals, but also contributing to a more sustainable future. Every meal saved is a step towards a greener planet.
             </p>
             <Button className="rounded-md bg-green-500 text-white text-lg py-3 px-8 self-start">
               Explore

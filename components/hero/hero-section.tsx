@@ -51,7 +51,7 @@ const HeroSection = () => {
         initial="hidden"
         animate="visible"
       >
-        <h1 className="font-extrabold text-6xl md:text-9xl text-center text-zinc-800 leading-[4rem] md:leading-[8rem] flex flex-wrap justify-center items-center gap-4">
+        <h1 className="font-extrabold text-7xl md:text-9xl text-center text-zinc-800 leading-[4rem] md:leading-[8rem] flex flex-wrap justify-center items-center gap-4">
           <motion.span
             variants={wordVariants}
             className="inline-block"

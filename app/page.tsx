@@ -11,6 +11,7 @@ import SCoinsSection from "@/components/features-section/section";
 import ProgramsSection from "@/components/hero/programs-section";
 import SecondInfiniteScrool from "@/components/infinite-scroller/second-scroll";
 import WhoWeAreSection from "@/components/hero/who-we-are";
+import { homePageFaqContent } from "@/faq-data";
 
 
 
@@ -18,9 +19,6 @@ const page = () => {
 
   
 
-
-
-  const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
 
   return (
     <main className="w-full min-h-screen">
@@ -33,7 +31,7 @@ const page = () => {
       <ProgramsSection />
       <SecondInfiniteScrool />
       <WhoWeAreSection />
-      <FAQSection />
+      <FAQSection title="FAQ's" faqItems={homePageFaqContent} />
     </main>
   );
 };

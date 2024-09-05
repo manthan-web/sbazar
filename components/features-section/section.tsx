@@ -6,16 +6,14 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 
 const ScoinsSection = () => {
-
-
   return (
     <motion.section
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="w-full max-w-full bg-gray-50  px-6 py-20 md:py-32"
+      className="w-full max-w-full bg-gray-50 py-20 md:py-32"
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -32,7 +30,7 @@ const ScoinsSection = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
-            className="md:space-y-10 space-y-8"
+            className="md:space-y-10 md:ml-32 px-8 space-y-8"
           >
             <h2 className="text-3xl md:text-4xl text-zinc-800 font-semibold tracking-wide leading-tight">
               Double the Rewards, Double the Joy!
@@ -55,15 +53,14 @@ const ScoinsSection = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
-            className="relative flex items-center justify-center"
+            className="relative flex items-center justify-center md:justify-end overflow-hidden"
           >
-            {/* <div className="relative flex items-center justify-center rounded-2xl "></div> */}
             <Image
               src="/scoins-image.png"
               alt="Green leaf symbolizing sustainability"
-              width={500}
-              height={500}
-              className="relative z-10 object-cover "
+              width={700}
+              height={700}
+              className="relative z-10 object-cover w-full h-auto md:w-auto md:h-[140%] md:max-w-none md:-right-1/4"
             />
           </motion.div>
         </div>

@@ -7,49 +7,41 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
-const FAQSection = () => {
+interface FAQItem {
+  value: string;
+  triggerTitle: string;
+  content: string;
+}
+
+interface FAQSectionProps {
+  title: string;
+  faqItems: FAQItem[];
+}
+
+const FAQSection: React.FC<FAQSectionProps> = ({ title, faqItems }) => {
   return (
-    <section className='w-full max-w-7xl mx-auto mt-12 py-12 flex items-center flex-col'>
-      <div className="mx-auto md:mb-12 mb-4 container grid md:grid-cols-2 gap-8 animate-in">
-
-
-        <div className="text-left flex items-center space-y-6">
-
-          <h2 className="text-4xl text-center mx-auto md:text-left md:text-8xl font-bold text-zinc-900">
-          FAQs
+    <section className='w-full max-w-7xl mx-auto py-12 sm:py-16 md:py-24 px-4 sm:px-6 lg:px-8'>
+      <div className="flex flex-col items-center">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-tight">
+            {title}
           </h2>
-
-
         </div>
 
-
-        <div className="w-full animate-in border border-zinc-300 px-10 py-6 rounded-xl flex items-center justify-center">
+        <div className="w-full max-w-3xl bg-white shadow-sm rounded-lg border border-zinc-200">
           <Accordion type="single" collapsible className="w-full">
-            <AccordionItem value="item-1">
-              <AccordionTrigger className='text-lg md:text-xl [&[data-state=open]]:text-zinc-400'>Is it accessible?</AccordionTrigger>
-              <AccordionContent className='text-[1rem]'>
-                Yes. It&apos;s animated by default, but you can disable it if you
-                prefer.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-2">
-              <AccordionTrigger className='text-lg md:text-xl [&[data-state=open]]:text-zinc-400'>Is it styled?</AccordionTrigger>
-              <AccordionContent className='text-[1rem]'>
-                Yes. It&apos;s animated by default, but you can disable it if you
-                prefer.
-              </AccordionContent>
-            </AccordionItem>
-            <AccordionItem value="item-3">
-              <AccordionTrigger className='text-lg md:text-xl [&[data-state=open]]:text-zinc-500'>Is it animated?</AccordionTrigger>
-              <AccordionContent className='text-[1rem]'>
-                Yes. It&apos;s animated by default, but you can disable it if you
-                prefer.
-              </AccordionContent>
-            </AccordionItem>
+            {faqItems.map((item) => (
+              <AccordionItem key={item.value} value={item.value}>
+                <AccordionTrigger className='text-base sm:text-lg font-medium px-6 py-4 hover:bg-zinc-50 transition-colors [&[data-state=open]]:text-zinc-900 [&[data-state=open]]:bg-zinc-50'>
+                  {item.triggerTitle}
+                </AccordionTrigger>
+                <AccordionContent className='text-sm sm:text-base text-zinc-600 px-6 pb-4 pt-2'>
+                  {item.content}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
           </Accordion>
         </div>
-
-
       </div>
     </section>
   )

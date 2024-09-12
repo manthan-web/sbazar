@@ -11,7 +11,7 @@ const ScoinsSection = () => {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="w-full max-w-full bg-gray-50 py-20 md:py-32"
+      className="w-full max-w-full bg-white py-20 md:py-32"
     >
       <div className="mx-auto">
         <motion.div

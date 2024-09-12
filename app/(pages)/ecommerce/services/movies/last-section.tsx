@@ -53,9 +53,9 @@ export default function LastSections() {
           <p className="text-zinc-500 mx-auto text-left mt-2 md:mt-4 mb-4 max-w-full md:max-w-4xl font-normal text-base md:text-xl">
             Excitement is in the air as we roll out the red carpet for our Movie Module, your ticket to the rich tapestry of Indian cinema right here in Germany. This module is our ode to the stories, emotions, and cultural heritage that movies bring into our lives.
           </p>
-          <Button className="rounded-sm mt-4 max-w-xs bg-green-500 text-lg py-6 px-11">
+          {/* <Button className="rounded-sm mt-4 max-w-xs bg-green-500 text-lg py-6 px-11">
             Join Now
-          </Button>
+          </Button> */}
 
           {/* Statistics */}
 

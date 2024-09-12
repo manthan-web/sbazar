@@ -5,6 +5,8 @@ import { ShoppingCart, Truck, Tag, Film, Clock, Users, LucideIcon } from 'lucide
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { TransitionPanelCard } from "./coming-up";
+import FAQSection from "./grocery/faq-section";
+import { groceryPageFaqContent } from "@/faq-data";
 
 
 
@@ -22,24 +24,32 @@ interface FeaturesCardProps {
 }
 
 const GroceryCard: React.FC<FeaturesCardProps> = ({ icon: Icon, title, description }) => (
-  <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
-    <div className="flex items-center mb-2">
-      <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
-      <h3 className="text-lg font-semibold">{title}</h3>
-    </div>
-    <p className="text-sm text-gray-600">{description}</p>
-  </div>
-);
 
 
-const ServicesCard: React.FC<FeaturesCardProps> = ({ icon: Icon, title, description }) => {
-  return (
-    <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
+  <div className="bg-white group/grocery p-4 rounded-lg shadow-md transition-all duration-300 hover:cursor-pointer  hover:shadow-lg">
+    <div className="group-hover/grocery:translate-x-2 transition duration-200">
       <div className="flex items-center mb-2">
         <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
         <h3 className="text-lg font-semibold">{title}</h3>
       </div>
       <p className="text-sm text-gray-600">{description}</p>
+    </div>
+  </div>
+
+);
+
+
+const ServicesCard: React.FC<FeaturesCardProps> = ({ icon: Icon, title, description }) => {
+  return (
+    <div className="bg-white p-4 rounded-lg  group/services shadow-md transition-all duration-300 hover:cursor-pointer hover:shadow-lg">
+      <div className="group-hover/services:translate-x-2 transition duration-200">
+        <div className="flex items-center mb-2">
+          <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
+          <h3 className="text-lg font-semibold">{title}</h3>
+        </div>
+        <p className="text-sm text-gray-600">{description}</p>
+
+      </div>
     </div>
   );
 };
@@ -114,7 +124,7 @@ const EcommerceTabs = () => {
             <div className="mx-auto  container grid md:grid-cols-2 gap-8 animate-in">
               <div className="text-left space-y-6">
                 <h2 className="text-4xl md:mb-8 md:text-6xl font-bold text-[#BC1E3A]">
-                  Grocery Module 🛍️
+                  Grocery Module
                 </h2>
 
                 <div className="flex flex-col gap-2">
@@ -167,6 +177,10 @@ const EcommerceTabs = () => {
               </div>
             </div>
           </section>
+
+
+          <FAQSection title="Grocery FAQ's" faqItems={groceryPageFaqContent} />
+
         </TabsContent>
         <TabsContent className="max-w-7xl mx-auto" value="services">
           <p className="text-center mx-auto md:text-lg py-12 px-12 max-w-xl md:max-w-4xl">
@@ -179,7 +193,7 @@ const EcommerceTabs = () => {
             <div className="mx-auto md:space-x-6 container grid md:grid-cols-2 gap-8 animate-in">
               <div className="text-left space-y-6">
                 <h2 className="text-4xl md:mb-8 md:text-6xl font-bold text-[#BC1E3A]">
-                  Services Module 🎟️
+                  Movie Module
                 </h2>
 
                 <div className="flex flex-col gap-2">
@@ -218,7 +232,7 @@ const EcommerceTabs = () => {
             <div className="mx-auto container grid md:grid-cols-2 gap-8 animate-in">
               <div className="text-left space-y-6">
                 <h2 className="text-4xl md:mb-8 md:text-6xl font-bold text-[#BC1E3A]">
-                  Movie Module 🎫
+                  Events Module
                 </h2>
 
                 <div className="flex flex-col gap-2">
@@ -243,8 +257,12 @@ const EcommerceTabs = () => {
               </div>
             </div>
           </section>
+
+          <FAQSection title="Services FAQ's" faqItems={groceryPageFaqContent} />
+
         </TabsContent>
       </Tabs>
+
     </section>
   );
 };

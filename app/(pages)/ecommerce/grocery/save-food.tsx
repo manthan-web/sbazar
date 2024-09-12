@@ -1,6 +1,5 @@
 // pages/index.tsx
 import Image from 'next/image';
-import { Button } from '@/components/ui/button';
 import { Apple, ShoppingBag, Sandwich, LucideIcon } from 'lucide-react';
 
 interface Features {
@@ -54,9 +53,9 @@ export default function SaveFoodSection() {
             <p className="text-zinc-500 text-left mb-6 font-normal text-base md:text-xl">
               Join our mission to reduce food waste and make a positive impact on the environment. By choosing to save food, youre not just getting great deals, but also contributing to a more sustainable future. Every meal saved is a step towards a greener planet.
             </p>
-            <Button className="rounded-md bg-green-500 text-white text-lg py-3 px-8 self-start">
+            {/* <Button className="rounded-md bg-green-500 text-white text-lg py-3 px-8 self-start">
               Explore
-            </Button>
+            </Button> */}
           </div>
 
           {/* Right Section (Image) */}

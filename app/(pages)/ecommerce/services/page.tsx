@@ -7,8 +7,8 @@ const page = () => {
   return (
     <div>
       {/* <StickyScrollRevealDemo /> */}
-      <StickyScrollRevealDemo />
-      <PhoneLayout />
+      {/* <StickyScrollRevealDemo /> */}
+      {/* <PhoneLayout /> */}
 
 
     </div>

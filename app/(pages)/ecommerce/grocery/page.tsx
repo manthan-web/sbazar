@@ -6,6 +6,7 @@ import SaveFoodSection from './save-food'
 import TrendsSection from './tabs-sec'
 import FAQSection from './faq-section'
 import { CardStackDemo } from '@/components/card-stack/demo'
+import { groceryFaqContent } from '@/faq-data'
 
 export default function page() {
     return (
@@ -18,7 +19,7 @@ export default function page() {
             <AppReviewsSection />
             <TrendsSection />
             <SaveFoodSection />
-            <FAQSection />
+            <FAQSection title="FAQ's About Grocery" faqItems={groceryFaqContent} />
         
         </div>
     )

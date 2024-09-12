@@ -1,10 +1,10 @@
 import React from 'react'
 import ExistingIssuesSection from './issues-section'
 import SolutionsSection from './solutions-section'
-import UsersFeaturesSections from './user-features'
 import DistributerSection from './distributer-sec'
 import LastSections from './last-section'
 import FAQSection from '../../grocery/faq-section'
+import { moviesFaqContent } from '@/faq-data'
 
 const MoviePage = () => {
   return (
@@ -45,7 +45,7 @@ const MoviePage = () => {
       <SolutionsSection />
       <DistributerSection />
       <LastSections />
-      <FAQSection />
+      <FAQSection title="Know About Movies" faqItems={moviesFaqContent} />
     </main>
   )
 }

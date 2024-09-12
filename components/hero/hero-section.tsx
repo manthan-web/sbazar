@@ -40,7 +40,7 @@ const HeroSection = () => {
 
   return (
     <motion.section
-      className="w-full md:min-h-[30rem] min-h-[23rem] flex flex-col items-center justify-center py-20 md:py-24 px-6 md:px-12"
+      className="w-full md:min-h-[30rem] bg-white min-h-[23rem] flex flex-col items-center justify-center py-20 md:py-24 px-6 md:px-12"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}

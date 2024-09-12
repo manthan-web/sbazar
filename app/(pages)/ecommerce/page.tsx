@@ -2,6 +2,8 @@ import React from "react";
 import EcommerceTabs from "./tabs";
 import HeroSection from "@/components/hero/hero-section";
 import EcommerceModule from "./ecom-module";
+import FAQSection from "./grocery/faq-section";
+import { groceryPageFaqContent } from "@/faq-data";
 
 
 const page = () => {
@@ -59,6 +61,8 @@ const page = () => {
       </section>
 
       <EcommerceTabs />
+
+      
     </div>
   );
 };

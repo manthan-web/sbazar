@@ -4,6 +4,7 @@ import Solutions from './solutions'
 import AnimatedTabsSection from './animated-tabs'
 import GreenTicketSection from './green-ticket'
 import FAQSection from '../../grocery/faq-section'
+import { eventPageFaqContent } from '@/faq-data'
 
 const Page = () => {
   return (
@@ -48,7 +49,7 @@ const Page = () => {
       <AnimatedTabsSection />
       <GreenTicketSection />
       {/* <ComingUpSection /> */}
-      <FAQSection />
+      <FAQSection title='Know About Events' faqItems={eventPageFaqContent} />
     </main>
   )
 }

@@ -1,8 +1,12 @@
 import React from 'react'
+// import DocsLayout from './docsLayout'
 
 const page = () => {
   return (
-    <div>policy</div>
+    <>
+      {/* <DocsLayout /> */}
+      <div>welcome to policies page</div>
+    </>
   )
 }
 

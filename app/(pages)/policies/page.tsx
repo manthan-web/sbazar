@@ -5,7 +5,7 @@ const page = () => {
   return (
     <>
       {/* <DocsLayout /> */}
-      <div>welcome to policies page</div>
+      <div><strong>welcome to policies page</strong></div>
     </>
   )
 }

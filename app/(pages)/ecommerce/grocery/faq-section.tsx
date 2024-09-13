@@ -20,7 +20,7 @@ interface FAQSectionProps {
 
 const FAQSection: React.FC<FAQSectionProps> = ({ title, faqItems }) => {
   return (
-    <section className='w-full max-w-7xl mx-auto py-12 sm:py-16 md:py-24 px-4 sm:px-6 lg:px-8'>
+    <section className='w-full max-w-7xl mx-auto py-12 sm:py-16 md:py-24 px-12 '>
       <div className="flex flex-col items-center">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-zinc-900 tracking-tight">

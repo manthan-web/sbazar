@@ -45,7 +45,7 @@ export const SCoinsSpecialSection: React.FC = () => {
 
   return (
     <motion.div 
-      className="bg-gray-100 rounded-lg p-8 md:p-12 shadow-lg"
+      className="bg-gray-100 rounded-lg p-8 md:p-12 md:pb-0 shadow-lg"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}

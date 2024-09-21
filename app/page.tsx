@@ -23,7 +23,7 @@ const page = () => {
   return (
     <main className="w-full min-h-screen">
       <HeroSection />
-      <MobileSection src="/mockup.svg" />
+      <MobileSection src="/mockups.png" />
       <InfiniteScrollCarousel />
       <ThreeSections />
       <SCoinsSection />

@@ -179,7 +179,7 @@ const EcommerceTabs = () => {
           </section>
 
 
-          <FAQSection title="Grocery FAQ's" faqItems={groceryPageFaqContent} />
+          <FAQSection title="Products FAQ's" faqItems={groceryPageFaqContent} />
 
         </TabsContent>
         <TabsContent className="max-w-7xl mx-auto" value="services">

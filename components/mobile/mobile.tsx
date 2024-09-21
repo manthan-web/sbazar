@@ -47,7 +47,7 @@ const MobileSection = ({ src }: { src: string }) => {
       ref={sectionRef}
       className="min-h-[35rem] md:py-14  overflow-hidden md:mt-0 mb-16 min-w-full flex md:gap-16 items-center justify-center relative"
     >
-      <motion.div
+      {/* <motion.div
         {...animationPropsLeft}
         style={{ y: smoothYLeft }}
         className={`${isMobile ? '-ml-20' : ''} z-10`}
@@ -59,36 +59,39 @@ const MobileSection = ({ src }: { src: string }) => {
           width={isMobile ? 150 : 250}
           className="object-cover shrink-0 rounded-lg"
         />
-      </motion.div>
-      <div className=" mx-6 relative z-20">
-        <Image
+      </motion.div> */}
+      <motion.div {...animationPropsRight}
+        style={{ y: smoothYRight }}
+        // className={`${isMobile ? '-mr-20' : ''} z-10`}
+        className=" mx-6 relative z-20">
+        {/* <Image
           src="/drop-shadow.avif"
           alt="shadow"
           height={500}
           width={200}
           className="absolute opacity-75 top-2 -right-16"
-        />
+        /> */}
         <Image
-          src={src}
+          src={"/mockups.png"}
           alt="center image"
-          height={isMobile ? 350 : 450}
-          width={isMobile ? 250 : 350}
+          height={isMobile ? 350 : 650}
+          width={isMobile ? 250 : 650}
           className="object-cover shrink-0 rounded-lg drop-shadow-2xl bg-transparent"
         />
-      </div>
-      <motion.div
+      </motion.div>
+      {/* <motion.div
         {...animationPropsRight}
         style={{ y: smoothYRight }}
         className={`${isMobile ? '-mr-20' : ''} z-10`}
       >
         <Image
-          src={src}
+          src={"/right-side-mockup.png"}
           alt="right Animated image"
           height={isMobile ? 150 : 250}
           width={isMobile ? 150 : 250}
           className="object-cover shrink-0 rounded-lg"
         />
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };

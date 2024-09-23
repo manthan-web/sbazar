@@ -12,6 +12,7 @@ import ProgramsSection from "@/components/hero/programs-section";
 import SecondInfiniteScrool from "@/components/infinite-scroller/second-scroll";
 import WhoWeAreSection from "@/components/hero/who-we-are";
 import { homePageFaqContent } from "@/faq-data";
+import ScrollIndicator from "@/components/scroll-for-mode/scroll-indicator";
 
 
 
@@ -22,6 +23,7 @@ const page = () => {
 
   return (
     <main className="w-full min-h-screen">
+      <ScrollIndicator />
       <HeroSection />
       <MobileSection src="/mockups.png" />
       <InfiniteScrollCarousel />

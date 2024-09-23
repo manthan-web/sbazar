@@ -80,6 +80,24 @@
 }
 
 
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 6px;
+  height: 100%;
+  background: rgba(188, 30, 58, 0.1);
+  z-index: 1000;
+}
+
+.scroll-indicator-progress {
+  height: 0;
+  width: 100%;
+  background: #BC1E3A;
+  position: sticky;
+  top: 0;
+}
+
 .card  {
   width: 1000px;
   height: 500px;

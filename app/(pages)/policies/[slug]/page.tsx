@@ -1,5 +1,6 @@
 import { sections } from '../lib/section'
 import { notFound } from 'next/navigation'
+import ReactMarkdown from 'react-markdown'
 
 export async function generateStaticParams() {
   return sections.map((section) => ({
@@ -17,7 +18,7 @@ export default function PolicyPage({ params }: { params: { slug: string } }) {
   return (
     <>
       <h1 className="mb-6 text-3xl font-bold">{section.title}</h1>
-      <p>{section.content}</p>
+      <ReactMarkdown>{section.content}</ReactMarkdown>
     </>
   )
 }

@@ -1,19 +1,20 @@
 "use client"
+
 import React from 'react'
 import Image from 'next/image'
-import { Button } from '../ui/button'
+import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 
-const ScoinsSection = () => {
+export default function ScoinsSection() {
   return (
     <motion.section
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="w-full max-w-full bg-white py-20 md:py-32"
+      className="w-full bg-white px-8 py-20 md:py-32 overflow-hidden"
     >
-      <div className="mx-auto">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -25,24 +26,24 @@ const ScoinsSection = () => {
           </h1>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-16 md:items-center">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
-            className="md:space-y-10 md:ml-32 px-8 space-y-8"
+            className="lg:w-1/2 space-y-8 lg:pr-12 z-10"
           >
             <h2 className="text-3xl md:text-4xl text-zinc-800 font-semibold tracking-wide leading-tight">
               Double the Rewards, Double the Joy!
             </h2>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
               The Green Ticket initiative transforms your entertainment choices into environmental action.
-              By linking ticket purchases to tree planting, were creating a community-driven approach to
+              By linking ticket purchases to tree planting, we're creating a community-driven approach to
               sustainability. Every ticket is a step towards a greener future, making environmental
               responsibility an integral part of your event experience.
             </p>
 
-            <Link href={"/scoins"} className="inline-block">
+            <Link href="/scoins" className="inline-block">
               <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
                 Explore
               </Button>
@@ -53,20 +54,20 @@ const ScoinsSection = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
-            className="relative flex items-center justify-center md:justify-end overflow-hidden"
+            className="lg:w-1/2 mt-12 lg:mt-0 relative lg:absolute lg:top-0 lg:right-0 lg:h-full"
           >
-            <Image
-              src="/scoins-image.png"
-              alt="Green leaf symbolizing sustainability"
-              width={700}
-              height={700}
-              className="relative z-10 object-cover w-full h-auto md:w-auto md:h-[140%] md:max-w-none md:-right-1/4"
-            />
+            <div className="h-full w-full lg:overflow-visible">
+              <Image
+                src="/scoins-image.png"
+                alt="SCoins golden medallion"
+                width={1000}
+                height={1000}
+                className="h-auto w-full object-cover object-center lg:h-[40rem] lg:w-auto lg:max-w-none lg:absolute lg:right-0 lg:top-1/2 lg:transform lg:-translate-y-1/3 lg:translate-x-[14rem]"
+              />
+            </div>
           </motion.div>
         </div>
       </div>
     </motion.section>
   )
 }
-
-export default ScoinsSection

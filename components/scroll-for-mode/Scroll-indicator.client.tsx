@@ -29,13 +29,13 @@ const ScrollIndicatorClient = () => {
 
   return (
     <motion.div
-      className="fixed bottom-6 right-4 z-50"
+      className="fixed bottom-12 right-4 z-50"
       initial={{ opacity: 0, y: 20 }}
       animate={controls}
       transition={{ duration: 0.3 }}
     >
       <div className="bg-gray-100 bg-opacity-80 backdrop-blur-sm rounded-full p-3 shadow-lg">
-        <div className="relative w-12 h-12">
+        <div className="relative w-9 h-9">
           <svg className="w-full h-full" viewBox="0 0 100 100">
             <circle
               cx="50"

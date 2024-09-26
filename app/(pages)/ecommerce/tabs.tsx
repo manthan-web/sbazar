@@ -120,57 +120,58 @@ const EcommerceTabs = () => {
             ad minim veniam, quis nostrud exercitation ullamco laboris ni
           </p>
 
-          <section className="w-full py-12 md:pb-36 flex flex-col items-start">
-            <div className="mx-auto  container grid md:grid-cols-2 gap-8 animate-in">
-              <div className="text-left space-y-6">
-                <h2 className="text-4xl md:mb-8 md:text-6xl font-bold text-[#BC1E3A]">
-                  Grocery Module
-                </h2>
-
-                <div className="flex flex-col gap-2">
-                  <p className="font-bold text-lg md:text-xl">
-                    Diverse Opportunities
-                  </p>
-                  <p className="text-zinc-500 max-w-xl  font-normal text-lg md:text-xl">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris ni
-                  </p>
+          <section className="w-full py-16 md:py-24">
+            <div className="container mx-auto px-4 md:px-8">
+              <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16 animate-in">
+                <div className="w-full md:w-1/2 bg-white shadow-xl rounded-2xl overflow-hidden">
+                  <Image
+                    alt="Grocery image"
+                    src="/grocery.png"
+                    height={500}
+                    width={700}
+                    className="object-cover w-full h-full"
+                  />
                 </div>
-
-                <Link href={"/ecommerce/grocery"} className="inline-block">
-                  <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
-                    Explore
-                  </Button>
-                </Link>
+                <div className="w-full md:w-1/2 space-y-8">
+                  <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#BC1E3A] leading-tight">
+                    Grocery Module
+                  </h2>
+                  <div className="space-y-4">
+                    <p className="font-bold text-xl md:text-2xl text-gray-800">
+                      Diverse Opportunities
+                    </p>
+                    <p className="text-gray-600 font-normal text-lg md:text-xl leading-relaxed">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                      do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <Link href={"/ecommerce/services/grocery"} className="inline-block">
+                    <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
+                      Explore
+                    </Button>
+                  </Link>
+                </div>
               </div>
-
-              <div className="w-full shadow-xl rounded-md overflow-hidden flex items-center justify-center">
-                <video className="w-full rounded-md h-full" loop autoPlay muted>
-                  <source src="./ecommerce/grocery2.mp4" />
-                </video>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
+                {groceryFeatures.map((feature, index) => (
+                  <GroceryCard key={index} {...feature} />
+                ))}
               </div>
             </div>
-
-            <div className="grid grid-cols-1 max-w-7xl px-8 mx-auto mt-12 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {groceryFeatures.map((issue, index) => (
-                <GroceryCard key={index} {...issue} />
-              ))}
-            </div>
-
           </section>
           {/* coming up section */}
 
           <section className="w-full border-t py-12 flex flex-col items-start">
             <div className="w-full pb-10 px-8">
               <h2 className="text-4xl text-left mx-auto md:text-center md:text-6xl font-bold text-[#BC1E3A]">
-                Coming Up
+                Future Ideas
               </h2>
             </div>
             <div className="mx-auto container grid md:grid-cols-2 gap-8 animate-in">
               <div className="w-full animate-random-move flex items-center justify-center">
-                <Image src={"/mic.png"} height={500} width={500} alt="" />
+                <Image src={"/mic-image.png"} height={350} width={350} alt="" />
               </div>
               <div className="mx-auto flex items-center justify-between space-y-6">
                 <TransitionPanelCard />
@@ -189,48 +190,52 @@ const EcommerceTabs = () => {
             ad minim veniam, quis nostrud exercitation ullamco laboris ni
           </p>
 
-          <section className="w-full py-12 md:pb-36 flex flex-col items-start">
-            <div className="mx-auto md:space-x-6 container grid md:grid-cols-2 gap-8 animate-in">
-              <div className="text-left space-y-6">
-                <h2 className="text-4xl md:mb-8 md:text-6xl font-bold text-[#BC1E3A]">
-                  Movie Module
-                </h2>
-
-                <div className="flex flex-col gap-2">
-                  <p className="font-bold text-lg md:text-xl">
-                    Diverse Opportunities
-                  </p>
-                  <p className="text-zinc-500 max-w-xl font-normal text-lg md:text-xl">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris ni
-                  </p>
+          <section className="w-full py-16 md:py-24">
+            <div className="container mx-auto px-4 md:px-8">
+              <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16 animate-in">
+                <div className="w-full md:w-1/2 ">
+                  
+                    <Image
+                      alt="Movies image"
+                      src="/movies.png"
+                      height={500}
+                      width={700}
+                      className="object-cover"
+                    />
+                
                 </div>
-
-                <Link href={"/ecommerce/services/movies"} className="inline-block">
-                  <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
-                    Explore
-                  </Button>
-                </Link>
+                <div className="w-full md:w-1/2 space-y-8">
+                  <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#BC1E3A] leading-tight">
+                    Movies Module
+                  </h2>
+                  <div className="space-y-4">
+                    <p className="font-bold text-xl md:text-2xl text-gray-800">
+                      Diverse Opportunities
+                    </p>
+                    <p className="text-gray-600 font-normal text-lg md:text-xl leading-relaxed">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                      do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <Link href={"/ecommerce/services/movies"} className="inline-block">
+                    <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
+                      Explore
+                    </Button>
+                  </Link>
+                </div>
               </div>
-
-              <div className="w-full shadow-xl rounded-md overflow-hidden flex items-center justify-center">
-                <video className="w-full h-full" loop autoPlay muted>
-                  <source src="./ecommerce/grocery2.mp4" />
-                </video>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-20">
+                {groceryFeatures.map((feature, index) => (
+                  <ServicesCard key={index} {...feature} />
+                ))}
               </div>
-            </div>
-
-            <div className="grid grid-cols-1 max-w-7xl px-8 mx-auto mt-12 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {servicesFeatues.map((issue, index) => (
-                <ServicesCard key={index} {...issue} />
-              ))}
             </div>
           </section>
           <section className="w-full border-t py-12 flex items-start">
             <div className="mx-auto container grid md:grid-cols-2 gap-8 animate-in">
-              <div className="text-left space-y-6">
+              <div className="text-left flex flex-col justify-center max-w-xl space-y-6">
                 <h2 className="text-4xl md:mb-8 md:text-6xl font-bold text-[#BC1E3A]">
                   Events Module
                 </h2>
@@ -247,13 +252,13 @@ const EcommerceTabs = () => {
                   </p>
                 </div>
 
-                <Button className="rounded-sm bg-[#BC1E3A] text-lg py-6 px-11">
+                <Button className="rounded-lg bg-[#BC1E3A] hover:bg-white transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg hover:text-[#BC1E3A] w-[12rem] text-lg py-6 px-11">
                   Explore
                 </Button>
               </div>
 
               <div className="w-full flex items-center justify-center">
-                <Image src={"/movie.png"} height={400} width={400} alt="" />
+                <Image src={"/mic-image.png"} height={300} width={300} alt="" />
               </div>
             </div>
           </section>

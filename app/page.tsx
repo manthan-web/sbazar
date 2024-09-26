@@ -25,7 +25,7 @@ const page = () => {
     <main className="w-full min-h-screen">
       <ScrollIndicator />
       <HeroSection />
-      <MobileSection src="/mockups.png" />
+      <MobileSection src="/mockups2.png" />
       <InfiniteScrollCarousel />
       <ThreeSections />
       <SCoinsSection />

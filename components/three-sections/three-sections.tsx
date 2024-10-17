@@ -18,8 +18,8 @@ const sections = [
     image: "/social-image.png"
   },
   {
-    id: 'other',
-    title: 'Other',
+    id: 'business',
+    title: 'Business',
     description: 'Exploring additional services and opportunities for the Indian diaspora in Europe.',
     image: "/business-img.png"
   }
@@ -29,7 +29,7 @@ export default function ImprovedThreeSections() {
   const [expandedSection, setExpandedSection] = useState('social')
 
   return (
-    <div className="flex flex-col mb-28 overflow-x-hidden md:flex-row gap-4 max-w-7xl mx-auto p-4 bg-white rounded-lg md:h-[400px] overflow-hidden">
+    <div className="flex flex-col mb-28 overflow-x-hidden md:px-0 md:flex-row gap-4 max-w-7xl mx-auto px-12 rounded-lg p-4 md:h-[400px] overflow-hidden">
       {sections.map((section) => (
         <motion.div
           key={section.id}

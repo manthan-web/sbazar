@@ -40,7 +40,7 @@ const HeroSection = () => {
 
   return (
     <motion.section
-      className="w-full md:min-h-[30rem] min-h-[23rem] flex flex-col items-center justify-center md:py-24 px-12"
+      className="w-full md:min-h-[30rem] overflow-x-hidden min-h-[23rem] flex flex-col items-center justify-center md:py-24 px-12"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -51,7 +51,7 @@ const HeroSection = () => {
         initial="hidden"
         animate="visible"
       >
-        <h1 className="font-extrabold text-7xl md:text-9xl text-center text-zinc-800 leading-[4rem] md:leading-[8rem] flex flex-wrap justify-center items-center gap-4">
+        <h1 className="font-extrabold text-6xl md:text-9xl text-center text-zinc-800 leading-[4rem] md:leading-[8rem] flex flex-wrap justify-center items-center gap-4">
           <motion.span
             variants={wordVariants}
             className="inline-block"

@@ -35,7 +35,7 @@ const MobileSection = ({ src }: { src: string }) => {
   return (
     <div
       ref={sectionRef}
-      className="min-h-[35rem] md:py-14 overflow-hidden md:mt-0 mb-16 min-w-full flex md:gap-16 items-center justify-center relative"
+      className="min-h-[35rem] overflow-hidden my-28 py-20 md:py-0 mb-16 min-w-full flex md:gap-16 items-center justify-center relative"
     >
       {/* Rounded background effect */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
@@ -54,9 +54,9 @@ const MobileSection = ({ src }: { src: string }) => {
         <Image
           src={src}
           alt="center image"
-          height={isMobile ? 350 : 650}
-          width={isMobile ? 250 : 650}
-          className="object-cover shrink-0 rounded-lg drop-shadow-2xl bg-transparent"
+          height={isMobile ? 450 : 650}
+          width={isMobile ? 350 : 650}
+          className="object-cover shrink-0 rounded-lg bg-transparent"
         />
       </motion.div>
     </div>

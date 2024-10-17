@@ -3,16 +3,16 @@ import Link from "next/link"
 
 function QuoteSection() {
   return (
-    <section className="w-full py-24 md:py-32 bg-white">
+    <section className="w-full py-16 md:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative">
-          <span className="absolute top-0 left-0 text-[#FFCCCB] opacity-50 text-9xl font-serif -translate-x-6 -translate-y-6">"</span>
-          <blockquote className="relative z-10 text-center px-8">
-            <p className="text-3xl md:text-4xl lg:text-5xl font-medium text-gray-800 leading-tight">
+          <span className="absolute top-0 left-0 text-[#FFCCCB] opacity-50 text-7xl md:text-8xl font-serif -translate-x-4 -translate-y-4">"</span>
+          <blockquote className="relative z-10 text-center px-4 md:px-8">
+            <p className="text-base md:text-lg lg:text-2xl font-medium text-gray-800 leading-relaxed">
               We have a thrilling plan in place to enhance the capabilities of Sbazar, and we will be implementing these improvements gradually and iteratively over the upcoming months.
             </p>
           </blockquote>
-          <span className="absolute bottom-0 right-0 text-[#FFCCCB] opacity-50 text-9xl font-serif translate-x-6 translate-y-6">"</span>
+          <span className="absolute bottom-0 right-0 text-[#FFCCCB] opacity-50 text-7xl md:text-8xl font-serif translate-x-4 translate-y-4">"</span>
         </div>
       </div>
     </section>
@@ -23,7 +23,7 @@ export default function FooterSection() {
   return (
     <footer className="bg-white">
       <div className="border-t border-gray-200 w-full">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 py-16 md:grid-cols-3 gap-12">
             <div>
               <h3 className="text-[#BC1E3A] font-bold text-lg mb-6 uppercase">About Us</h3>
@@ -71,7 +71,7 @@ export default function FooterSection() {
       </div>
       <QuoteSection />
       <div className="border-t border-gray-200 w-full">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-8 sm:px-6 lg:px-8">
           <div className="py-8">
             <div className="flex justify-center space-x-6 mb-8">
               <Link href="#" className="text-gray-400 hover:text-[#BC1E3A] transition-colors">

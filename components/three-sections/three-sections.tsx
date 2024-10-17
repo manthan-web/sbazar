@@ -66,10 +66,10 @@ export default function ImprovedThreeSections() {
                 >
                   <div className='p-6 flex flex-col justify-between md:w-1/2 h-full'>
                     <div>
-                      <h2 className="md:text-4xl font-bold mb-4 text-xl text-red-500">{section.title}</h2>
+                      <h2 className="md:text-4xl font-bold mb-4 text-xl text-[#BC1E3A]">{section.title}</h2>
                       <p className="text-sm mb-6 text-gray-600 leading-relaxed">{section.description}</p>
                     </div>
-                    <button className="bg-red-500 text-white px-6 py-2 rounded-full self-start hover:bg-red-600 transition-colors duration-200">
+                    <button className="bg-[#BC1E3A] text-white px-6 py-2 rounded-full self-start hover:bg-red-600 transition-colors duration-200">
                       Explore
                     </button> 
                   </div>
@@ -92,7 +92,7 @@ export default function ImprovedThreeSections() {
                   transition={{ duration: 0.2 }}
                   className="h-full w-full flex items-center justify-center"
                 >
-                  <span className="text-lg font-bold text-red-500 whitespace-nowrap md:rotate-90 md:transform md:origin-center md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2">
+                  <span className="text-lg font-bold text-[#BC1E3A] whitespace-nowrap md:rotate-90 md:transform md:origin-center md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2">
                     {section.title}
                   </span>
                 </motion.div>

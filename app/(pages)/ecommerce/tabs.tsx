@@ -147,7 +147,7 @@ const EcommerceTabs = () => {
                       ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                   </div>
-                  <Link href={"/ecommerce/services/grocery"} className="inline-block">
+                  <Link href={"/ecommerce/grocery"} className="inline-block">
                     <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
                       Explore
                     </Button>

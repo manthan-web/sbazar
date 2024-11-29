@@ -76,7 +76,7 @@ const ProgramsSection = () => {
               Impact: Brings together community groups for cultural celebrations and learning, fostering a sense of belonging and cultural pride.
             </p>
 
-            <Link href="/spoints" className="inline-block">
+            <Link href="/programmes" className="inline-block">
               <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-8 py-4 md:px-12 md:py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
                 Explore
               </Button>

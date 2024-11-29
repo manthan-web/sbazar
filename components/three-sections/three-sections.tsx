@@ -3,25 +3,29 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const sections = [
   {
     id: 'ecommerce',
     title: 'E-Commerce',
     description: 'Bringing the Indian diaspora in Europe closer to their heritage through curated products.',
-    image: "/pot-image.jpg"
+    image: "/pot-image.jpg",
+    href: "/ecommerce"
   },
   {
     id: 'social',
     title: 'Social',
     description: 'Connecting the Indian diaspora in Europe through community events and social networking.',
-    image: "/social-image.png"
+    image: "/social-image.png",
+    href: "/social"
   },
   {
     id: 'business',
     title: 'Business',
     description: 'Exploring additional services and opportunities for the Indian diaspora in Europe.',
-    image: "/business-img.png"
+    image: "/business-img.png",
+    href: "/business"
   }
 ]
 
@@ -69,9 +73,9 @@ export default function ImprovedThreeSections() {
                       <h2 className="md:text-4xl font-bold mb-4 text-xl text-[#BC1E3A]">{section.title}</h2>
                       <p className="text-sm mb-6 text-gray-600 leading-relaxed">{section.description}</p>
                     </div>
-                    <button className="bg-[#BC1E3A] text-white px-6 py-2 rounded-full self-start hover:bg-red-600 transition-colors duration-200">
+                    <Link href={section.href} className="bg-[#BC1E3A] text-white px-6 py-2 rounded-md self-start hover:bg-red-600 transition-colors duration-200">
                       Explore
-                    </button> 
+                    </Link> 
                   </div>
                   <div className="md:w-1/2 h-48 md:block hidden md:h-full relative overflow-hidden">
                     <Image

@@ -86,8 +86,8 @@ export default function FooterSection() {
             </div>
             <div className="text-center mb-8">
               <p className="text-gray-600">© 2024 ABC All Rights Reserved.</p>
-              <p className="text-gray-600 mt-2">Lorem ipsum is simply dummy text</p>
-              <p className="text-gray-600 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              {/* <p className="text-gray-600 mt-2">Lorem ipsum is simply dummy text</p> */}
+              {/* <p className="text-gray-600 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
             </div>
             <div className="grid md:grid-cols-2 gap-8 mb-8">
               <p className="text-gray-600 text-sm">

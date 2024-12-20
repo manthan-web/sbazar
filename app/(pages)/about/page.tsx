@@ -3,6 +3,8 @@ import Image from "next/image";
 import Card from "./card";
 import MapSection from "./map-section";
 import Values from "./values";
+import FAQSection from "../ecommerce/grocery/faq-section";
+import { aboutUsFaqContent } from "@/faq-data";
 
 const AboutUs: React.FC = () => {
   return (
@@ -48,6 +50,7 @@ const AboutUs: React.FC = () => {
 
       <MapSection />
       <Values />
+      <FAQSection title="About Us FAQ's" faqItems={aboutUsFaqContent} />
     </div>
   );
 };

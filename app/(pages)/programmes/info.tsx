@@ -1,40 +1,34 @@
 import React from 'react'
 import Image from 'next/image'
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
 
-const BusinessInfo = () => {
+const ProgrammsInfo = () => {
   const content = [
     {
       value: "item-1",
-      title: "Open for All",
+      title: "SBazar Association Program (SAP)",
       description: [
-        "Monetize hobbies, start a shop, reach locals and sustainable delivery goals."
+        "Brings together community groups for cultural celebrations and learning, fostering a sense of belonging and cultural pride."
       ]
     },
     {
       value: "item-2",
-      title: "Fair and Ethical",
+      title: "SBazar Community Ambassadors Program (SCAP)",
       description: [
-        "Prioritizing fair trade and value alignment for a marketplace of integrity."
+        "Empowers community leaders to represent and support their communities, facilitating engagement and mutual support."
       ]
     },
     {
       value: "item-3",
-      title: "Comprehensive Support",
+      title: "SBazar Influencers Program (SIP)",
       description: [
-        "Supporting entrepreneurs with guidance and tools from setup to growth."
+        "Enables influencers to share meaningful content, enriching the community with cultural and lifestyle insights."
       ]
     },
     {
       value: "item-4",
-      title: "Diverse Opportunities",
+      title: "SBazar Partnership Program (SPP)",
       description: [
-        "A platform for all businesses, celebrating every entrepreneur's journey."
+        "Creates opportunities for businesses and entrepreneurs to collaborate and grow, contributing to the ecosystem's diversity and innovation."
       ]
     }
   ]
@@ -62,7 +56,7 @@ const BusinessInfo = () => {
         <div className="w-full flex h-full">
           {/* <Video src={"/videos/pot-video.mp4"} loop= /> */}
           <Image
-            src={"/social-image.png"}
+            src={"/programms.png"}
             alt='social image'
             height={500}
             width={500}
@@ -74,4 +68,4 @@ const BusinessInfo = () => {
   )
 }
 
-export default BusinessInfo
+export default ProgrammsInfo

@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Twitter, Send } from "lucide-react"
+import { Facebook, Linkedin, Send, Instagram, Youtube } from "lucide-react"
 import Link from "next/link"
 
 function QuoteSection() {
@@ -28,12 +28,12 @@ export default function FooterSection() {
             <div>
               <h3 className="text-[#BC1E3A] font-bold text-lg mb-6 uppercase">About Us</h3>
               <ul className="space-y-4">
-                <li><Link href="#" className="text-gray-600 hover:text-[#BC1E3A] transition-colors">E-Commerce</Link></li>
-                <li><Link href="#" className="text-gray-600 hover:text-[#BC1E3A] transition-colors">Social</Link></li>
+                <li><Link href="/ecommerce" className="text-gray-600 hover:text-[#BC1E3A] transition-colors">E-Commerce</Link></li>
+                <li><Link href="/Social" className="text-gray-600 hover:text-[#BC1E3A] transition-colors">Social</Link></li>
                 <li><Link href="#" className="text-gray-600 hover:text-[#BC1E3A] transition-colors">Virtual Events</Link></li>
                 <li><Link href="#" className="text-gray-600 hover:text-[#BC1E3A] transition-colors">Virtual Users</Link></li>
                 <li><Link href="#" className="text-gray-600 hover:text-[#BC1E3A] transition-colors">Behavioral Analytics</Link></li>
-                <li><Link href="#" className="text-gray-600 hover:text-[#BC1E3A] transition-colors">Connect</Link></li>
+                <li><Link href="  " className="text-gray-600 hover:text-[#BC1E3A] transition-colors">Connect</Link></li>
               </ul>
             </div>
             <div>
@@ -47,10 +47,10 @@ export default function FooterSection() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-[#BC1E3A] font-bold text-lg mb-6 uppercase">Office Location</h3>
-                <p className="text-gray-600">ABC Company, 123 East, 17th Street, St. louis 10001</p>
+                <p className="text-gray-600">SBazar UG Masurenstraße Köln </p>
               </div>
               <div>
-                <h3 className="text-[#BC1E3A] font-bold text-lg mb-6 uppercase">News letter</h3>
+                <h3 className="text-[#BC1E3A] font-bold text-lg mb-6 uppercase">Subscription</h3>
                 <form className="flex">
                   <input
                     type="email"
@@ -75,17 +75,17 @@ export default function FooterSection() {
           <div className="py-8">
             <div className="flex justify-center space-x-6 mb-8">
               <Link href="#" className="text-gray-400 hover:text-[#BC1E3A] transition-colors">
-                <Twitter size={24} />
+                <Instagram size={24} />
               </Link>
               <Link href="#" className="text-gray-400 hover:text-[#BC1E3A] transition-colors">
                 <Linkedin size={24} />
               </Link>
               <Link href="#" className="text-gray-400 hover:text-[#BC1E3A] transition-colors">
-                <Facebook size={24} />
+                <Youtube size={24} />
               </Link>
             </div>
             <div className="text-center mb-8">
-              <p className="text-gray-600">© 2024 ABC All Rights Reserved.</p>
+              <button className="text-gray-600 hover:underline">© 2024 ABC All Rights Reserved.</button>
               {/* <p className="text-gray-600 mt-2">Lorem ipsum is simply dummy text</p> */}
               {/* <p className="text-gray-600 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}
             </div>

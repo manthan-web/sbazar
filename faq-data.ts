@@ -280,3 +280,90 @@ export const homePageFaqContent = [
       content: "Begin by making purchases or referring friends to SBazar. For more details on maximizing your SCoins, contact scoins@sbazar.app."
     }
   ]
+
+
+  export const programmsFaqContent = [
+    {
+      value: "item-1",
+      triggerTitle: "What is the SBazar Association Program (SAP)?",
+      content: "SAP offers a partnership to enrich associations with exclusive rewards and opportunities, fostering community growth."
+    },
+    {
+      value: "item-2",
+      triggerTitle: "How does SAP benefit associations?",
+      content: "Associations gain a dedicated account for SCoins accumulation, used for sponsoring events or redeeming products on SBazar."
+    },
+    {
+      value: "item-3",
+      triggerTitle: "What is special about the dedicated SAP account?",
+      content: "It’s designed for collecting SCoins through member activities, without the option for shopping, enhancing your association's events and offerings."
+    },
+    {
+      value: "item-4",
+      triggerTitle: "Can associations invite their members via SAP?",
+      content: "Yes, invitations can be extended to members to join SBazar, starting their rewarding journey and benefitting the association."
+    },
+    {
+      value: "item-5",
+      triggerTitle: "What can be done with accumulated SCoins?",
+      content: "Redeem SCoins for sponsoring your association's events or selecting products worth up to 200€ for roughly 2000 SCoins."
+    },
+    {
+      value: "item-6",
+      triggerTitle: "Are there biyearly benefits for associations in SAP?",
+      content: "Yes, associations can redeem SCoins biyearly for specially curated gift hampers or event sponsorships"
+    },
+    {
+      value: "item-7",
+      triggerTitle: "Does SAP offer exclusive discounts?",
+      content: "Based on annual activity, associations receive special coupon codes for additional discounts and offers on SBazar"
+    },
+    {
+      value: "item-8",
+      triggerTitle: "How to start with SAP?",
+      content: "Connect with us at partnership@sbazar.app to set up your association's account and begin the journey."
+    },
+    {
+      value: "item-9",
+      triggerTitle: "Customization options available in SAP?",
+      content: "Tailored promotions and events are available to meet the unique needs of your association."
+    },
+    {
+      value: "item-10",
+      triggerTitle: "What terms govern the SAP collaboration?",
+      content: "Essential terms include operational autonomy, correct use of SBazar's name, and SBazar's involvement primarily in sponsorship roles, ensuring a transparent and respectful partnership"
+    }
+  ]
+
+  export const aboutUsFaqContent = [
+    {
+      value: "item-1",
+      triggerTitle: "What is SBazar?",
+      content: "SBazar is more than an online marketplace; it's a celebration of Indian culture and traditions, bringing the warmth of India to your doorstep."
+    },
+    {
+      value: "item-2",
+      triggerTitle: "What makes SBazar unique?",
+      content: "Beyond offering goods, SBazar delivers joy, tradition, and the convenience of modern technology, emphasizing cultural beauty."
+    },
+    {
+      value: "item-3",
+      triggerTitle: "How does SBazar incorporate sustainability?",
+      content: "Through initiatives like the Save Food campaign and Green Ticket initiative, promoting sustainable shopping and community empowerment."
+    },
+    {
+      value: "item-4",
+      triggerTitle: "Why choose SBazar for my shopping needs?",
+      content: "Every purchase supports meaningful changes, embracing sustainability and empowering communities."
+    },
+    {
+      value: "item-5",
+      triggerTitle: "What future plans does SBazar have?",
+      content: "SBazar envisions expanding its community reach, touching more lives, and continuing to innovate for a better future."
+    },
+    {
+      value: "item-6",
+      triggerTitle: "How can I contribute to SBazar's journey?",
+      content: "Your feedback, ideas, and participation are invaluable, helping shape SBazar’s path forward."
+    }
+  ];

@@ -37,10 +37,7 @@ export default function ScoinsSection() {
               Double the Rewards, Double the Joy!
             </h2>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-              The Green Ticket initiative transforms your entertainment choices into environmental action.
-              By linking ticket purchases to tree planting, we're creating a community-driven approach to
-              sustainability. Every ticket is a step towards a greener future, making environmental
-              responsibility an integral part of your event experience.
+              Step into the world of SCoins on SBazar, where shopping and engaging become a rewarding adventure. Earn SCoins effortlessly with every purchase and referral, unlocking access to exclusive products and meaningful discounts. With SCoins, you're not just saving; you're connecting, sharing, and shaping the future of rewards. Start your journey today and experience how every action with SBazar can turn into something extraordinary!
             </p>
 
             <Link href="/scoins" className="inline-block">

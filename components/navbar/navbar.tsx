@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className="flex max-w-full z-50 backdrop-blur-lg sticky top-0 items-center py-6 justify-between px-6 md:px-12">
     <Link href="/" className="text-4xl font-bold">
-      <Image src={"/logo.png"} height={110} width={140} alt="logo of Snext" className="object-cover text-white" />
+      <Image src={"/snext-logo.png"} height={110} width={140} alt="logo of Snext" className="object-cover text-white" />
     </Link>
 
 

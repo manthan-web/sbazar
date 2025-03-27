@@ -34,7 +34,7 @@ const FirstSection = () => {
                     </p>
                 </div>
                 <div className='mt-8 text-center'>
-                    <p className='font-bold text-xl md:text-2xl text-gray-800'>The SBazar Team</p>
+                    <p className='font-bold text-xl md:text-2xl text-gray-800'>The Snext Team</p>
                 </div>
             </div>
         </section>

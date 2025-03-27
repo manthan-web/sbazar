@@ -5,28 +5,28 @@ const ProgrammsInfo = () => {
   const content = [
     {
       value: "item-1",
-      title: "SBazar Association Program (SAP)",
+      title: "Snext Association Program (SAP)",
       description: [
         "Brings together community groups for cultural celebrations and learning, fostering a sense of belonging and cultural pride."
       ]
     },
     {
       value: "item-2",
-      title: "SBazar Community Ambassadors Program (SCAP)",
+      title: "Snext Community Ambassadors Program (SCAP)",
       description: [
         "Empowers community leaders to represent and support their communities, facilitating engagement and mutual support."
       ]
     },
     {
       value: "item-3",
-      title: "SBazar Influencers Program (SIP)",
+      title: "Snext Influencers Program (SIP)",
       description: [
         "Enables influencers to share meaningful content, enriching the community with cultural and lifestyle insights."
       ]
     },
     {
       value: "item-4",
-      title: "SBazar Partnership Program (SPP)",
+      title: "Snext Partnership Program (SPP)",
       description: [
         "Creates opportunities for businesses and entrepreneurs to collaborate and grow, contributing to the ecosystem's diversity and innovation."
       ]

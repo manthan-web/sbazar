@@ -6,7 +6,7 @@ export interface Section {
   }
   
   export const sections: Section[] = [
-    { id: 1, title: "About Sbazar", slug: "introduction", content: "### Welcome to our documentation \nThis is the **introduction** section." },
+    { id: 1, title: "About Snext", slug: "introduction", content: "### Welcome to our documentation \nThis is the **introduction** section." },
     { id: 2, title: "Getting Started", slug: "getting-started", content: "To get started with our product..." },
     { id: 3, title: "Privacy Policies", slug: "privacy", content: "Our product offers the following features..." },
     { id: 4, title: "API Reference", slug: "api-reference", content: "Here's a comprehensive API reference..." },

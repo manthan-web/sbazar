@@ -44,7 +44,7 @@ const ProgrammsHeading = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-        Sbazar
+        Snext
           <span className="relative inline-block mx-4 my-2">
             <span className="absolute inset-0 bg-[#FFCCCB] -rotate-1 rounded-lg p-2"></span>
             <span className="relative text-[#BC1E3A] px-4 py-2">Programms</span>

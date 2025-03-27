@@ -35,7 +35,7 @@ export const SCoinsSpecialSection: React.FC = () => {
     },
     {
       title: "Serve Different Purposes:",
-      content: "While SCoins are your go-to for immediate savings, SPoints are your long-term investment in a more rewarding SBazar experience."
+      content: "While SCoins are your go-to for immediate savings, SPoints are your long-term investment in a more rewarding Snext experience."
     },
     {
       title: "The Future of SCoins:",
@@ -91,7 +91,7 @@ const SCoinsSectionComplete: React.FC = () => {
       title: "How to Collect More SCoins?",
       items: [
         { label: "Shop, Shop, Shop:", content: "The simplest way to earn more SCoins is to continue shopping with us." },
-        { label: "Refer And Earn:", content: "Share the joy by referring friends to SBazar and get a bonus 10% of their earned SCoins." }
+        { label: "Refer And Earn:", content: "Share the joy by referring friends to Snext and get a bonus 10% of their earned SCoins." }
       ]
     },
   ];
@@ -113,7 +113,7 @@ const SCoinsSectionComplete: React.FC = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          SCoins are SBazars very own digital currency, designed to make your shopping experience even more rewarding. Every time you make a purchase, we round up the value to the nearest whole number and gift you those SCoins. For example, a €100 purchase will earn you approximately 100 SCoins.
+          SCoins are Snext's very own digital currency, designed to make your shopping experience even more rewarding. Every time you make a purchase, we round up the value to the nearest whole number and gift you those SCoins. For example, a €100 purchase will earn you approximately 100 SCoins.
         </motion.p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">

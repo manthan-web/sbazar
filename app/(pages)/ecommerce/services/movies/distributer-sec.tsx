@@ -13,7 +13,7 @@ const DistributerSection = () => {
     {
       value: "item-1",
       title: "Efficient Promotion",
-      description: "Utilizes SBazar's platform for direct movie marketing to a wider audience"
+      description: "Utilizes Snext's platform for direct movie marketing to a wider audience"
     },
     {
       value: "item-2",

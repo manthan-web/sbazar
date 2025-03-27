@@ -37,7 +37,7 @@ export default function ScoinsSection() {
               Double the Rewards, Double the Joy!
             </h2>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-              Step into the world of SCoins on SBazar, where shopping and engaging become a rewarding adventure. Earn SCoins effortlessly with every purchase and referral, unlocking access to exclusive products and meaningful discounts. With SCoins, you're not just saving; you're connecting, sharing, and shaping the future of rewards. Start your journey today and experience how every action with SBazar can turn into something extraordinary!
+              Step into the world of SCoins on Snext, where shopping and engaging become a rewarding adventure. Earn SCoins effortlessly with every purchase and referral, unlocking access to exclusive products and meaningful discounts. With SCoins, you're not just saving; you're connecting, sharing, and shaping the future of rewards. Start your journey today and experience how every action with Snext can turn into something extraordinary!
             </p>
 
             <Link href="/scoins" className="inline-block">

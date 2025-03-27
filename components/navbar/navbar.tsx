@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className="flex max-w-full z-50 backdrop-blur-lg sticky top-0 items-center py-6 justify-between px-6 md:px-12">
     <Link href="/" className="text-4xl font-bold">
-      <Image src={"/logo.png"} height={110} width={140} alt="logo of sbazar" className="object-cover text-white" />
+      <Image src={"/logo.png"} height={110} width={140} alt="logo of Snext" className="object-cover text-white" />
     </Link>
 
 
@@ -53,7 +53,7 @@ const Navbar = () => {
           className="flex flex-col items-center p-8 bg-white justify-center sm:w-[500px] overflow-hidden"
         >
           <DialogTitle className="text-3xl font-bold mb-6 text-zinc-900">
-            Scan to Download SBazar
+            Scan to Download Snext
           </DialogTitle>
           <Image 
           src="/qr-code.png"
@@ -62,7 +62,7 @@ const Navbar = () => {
           alt="qr-code-image"
           />
           <p className="mt-6 text-zinc-600 text-center">
-            Scan this QR code with your mobile device to download the SBazar app.
+            Scan this QR code with your mobile device to download the Snext app.
           </p>
         </DialogContent>
       </DialogContainer>

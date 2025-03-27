@@ -6,10 +6,10 @@ const TrendsSection = () => {
     <section className="w-full mt-24 py-12 max-w-7xl mx-auto px-6 flex flex-col items-center">
       <div className="mb-12 text-center">
         <h2 className="text-4xl md:text-6xl font-bold text-[#BC1E3A]">
-          SBazar <span className="text-zinc-900">Trends</span>
+        Snext <span className="text-zinc-900">Trends</span>
         </h2>
         <p className="text-zinc-500 tracking-wide md:max-w-2xl font-normal text-base md:text-xl mx-auto mt-4">
-          Join SBazar in Reducing Food Waste
+          Join Snext in Reducing Food Waste
         </p>
       </div>
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center">

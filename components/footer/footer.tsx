@@ -9,7 +9,7 @@ function QuoteSection() {
           <span className="absolute top-0 left-0 text-[#FFCCCB] opacity-50 text-7xl md:text-8xl font-serif -translate-x-4 -translate-y-4">"</span>
           <blockquote className="relative z-10 text-center px-4 md:px-8">
             <p className="text-base md:text-lg lg:text-2xl font-medium text-gray-800 leading-relaxed">
-              We have a thrilling plan in place to enhance the capabilities of Sbazar, and we will be implementing these improvements gradually and iteratively over the upcoming months.
+              We have a thrilling plan in place to enhance the capabilities of Snext, and we will be implementing these improvements gradually and iteratively over the upcoming months.
             </p>
           </blockquote>
           <span className="absolute bottom-0 right-0 text-[#FFCCCB] opacity-50 text-7xl md:text-8xl font-serif translate-x-4 translate-y-4">"</span>
@@ -47,7 +47,7 @@ export default function FooterSection() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-[#BC1E3A] font-bold text-lg mb-6 uppercase">Office Location</h3>
-                <p className="text-gray-600">SBazar UG Masurenstraße Köln </p>
+                <p className="text-gray-600">Snext UG Masurenstraße Köln </p>
               </div>
               <div>
                 <h3 className="text-[#BC1E3A] font-bold text-lg mb-6 uppercase">Subscription</h3>

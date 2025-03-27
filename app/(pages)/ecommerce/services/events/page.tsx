@@ -19,7 +19,7 @@ const Page = () => {
           </div>
 
           <div className='max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8 md:p-12'>
-            <p className='text-center font-semibold text-xl md:text-2xl mb-6 text-gray-800'>Dear Sbazar Family,</p>
+            <p className='text-center font-semibold text-xl md:text-2xl mb-6 text-gray-800'>Dear Snext Family,</p>
             <div className='space-y-6 text-gray-700 text-base md:text-lg leading-relaxed'>
               <p>
                 Were excited to launch our Events Module, a blend of Commercial and Non-Profit gatherings, each designed to enrich, entertain, and empower our community.
@@ -38,7 +38,7 @@ const Page = () => {
               </p>
             </div>
             <div className='mt-8 text-center'>
-              <p className='font-bold text-xl md:text-2xl text-gray-800'>The SBazar Team</p>
+              <p className='font-bold text-xl md:text-2xl text-gray-800'>The Snext Team</p>
             </div>
           </div>
         </div>

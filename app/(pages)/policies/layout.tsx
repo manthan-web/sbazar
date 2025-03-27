@@ -29,19 +29,33 @@ export default function PoliciesLayout({
           <Button
             variant="outline"
             size="icon"
-            className="fixed left-[1.2rem] top-[6rem] z-40 md:hidden"
+            className="fixed z-50 md:hidden 
+              top-4 left-4 
+              bg-white shadow-md 
+              border border-gray-200 
+              hover:bg-gray-100"
             aria-label="Toggle Sidebar"
           >
-            <Menu className="h-6 w-6" />
+            <Menu className="h-6 w-6 text-gray-700" />
           </Button>
         </SheetTrigger>
-        <SheetContent side="left" className="w-[240px] sm:w-[300px]">
+        <SheetContent 
+          side="left" 
+          className="w-[280px] sm:w-[300px] 
+            pt-16 # Add top padding to avoid overlapping with top bar
+            bg-white/95 backdrop-blur-sm"
+        >
           <div className="flex h-full flex-col">
             <div className="flex items-center justify-between border-b px-4 py-2">
-              <h2 className="text-lg font-semibold">Menu</h2>
+              <h2 className="text-lg font-semibold">Snext Policies</h2>
               <SheetTrigger asChild>
-                <Button variant="ghost" size="icon" aria-label="Close Sidebar">
-                  <X className="h-6 w-6" />
+                <Button 
+                  variant="ghost" 
+                  size="icon" 
+                  aria-label="Close Sidebar"
+                  className="hover:bg-red-50"
+                >
+                  <X className="h-6 w-6 text-gray-600" />
                 </Button>
               </SheetTrigger>
             </div>
@@ -56,7 +70,7 @@ export default function PoliciesLayout({
       </aside>
 
       {/* Main Content */}
-      <main className="flex-grow p-6 pt-16 md:p-12 md:pt-12">
+      <main className="flex-grow p-4 pt-16 md:p-12 md:pt-12">
         {children}
       </main>
     </div>

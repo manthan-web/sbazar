@@ -318,7 +318,7 @@ Security remains a shared responsibility—SBazar invests in top-tier precaution
 SBazar’s **Data Security & Protection Policy** ensures diaspora members can confidently navigate cross-border commerce. From minimal data collection to robust encryption, we guard user information with diligence and care. By uniting advanced technologies, continuous audits, and user cooperation, SBazar safeguards an ecosystem where diaspora communities thrive, secure in the knowledge that their data remains in trusted hands.
 `},
   {
-    id: 6, title: "Payment Policies", slug: "payment-policies", content: `
+    id: 6, title: "Payment Policies", slug: "payment-policy", content: `
 ## 1. Introduction: Secure & Hassle-Free Payments
 
 ### 1.1 Our Commitment to Transparency
@@ -402,8 +402,8 @@ We value your feedback and continuously improve our services based on user sugge
 
 ## 10. Conclusion: Payment Policy as a Pillar of Confidence
 By partnering with **Mollie**, offering multiple payment routes, and ensuring secure transactions, SBazar remains committed to providing a trusted e-commerce platform for the diaspora community.`},
-{
-  id: 7, title: "Return Policies", slug: "return-policies", content: `
+  {
+    id: 7, title: "Return Policies", slug: "return-policies", content: `
 ## 1. Introduction: A Pledge to Customer Satisfaction
 
 ### 1.1 Our Promise to Users
@@ -509,5 +509,467 @@ By engaging with the SBazar Return Policy, you affirm trust in a system curated 
 
 In essence, our return philosophy underscores that commerce should unite diaspora members in comfort, convenience, and satisfaction. SBazar remains your steadfast partner, bridging cultures and simplifying daily life, one flexible policy at a time.
 `},
+  {
+    id: 8,
+    title: "Buyer Protection",
+    slug: "buyer-protection",
+    content: `
+
+## 1. Genuine Products Guarantee
+
+### 1.1 Quality Assured
+Every item on SBazar undergoes thorough vetting to uphold our commitment to authenticity and dependability. Should a product fall short of expectations—arriving damaged or not aligning with its description—SBazar promises to rectify the situation promptly.  
+- **Return, Refund, or Replacement:** Users can opt for an immediate return, full reimbursement, or an exchange.  
+- **Accountability:** We monitor feedback to continuously refine our product listings, ensuring accuracy and consistency for all future orders.  
+
+### 1.2 Community-Driven Trust
+Our multi-step quality checks reflect our diaspora-focused ethos: forging a bond of trust where diaspora members can shop with no fear of substandard items, confident their cultural or everyday needs will be faithfully met.  
+
+---
+
+## 2. Secure Payments
+
+### 2.1 Encrypted Transactions
+SBazar partners with secure gateways like Mollie to shield every purchase. Bank-grade encryption ensures personal details never travel in plain text, safeguarding your finances from possible interception.  
+- **Zero Liability:** If unauthorized charges occur, we guarantee a full refund—no lengthy explanations needed.  
+- **Continuous Monitoring:** Automated alerts detect suspicious activity, reinforcing your confidence at checkout.  
+
+### 2.2 Peace of Mind in Every Interaction
+Our unwavering adherence to industry-best security measures complements SBazar’s philosophy: each diaspora member should buy groceries, cultural items, or festival goodies without financial anxieties in mind.  
+
+---
+
+## 3. Privacy & Data Protection
+
+### 3.1 Your Data, Safeguarded
+SBazar invests in state-of-the-art systems to encrypt and protect user information from unauthorized access or misuse. We believe privacy is non-negotiable—particularly for diaspora communities seeking a piece of home across borders.  
+- **Confidentiality, Always:** SBazar never sells, rents, or shares personal data.  
+- **Regular Check-Ups:** Periodic audits and security patches keep us ahead of emerging threats, reinforcing our promise to respect your digital footprint.  
+
+### 3.2 Compliant & Transparent
+From sign-up to checkout, we comply with global data protection regulations, offering full clarity on how data is handled. Users maintain control, with easy options to view, edit, or delete their information upon request.  
+
+---
+
+## 4. Transparent Return & Refund
+
+### 4.1 Clear Policy
+We understand that sometimes the delivered item might not be what you envisioned—be it a mismatch in color, size, or quality. Our Return & Refund process remains easy and open:  
+- **Damaged or Unsatisfactory Goods:** Initiate returns through our platform or customer support.  
+- **Flexible Solutions:** Once we receive your returned product, we provide a full refund or arrange a replacement, per your preference.  
+
+### 4.2 Community Confidence
+This transparency fosters a sense of unity—SBazar stands ready to correct mistakes, ensuring diaspora members worldwide can shop with unwavering peace of mind.  
+
+---
+
+## 5. Timely Delivery Guarantee
+
+### 5.1 On-Time, Every Time
+SBazar appreciates how critical punctuality is—particularly for diaspora members juggling multiple responsibilities. If we promise a specific delivery timeframe, we strive to meet it without exceptions.  
+- **Responsiveness:** We track each order closely, updating users at every stage.  
+- **Compensation:** If a delay arises within SBazar’s control, you’re eligible for a refund or future discount, reinforcing our dedication to user satisfaction.  
+
+### 5.2 Navigating External Hurdles
+While external factors (weather, third-party courier delays) may occasionally affect shipping timelines, SBazar proactively communicates changes, ensuring users stay informed and assured.  
+
+---
+
+## 6. Full Refund Promise
+
+### 6.1 Non-Arrival Protection
+Should your order fail to arrive at your doorstep through no fault of your own, SBazar covers you entirely:  
+- **Investigation & Support:** We promptly reach out to couriers, verifying any mishaps.  
+- **Hassle-Free Refund:** Once confirmed that the package is indeed lost in transit or irretrievable, we issue a full refund—no lengthy battles.  
+
+### 6.2 Accountability in Every Purchase
+Diaspora families rely on SBazar for consistent access to cultural goods; this promise cements our pledge that no user experiences financial damage should shipping fail them.  
+
+---
+
+## 7. Stellar Customer Support
+
+### 7.1 We’re Here for You
+Our dedicated customer care goes beyond automated scripts:  
+- **Prompt & Helpful:** Real individuals respond to queries, often drawn from diaspora communities themselves, ensuring empathy and cultural nuance.  
+- **Varied Channels:** Reach out via email, in-app chat, or phone lines (where available).  
+
+### 7.2 Resolution & Reassurance
+From missing groceries to clarifying membership perks, each inquiry is treated as top priority. Our support staff remain the frontline ensuring diaspora users never feel left in the dark.  
+
+---
+
+## 8. Feedback & Dispute Resolution
+
+### 8.1 Your Voice Matters
+SBazar thrives on constructive input—the diaspora’s lived experiences shape expansions and policy tweaks. If discontent arises, we encourage open dialogue long before minor gripes become major disputes.  
+- **Friendly First Steps:** Let us address the issue—most concerns find resolution in direct conversation.  
+- **Fair Mediation:** A specialized dispute team steps in when needed, guaranteeing neutrality and prompt solutions.  
+
+### 8.2 Building Communal Trust
+This open-door stance fosters solidarity. By letting diaspora users air grievances or suggestions freely, SBazar evolves into a truly community-led environment.  
+
+---
+
+## 9. Protecting Your SBazar Experience
+
+### 9.1 A Shared Responsibility
+While SBazar handles the heavier lifts—product checks, secure payments, timely dispatch—users also assist by promptly reporting inconsistencies or shipping anomalies. This partnership ensures a safe, transparent shopping cycle.  
+
+### 9.2 Evolving for the Better
+As we introduce new modules—like next-day deliveries, cultural events, or advanced consular services—these Buyer Protection pillars adapt. Users receive updates whenever we refine policies, guaranteeing continuous clarity.  
+
+---
+
+## 10. Conclusion: Shop with Confidence, Every Time
+At SBazar, Buyer Protection transcends a mere policy statement. It’s a bond of trust—assuring diaspora members they’re not just purchasing items but also investing in a platform that merges quality, security, and community care.  
+Whether it’s receiving authentic products, enjoying secure financial transactions, or relishing straightforward returns, SBazar’s safety net guarantees peace of mind across all interactions.  
+For inquiries, clarifications, or assistance, reach out to **support@sbazar.app**. In the journey to keep diaspora life vibrant and hassle-free, SBazar stands as your companion—where reliability meets heart, and every click is confidently protected.  
+`
+  },
+  {
+    id: 9,
+    title: "Shipping Policies",
+    slug: "shipping-policy",
+    content: `
+
+## 1. Introduction: Fast, Reliable, and Community-Focused
+
+### 1.1 Our Commitment to Seamless Deliveries
+At **SBazar**, connecting diaspora members with the essentials and cultural items they love is more than business—it’s our mission. Our Shipping Policy ensures dependable, affordable, and convenient deliveries across Germany, with an expanding eye toward next-day services for qualifying areas. By clarifying costs, timelines, and user responsibilities, we aim to eliminate confusion and uphold user satisfaction.
+
+### 1.2 Why Shipping Matters
+For diaspora families juggling time zones and new routines, timely product arrivals are crucial. This policy not only explains shipping steps but instills confidence: your grocery hamper, artisanal crafts, or event tickets will arrive as promised, enhancing your everyday diaspora experience.
+
+---
+
+## 2. Order Processing Time
+
+### 2.1 Standard Turnaround
+**SBazar** processes orders within **1 business day** post-payment confirmation, excluding weekends and German public holidays. Peak seasons (e.g., festival surges) or promotional events may extend this window slightly—your patience helps us keep service equitable for all.
+
+### 2.2 Efficiency & Adaptation
+As we refine operations, processing times may shrink further, especially for membership users with priority perks. Keep an eye on app notifications for real-time updates.
+
+---
+
+## 3. Shipping Methods and Carrier
+
+### 3.1 Next-Day Delivery (New Expansion)
+Select regions in Germany now benefit from **SBazar’s next-day shipping option**, a pilot program introduced after 2024’s test phase:  
+- **Eligibility:** Certain postal codes qualify based on logistical feasibility. The app indicates if your address supports next-day delivery upon checkout.  
+- **Cutoff Times:** Orders must finalize before the daily cutoff (e.g., **8 PM**) for guaranteed next-day dispatch.  
+
+### 3.2 DHL for Standard Shipping
+For broader Germany coverage, we partner with **DHL**—renowned for consistent, country-wide services:  
+- **Method Based on Size & Weight:** Larger packages or multiple item combos typically ship via standard DHL.  
+- **API Integration:** Each user gets an instant tracking link, bridging convenience with diaspora-friendly transparency.  
+
+---
+
+## 4. Delivery Time
+
+### 4.1 Variations & Estimated Windows
+- **Next-Day Deliveries:** Arrive next calendar day if cutoff times and product availability align.  
+- **Standard DHL Services:** Timelines vary (1–3 days typical), subject to local conditions.  
+
+### 4.2 External Factors
+While **SBazar** manages internal dispatch promptly, uncontrollable events—weather disruptions, regional holidays—might delay arrivals. Any deviation triggers immediate in-app or email alerts, ensuring you’re always informed.
+
+---
+
+## 5. Order Tracking
+
+### 5.1 Real-Time Transparency
+- **In-App Tracking:** SBazar’s system merges DHL’s API (for standard shipments) and SBazar’s internal route tracking (for next-day deliveries).  
+- **Auto Notifications:** Expect push notifications from dispatch through final delivery, letting you track each stage clearly.  
+
+### 5.2 Address Accuracy
+**Critical:** Provide a complete, correct address. If shipping fails due to an outdated or incomplete location, you bear potential re-shipping costs. Diaspora relocations or dorm changes highlight why promptly updated profiles matter.
+
+---
+
+## 6. Order Modifications and Cancellations
+
+### 6.1 Cancelling or Changing Orders
+- **Pending:** Free to cancel or edit items without penalty.  
+- **Processing:** Minimal fee if the shift triggers extra logistic burden.  
+- **Shipped:** The package is en route, so direct cancellations become unavailable.  
+For complete details, review our **Cancellation Policy**.
+
+---
+
+## 7. Returns and Exchanges
+
+### 7.1 Transparent Steps
+For defective or unsatisfactory items, see our **Return Policy**. We uphold fairness, allowing **14 days** to initiate returns, especially vital for diaspora members balancing cross-border shipping schedules.
+
+### 7.2 Membership-Level Perks
+**Silver, Gold, and Platinum** enjoy tiered shipping benefits for returns (including free returns up to certain limits), easing diaspora costs when dissatisfaction or mistakes occur.
+
+---
+
+## 8. Shipping Costs and Membership Benefits
+
+### 8.1 Tiered Shipping Structure
+**SBazar** ensures shipping aligns with membership tiers—**Newbie, Silver, Gold, and Platinum**—and cart values:
+
+- **Newbie**  
+  - Under 49€: 4.99€ shipping  
+  - Above 49€: 2.99€ shipping  
+
+- **Silver**  
+  - Under 49€: 4.99€ shipping  
+  - Above 49€: Free  
+
+- **Gold**  
+  - Under 39€: 3.99€ shipping  
+  - Above 39€: Free  
+
+- **Platinum**  
+  - Under 29€: 2.99€ shipping  
+  - Above 29€: Free  
+
+### 8.2 Next-Day Delivery Fee
+- **Expedited Cost:** Next-day shipping in eligible zones may carry an additional fee, displayed at checkout.  
+- **Membership-Based Discounts:** VIP or higher-tier members might receive partial or waived surcharges on next-day shipping, reflecting loyalty perks.  
+
+---
+
+## 9. Commitment to Service
+
+### 9.1 Accuracy & Timeliness
+Whether you choose next-day or standard DHL shipping, **SBazar** strives for on-time parcels. Our diaspora-centric mission respects the fact that timely deliveries are vital—not merely for convenience but also for cultural events, festival celebrations, or essential groceries.
+
+### 9.2 Expanding Beyond Germany
+Future expansions may see **SBazar** shipping across Europe, bridging diaspora needs in multiple countries. As we confirm new regions or carriers, we’ll revise this policy and notify impacted users promptly.
+
+---
+
+## 10. Staying Updated & Contact Us
+
+### 10.1 Policy Revisions
+As **SBazar** grows—offering advanced logistic features, next-day coverage expansions, or membership shipping modules—this policy evolves. We’ll announce major changes via in-app notifications, ensuring diaspora members remain fully informed.
+
+### 10.2 We’re Here for You
+For any shipping questions, clarifications, or region eligibility concerns:  
+- **Email:** [hello@sbazar.app](mailto:hello@sbazar.app)  
+- **Customer Service:** Our dedicated diaspora-friendly support team is always ready to assist.  
+
+---
+
+## 11. Conclusion: The Road to Swift & Secure Deliveries
+**SBazar’s Shipping Policy** underscores our pledge to reliable, flexible, and transparent logistics. From standard DHL deliveries to newly introduced next-day services, we anchor our approach in user convenience and diaspora realities. By continually refining shipping options, membership perks, and integrated tracking, we aim to make every parcel a timely piece of home for Indians across Germany.
+
+    `
+  },
+  {
+    id: 10,
+    title: "T&Cs",
+    slug: "terms-and-conditions",
+    content: `
+
+## 1. Introduction: Welcome to SBazar
+### 1.1 A Slice of India in Germany
+SBazar merges the charm of traditional Indian marketplaces with the convenience of modern e-commerce, all within Germany’s vibrant multicultural setting. By accessing SBazar’s website, mobile app, or affiliated services, you align with our shared mission of blending culture, commerce, and community for the diaspora.
+
+### 1.2 Acceptance of Terms
+Engaging with SBazar means accepting these Terms. If they clash with your preferences, we regret losing your patronage—but you must refrain from using our platform.
+
+## 2. Definitions
+- **Service:** Encompasses SBazar’s website, app, membership modules, and extended offerings (e.g., next-day delivery, movie booking, advanced B2B solutions).
+- **Goods:** Products listed for purchase—groceries, artisanal crafts, cultural items, etc.
+- **User:** Any individual or entity browsing, shopping, or interacting with SBazar’s ecosystem.
+
+## 3. Your Account: Accuracy & Responsibility
+### 3.1 Keeping Information Current
+User profiles should reflect correct data—like address, payment details, or membership status. Updated info supports smooth deliveries, accurate billing, and relevant suggestions.
+
+### 3.2 Safeguarding Credentials
+Protect your username and password vigilantly. If suspicious activity arises, promptly inform SBazar’s support. We disclaim liability for unauthorized account use if negligence (like sharing a password) is traced back to the user.
+
+## 4. Buying on SBazar
+### 4.1 Embrace the Experience
+Found an item you love? Complete your purchase via available payment methods—credit cards, PayPal, bank transfers—to enjoy a seamless transaction with taxes already factored in.
+- **Diverse Payment Methods:** Aligning with diaspora financial flexibility.
+- **Transparent Pricing:** No hidden or surprise fees.
+
+### 4.2 Delivery with a Dash of Cultural Nostalgia
+Swift shipping ensures goods reach your doorstep—be it groceries, festival kits, or local artisanal crafts. While we strive for punctuality, occasional delays beyond SBazar’s direct control may occur. We vow swift notification and remedy in such cases.
+
+## 5. Cancellation & Returns
+### 5.1 Flexibility in Changing Your Mind
+We offer a clear window for cancellations—free during Pending status or minimal fees if in Processing. After shipping, returns are governed by our Return Policy, focusing on user ease and diaspora-friendly convenience.
+
+### 5.2 Hassle-Free Returns
+Should an item fail expectations—wrong color, shipping damage, or mismatch with online description—SBazar facilitates quick returns, with potential replacements or refunds per user preference.
+
+## 6. Privacy Commitment
+### 6.1 Not For Sale
+Your personal data is never shared for profit. SBazar invests in encryption, strict data handling, and compliance with EU privacy laws to uphold user trust.
+
+### 6.2 For More Info
+Detailed data handling procedures appear in the SBazar Privacy Policy. By using SBazar, you acknowledge that policy’s provisions, ensuring minimal friction in your diaspora-friendly experience.
+
+## 7. Rights and Ownership
+### 7.1 Content Ownership
+The design, features, functionality, and content remain SBazar’s intellectual property, or are used under rightful licensing. Reproduction, redistribution, or derivative works require express permission.
+
+### 7.2 User-Generated Content
+Any reviews, images, or suggestions you post belong to you, but SBazar reserves a non-exclusive right to display or share them, fostering a collaborative, diaspora-driven environment.
+
+## 8. Adapting to Change
+### 8.1 Evolving Terms
+SBazar’s rapid growth—including newly launched modules (e.g., next-day deliveries, movie/event bookings, advanced membership tiers)—may necessitate changes to these Terms. Users will be informed of major revisions, and continued engagement signifies acceptance of the updated conditions.
+
+### 8.2 Embracing Innovation
+If you prefer not to abide by new terms, the honorable option is to cease using SBazar. However, we consistently strive to ensure updated terms reflect user benefits and diaspora expansions.
+
+## 9. Governing Laws
+### 9.1 Playing by German Rules
+All operations, disputes, or legal matters revolve under German jurisdiction. Should a conflict arise that escalates beyond mutual resolution, the courts in Germany take precedence.
+
+### 9.2 Cross-Border Considerations
+Given SBazar’s diaspora footprint, we uphold main compliance with EU regulations while acknowledging user rights from additional territories as feasible.
+
+## 10. Got Questions?
+### 10.1 Communication Channels
+For clarifications, reach out to hello@SBazar.app. Our team commits to timely, supportive responses.
+
+### 10.2 Final Note
+We appreciate your presence in this diaspora-oriented platform. By adhering to these Terms & Conditions, you join SBazar’s mission—promoting cross-continental commerce, cultural pride, and diaspora empowerment in one cohesive digital sphere.`
+  },
+  {
+    id: 11,
+    title: "Pricing Policies",
+    slug: "pricing-policy",
+    content: `
+
+
+## 1. Introduction: Where Value Meets Culture
+
+### 1.1 Our Commitment to You
+At SBazar, we believe that ethical commerce should seamlessly merge cultural richness and economic well-being. Our Pricing Policy embodies this ethos—ensuring that users, whether seeking nostalgic groceries or new innovations, always feel confident about the price they pay. Every figure on SBazar is calculated with fairness, transparency, and community impact at its core.
+
+### 1.2 Why Pricing Policy Matters
+Amid a diverse, global diaspora, cost-of-living concerns and cultural needs converge. A well-defined Pricing Policy allows us to uphold trust, proving that SBazar is more than a shopping platform: it is a partner in convenience, comfort, and affordability.
+
+## 2. Core Pricing Commitments
+
+### 2.1 Affordability
+- **Competitive & Accessible:** Our prices aren’t plucked from thin air; they’re carefully set to match or beat market standards, guaranteeing you get the best deals possible without sacrificing quality.
+- **Community-Driven Adjustments:** We actively listen to user feedback—especially from diaspora members juggling living costs. By balancing fair margins with user needs, we uphold SBazar’s promise of delivering more value for every Euro spent.
+
+### 2.2 Transparency
+- **No Hidden Costs:** SBazar forbids ambiguous fees. The amount displayed during checkout reflects all taxes, membership-based discounts, or relevant surcharges—ensuring no surprises at payment.
+- **Clear Itemization:** Each product page clarifies standard prices, deals, or membership-based markdowns, removing any confusion about how final costs are reached.
+
+## 3. Deals and Savings: The SBazar Advantage
+
+### 3.1 Special Product Deals (SPD)
+- **Handpicked Value:** Curated single-item discounts on user favorites—be it a beloved spice or new artisanal craft.
+- **Time-Limited Offers:** Often tied to seasonal or cultural festivals, SPD showcases short-burst deals with significant cost reductions.
+
+### 3.2 Multi-Product Deals (MPD)
+- **Bundled Efficiency:** Encouraging you to buy complementary items in one go—like pulses and spices, or festival hamper combos.
+- **Compound Savings:** By purchasing multiple items together, you enjoy extra cost benefits beyond individual markdowns.
+
+### 3.3 Member Special Discount (MSD)
+- **Tier-Based Reductions:** Reflecting loyalty across Silver, Gold, Platinum, or upcoming SBazar VIP statuses.
+- **Rewarding Devotion:** The more you engage with SBazar, the more Member Special Discount you unlock—making your recurring purchases lighter on the wallet.
+
+### 3.4 SCoin Rewards
+- **Digital Currency:** Each purchase yields SCoins that can be redeemed for direct discounts.
+- **Economical & Engaging:** SCoin usage fosters a cycle where everyday buys yield tangible rewards.
+
+## 4. Dynamic Pricing: Flexibility & Responsiveness
+
+### 4.1 Market-Responsive Strategy
+- **Seasonal Trends:** For diaspora needs—like festival essentials or fresh produce—prices adapt in line with market fluctuations.
+- **Real-Time Adjustments:** We calibrate costs frequently to ensure current, fair numbers.
+
+### 4.2 Customer-Centric Adjustments
+- **Listening & Responding:** We reevaluate prices based on user feedback.
+- **Inclusive Growth:** Early adopters receive loyalty deals for new features.
+
+## 5. Our Promise: Trust & Integrity
+
+### 5.1 Fairness in Every Interaction
+- **Disclose All Costs:** Transparent breakdown of product, shipping, and charges.
+- **Stay Competitive:** Regular market comparisons for fairness.
+
+### 5.2 Economic Well-Being for Our Community
+- **Social Impact:** We reinvest profits into social initiatives and community growth.
+
+## 6. Contact & Further Support
+
+### 6.1 Reaching Out
+- **Support Email:** support@sbazar.app
+- **In-App Chat:** Quick, personalized responses.
+
+### 6.2 Open Dialogue
+We value your insights to refine our pricing policy and serve you better.
+
+## 7. Conclusion: Quality, Fairness, & Cultural Continuity
+With SBazar, each purchase is a promise of integrity, savings, and cultural pride. Thank you for trusting SBazar as your go-to marketplace!
+`
+  },
+  {
+    id: 12,
+    title: "Careers",
+    slug: "careers",
+    content: `
+
+## 1. Introduction: Join Our Journey
+### 1.1 Beyond a Marketplace
+At SBazar, we’re more than a digital store. We are a movement guided by ambition, tradition, and the bond that unites diaspora communities worldwide. Each day, we strive to blend innovation with cultural authenticity—and this synergy fuels our ongoing success. By choosing to explore a career with SBazar, you’re stepping into a realm where your entrepreneurial spirit, creative flair, or technical prowess can shape the future of online shopping.
+
+### 1.2 Why SBazar?
+Our story extends beyond Germany’s borders, bridging cultural gaps and igniting local entrepreneurship. At the heart of it all is a passion for delivering a piece of “home” to diaspora users, using cutting-edge e-commerce solutions. We believe in building a community that merges tradition with technology—and you could be the next pivotal contributor to that vision.
+
+## 2. Founding Philosophy
+### 2.1 Roots in Tradition, Eyes on Tomorrow
+SBazar’s foundation rests on core beliefs that inform each decision:
+- **Cultural Preservation:** Honoring heritage with Indian groceries, festival kits, and localized services.
+- **Innovation for Impact:** Using AI, user-driven design, and next-day deliveries for unmatched convenience.
+
+### 2.2 Milestones & Evolution
+From a bold idea in 2020 to a platform bridging groceries, events, and AI-backed customer support, SBazar continually evolves. Each milestone—be it technology breakthroughs or financial turning points—showcases our adaptability and unwavering community focus.
+
+## 3. Visionary Leadership & Impact Stories
+### 3.1 Leadership with Purpose
+Led by Saravanan and a team of creative minds, data wizards, and diaspora enthusiasts, SBazar’s growth is fueled by a deep reverence for user needs and social empowerment.
+
+### 3.2 Real-World Transformation
+Diaspora families enjoy fresh groceries and cultural events, local artisans gain global recognition, and small businesses access new markets—thanks to every SBazar role, from developers to interns.
+
+## 4. Current Openings
+### 4.1 Open Invitation
+Though specific vacancies may not be listed, SBazar scouts for:
+- **Tech Innovation:** Shaping a next-gen diaspora platform.
+- **Cultural Bridge-Building:** Merging tradition and technology.
+- **Community Engagement:** Empowering local entrepreneurs and communities.
+
+### 4.2 Flexible Opportunities
+We offer part-time, full-time, remote, or freelance roles tailored to your skills and our mission.
+
+### 4.3 How to Apply
+Contact us at careers@sbazar.app with:
+- Your CV or Resume
+- A short introduction about your background, skills, and diaspora connection (if any)
+- A note on how you see yourself contributing to SBazar
+
+## 5. Aligning with Our Core Values
+### 5.1 Innovation, Community, Sustainability
+Our best hires merge tradition and technology, embodying our ethos of bridging diaspora life with ethical, future-focused e-commerce.
+
+### 5.2 Next Steps
+Reach out now, expressing how we can thrive together. We maintain an active talent pool, reviewing potential matches as soon as roles become available.
+
+## 6. Conclusion: A Shared Adventure
+Join SBazar’s journey to empower diaspora lifestyles, support local entrepreneurs, and shape a more connected world. Be it groceries, community modules, or AI innovations, your impact will resonate across diaspora communities.
+
+`
+  }
 
 ];

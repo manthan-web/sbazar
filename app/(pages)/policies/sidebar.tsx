@@ -15,7 +15,7 @@ export function Sidebar() {
 
   return (
     <ScrollArea className="h-full py-4 md:pl-8 md:pr-6">
-      <h2 className="mb-4 px-4 text-lg font-semibold">Snext Policies</h2>
+      <h2 className="mb-4 px-4 md:flex hidden text-lg font-semibold">Snext Policies</h2>
       <nav className="space-y-1">
         {sections.map((section) => (
           <Button

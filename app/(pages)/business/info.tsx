@@ -62,7 +62,7 @@ const BusinessInfo = () => {
         <div className="w-full flex h-full">
           {/* <Video src={"/videos/pot-video.mp4"} loop= /> */}
           <Image
-            src={"/social-image.png"}
+            src={"/business-img.png"}
             alt='social image'
             height={500}
             width={500}

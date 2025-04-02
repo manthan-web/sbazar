@@ -15,7 +15,7 @@ interface IssueCardProps {
 const IssueCard: React.FC<IssueCardProps> = ({ icon: Icon, title, description }) => (
   <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
     <div className="flex items-center mb-2">
-      <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
+      <Icon className="w-6 h-6 text-[#2C2C2C] mr-2" />
       <h3 className="text-lg font-semibold">{title}</h3>
     </div>
     <p className="text-sm text-gray-600">{description}</p>
@@ -83,7 +83,7 @@ const ExistingIssuesSection: React.FC = () => {
   return (
     <section className="py-16 mx-auto max-w-full w-full px-6 bg-gray-50 overflow-hidden" ref={sectionRef}>
       <div className='md:space-y-3 text-center mb-12'>
-        <h1 className='md:text-5xl text-3xl font-bold'>Existing Issues In <span className='text-[#BC1E3A]'>Movie</span></h1>
+        <h1 className='md:text-5xl text-3xl font-bold'>Existing Issues In <span className='text-[#2C2C2C]'>Movie</span></h1>
         <h1 className='md:text-5xl text-3xl font-bold'>Distribution and Viewing</h1>
       </div>
 

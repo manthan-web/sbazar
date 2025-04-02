@@ -17,7 +17,7 @@ export default function PolicyPage({ params }: { params: { slug: string } }) {
 
   return (
     <>
-      <h1 className="mb-6 text-3xl text-[#BC1E3A] font-bold">{section.title}</h1>
+      <h1 className="mb-6 text-3xl text-[#2C2C2C] font-bold">{section.title}</h1>
       <ReactMarkdown 
       components={{
         h1: ({node, ...props}) => <h1 className="text-3xl font-bold text-black border-b pb-2 mb-4" {...props} />,

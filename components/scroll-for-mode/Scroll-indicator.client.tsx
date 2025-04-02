@@ -50,7 +50,7 @@ const ScrollIndicatorClient = () => {
               cy="50"
               r="45"
               fill="none"
-              stroke="#BC1E3A"
+              stroke="#2C2C2C"
               strokeWidth="10"
               strokeDasharray="283"
               strokeDashoffset={283 - (283 * scrollPercentage) / 100}

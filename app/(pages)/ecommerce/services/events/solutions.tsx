@@ -12,7 +12,7 @@ const SolutionsCard: React.FC<SolutionsCardProps> = ({ icon: Icon, title, descri
     <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-200 group/solution">
       <div className="group-hover/solution:translate-x-2 hover:cursor-pointer transition duration-200">
         <div className="flex items-center mb-2">
-          <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
+          <Icon className="w-6 h-6 text-[#2C2C2C] mr-2" />
           <h3 className="text-lg font-semibold">{title}</h3>
         </div>
         <p className="text-sm text-gray-600">{description}</p>
@@ -64,12 +64,12 @@ const Solutions = () => {
         <div className="py-12 px-6 animate-fade-in bg-gray-100">
             <div className="max-w-7xl space-y-8 mx-auto px-4 sm:px-6 lg:px-8">
                 <div className='md:space-y-3 text-center mb-12'>
-                    <h1 className='md:text-5xl text-3xl font-bold'>Snext <span className='text-[#BC1E3A]'>Solutions</span></h1>
+                    <h1 className='md:text-5xl text-3xl font-bold'>Snext <span className='text-[#2C2C2C]'>Solutions</span></h1>
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-8">
                     {/* Smart Search Section */}
-                    <div className="lg:w-1/2 bg-[#BC1E3A]/10 backdrop-blur-2xl rounded-3xl flex flex-col md:flex-row justify-between shadow-md h-[30rem] md:h-[18rem]">
+                    <div className="lg:w-1/2 bg-[#2C2C2C]/10 backdrop-blur-2xl rounded-3xl flex flex-col md:flex-row justify-between shadow-md h-[30rem] md:h-[18rem]">
                         <div className="md:w-1/2 p-8 flex flex-col justify-center pr-4">
                             <h2 className="text-4xl font-bold mb-4">Open To All</h2>
                             <p className="text-gray-600">

@@ -9,7 +9,7 @@ const FirstSection = () => {
             <div className='text-center mb-12 space-y-2 md:mb-6'>
 
                 <h2 className="text-4xl md:text-6xl font-bold text-zinc-900">
-                    Grocery <span className='text-[#BC1E3A]'>Module</span>
+                    Grocery <span className='text-[#2C2C2C]'>Module</span>
                 </h2>
                 <p className='text-xl md:text-2xl text-gray-600 font-light'>Where Every Event Matters</p>
             </div>

@@ -60,7 +60,7 @@ const HeroSection = () => {
           </motion.span>
           <motion.span
             variants={wordVariants}
-            className="relative inline-block text-[#BC1E3A]"
+            className="relative inline-block text-[#2C2C2C]"
           >
             Happiness
             <MemoizedStars />

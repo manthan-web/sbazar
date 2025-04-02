@@ -5,7 +5,7 @@ const TrendsSection = () => {
   return (
     <section className="w-full mt-24 py-12 max-w-7xl mx-auto px-6 flex flex-col items-center">
       <div className="mb-12 text-center">
-        <h2 className="text-4xl md:text-6xl font-bold text-[#BC1E3A]">
+        <h2 className="text-4xl md:text-6xl font-bold text-[#2C2C2C]">
         Snext <span className="text-zinc-900">Trends</span>
         </h2>
         <p className="text-zinc-500 tracking-wide md:max-w-2xl font-normal text-base md:text-xl mx-auto mt-4">

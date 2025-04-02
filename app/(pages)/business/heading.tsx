@@ -1,34 +1,21 @@
-"use client"
+"use client";
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
-import Lenis from "@studio-freight/lenis"
-
-
+import Lenis from "@studio-freight/lenis";
 
 const BusinessHeading = () => {
-
-
   useEffect(() => {
-
-    const lenis = new Lenis()
-
-
+    const lenis = new Lenis();
 
     function raf(time: any) {
+      lenis.raf(time);
 
-      lenis.raf(time)
-
-      requestAnimationFrame(raf)
-
+      requestAnimationFrame(raf);
     }
 
-
-
-    requestAnimationFrame(raf)
-
-  })
-
+    requestAnimationFrame(raf);
+  });
 
   return (
     <motion.section
@@ -44,10 +31,10 @@ const BusinessHeading = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-        Business
+          Business
           <span className="relative inline-block mx-4 my-2">
-            <span className="absolute inset-0 bg-[#FFCCCB] -rotate-1 rounded-lg p-2"></span>
-            <span className="relative text-[#BC1E3A] px-4 py-2">Module</span>
+            <span className="absolute inset-0 bg-[#B4B4B8] -rotate-1 rounded-lg p-2"></span>
+            <span className="relative text-[#2C2C2C] px-4 py-2">Module</span>
           </span>
         </motion.h1>
       </div>

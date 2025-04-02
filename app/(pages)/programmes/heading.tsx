@@ -46,8 +46,8 @@ const ProgrammsHeading = () => {
         >
         Snext
           <span className="relative inline-block mx-4 my-2">
-            <span className="absolute inset-0 bg-[#FFCCCB] -rotate-1 rounded-lg p-2"></span>
-            <span className="relative text-[#BC1E3A] px-4 py-2">Programms</span>
+            <span className="absolute inset-0 bg-[#B4B4B8] -rotate-1 rounded-lg p-2"></span>
+            <span className="relative text-[#2C2C2C] px-4 py-2">Programms</span>
           </span>
         </motion.h1>
       </div>

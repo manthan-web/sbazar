@@ -1,30 +1,31 @@
-"use client"
+"use client";
 
-import React, { useEffect, useState } from 'react'
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-import Link from 'next/link'
-import { motion, useAnimation } from 'framer-motion'
+import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { motion, useAnimation } from "framer-motion";
 
 const ProgramsSection = () => {
-  const [isVisible, setIsVisible] = useState(false)
-  const controls = useAnimation()
+  const [isVisible, setIsVisible] = useState(false);
+  const controls = useAnimation();
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY + window.innerHeight
-      const elementPosition = document.getElementById('programs-section')?.offsetTop || 0
+      const scrollPosition = window.scrollY + window.innerHeight;
+      const elementPosition =
+        document.getElementById("programs-section")?.offsetTop || 0;
       if (scrollPosition > elementPosition - 100) {
-        setIsVisible(true)
-        controls.start({ opacity: 1, y: 0 })
+        setIsVisible(true);
+        controls.start({ opacity: 1, y: 0 });
       }
-    }
+    };
 
-    window.addEventListener('scroll', handleScroll)
-    handleScroll() // Check visibility on mount
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Check visibility on mount
 
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [controls])
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [controls]);
 
   return (
     <motion.section
@@ -42,7 +43,7 @@ const ProgramsSection = () => {
           className="text-center mb-8 md:mb-12"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-zinc-800">Programs</span> 
+            <span className="text-zinc-800">Programs</span>
           </h1>
         </motion.div>
 
@@ -70,13 +71,19 @@ const ProgramsSection = () => {
             className="md:space-y-8 space-y-6"
           >
             <h2 className="text-3xl md:text-4xl text-zinc-800 font-semibold tracking-wide leading-tight">
-            Snext Association Program (SAP)
+              Snext Association Program (SAP)
             </h2>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-            Snext fosters unity and growth through its initiatives. The Association Program (SAP) celebrates culture and learning, building pride and belonging. The Community Ambassadors Program (SCAP) empowers leaders to strengthen engagement, while the Influencers Program (SIP) enriches the community with cultural insights. The Partnership Program (SPP) drives collaboration and innovation, supporting diverse businesses. Together, we create a vibrant and inclusive ecosystem.            </p>
+              Snext fosters unity and growth through initiatives like the
+              Association Program (SAP) for cultural pride, the Community
+              Ambassadors Program (SCAP) for leadership, the Influencers Program
+              (SIP) for cultural insights, and the Partnership Program (SPP) for
+              business collaboration. Together, we build a vibrant, inclusive
+              ecosystem.
+            </p>
 
             <Link href="/programmes" className="inline-block">
-              <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-8 py-4 md:px-12 md:py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
+              <Button className="bg-[#2C2C2C] hover:bg-white hover:text-[#2C2C2C] text-white font-normal md:text-lg px-8 py-4 md:px-12 md:py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#2C2C2C] focus:ring-opacity-50 shadow-lg">
                 Explore
               </Button>
             </Link>
@@ -99,7 +106,7 @@ const ProgramsSection = () => {
         </motion.div> */}
       </div>
     </motion.section>
-  )
-}
+  );
+};
 
-export default ProgramsSection
+export default ProgramsSection;

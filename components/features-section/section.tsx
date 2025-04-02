@@ -1,10 +1,10 @@
-"use client"
+"use client";
 
-import React from 'react'
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-import Link from 'next/link'
-import { motion } from 'framer-motion'
+import React from "react";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function ScoinsSection() {
   return (
@@ -22,7 +22,8 @@ export default function ScoinsSection() {
           className="text-center mb-12 md:mb-20"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="text-zinc-800"></span> <span className="text-[#BC1E3A]">S</span>Coins
+            <span className="text-zinc-800"></span>{" "}
+            <span className="text-[#2C2C2C]">S</span>Coins
           </h1>
         </motion.div>
 
@@ -37,11 +38,14 @@ export default function ScoinsSection() {
               Double the Rewards, Double the Joy!
             </h2>
             <p className="text-lg md:text-xl text-gray-700 leading-relaxed">
-              Step into the world of SCoins on Snext, where shopping and engaging become a rewarding adventure. Earn SCoins effortlessly with every purchase and referral, unlocking access to exclusive products and meaningful discounts. With SCoins, you're not just saving; you're connecting, sharing, and shaping the future of rewards. Start your journey today and experience how every action with Snext can turn into something extraordinary!
+              Discover SCoins on Snext, where shopping and engaging earn you
+              rewards. Collect SCoins with every purchase and referral to unlock
+              exclusive products and discounts. Start your journey today and see
+              how every action turns into something extraordinary!{" "}
             </p>
 
             <Link href="/scoins" className="inline-block">
-              <Button className="bg-[#BC1E3A] hover:bg-white hover:text-[#BC1E3A] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#BC1E3A] focus:ring-opacity-50 shadow-lg">
+              <Button className="bg-[#2C2C2C] hover:bg-white hover:text-[#2C2C2C] text-white font-normal md:text-lg px-12 py-6 rounded-lg transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#2C2C2C] focus:ring-opacity-50 shadow-lg">
                 Explore
               </Button>
             </Link>
@@ -66,5 +70,5 @@ export default function ScoinsSection() {
         </div>
       </div>
     </motion.section>
-  )
+  );
 }

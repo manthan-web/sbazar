@@ -1,32 +1,35 @@
-"use client"
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+"use client";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 
-const SPointsSection: React.FC = () => {
-  const [activeTab, setActiveTab] = useState('about');
+const SPlusSection: React.FC = () => {
+  const [activeTab, setActiveTab] = useState("about");
 
   const tabs = [
-    { id: 'about', label: 'About SPoints' },
-    { id: 'awesome', label: 'Why Awesome' },
-    { id: 'levels', label: 'Membership Levels' },
+    { id: "about", label: "About SPlus" },
+    { id: "awesome", label: "Why Awesome" },
+    { id: "levels", label: "Membership Levels" },
   ];
 
   const membershipLevels = [
     {
       level: "Silver",
       icon: "🥈",
-      perks: "Access to MSD products, flat checkout discounts, and special Silver deals."
+      perks:
+        "Access to MSD products, flat checkout discounts, and special Silver deals.",
     },
     {
       level: "Gold",
       icon: "🥇",
-      perks: "All Silver perks, plus higher discounts and exclusive Gold deals."
+      perks:
+        "All Silver perks, plus higher discounts and exclusive Gold deals.",
     },
     {
       level: "Platinum",
       icon: "💎",
-      perks: "Highest discounts, first access to limited editions, and Platinum-only events."
-    }
+      perks:
+        "Highest discounts, first access to limited editions, and Platinum-only events.",
+    },
   ];
 
   return (
@@ -40,18 +43,20 @@ const SPointsSection: React.FC = () => {
         >
           <div className="p-8 md:p-12">
             <h2 className="text-5xl md:text-7xl font-bold mb-2 text-center">
-              <span className="text-red-600">S</span>Points
+              <span className="text-red-600">S</span>Plus
             </h2>
-            <p className="text-xl text-gray-600 mb-8 text-center">The Gateway To Premium Membership</p>
-            
+            <p className="text-xl text-gray-600 mb-8 text-center">
+              The Gateway To Premium Membership
+            </p>
+
             <div className="flex justify-center mb-8">
               {tabs.map((tab) => (
                 <button
                   key={tab.id}
                   className={`px-4 py-2 mx-2 rounded-md text-sm font-medium transition-colors ${
                     activeTab === tab.id
-                      ? 'bg-red-600 text-white'
-                      : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                      ? "bg-red-600 text-white"
+                      : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                   }`}
                   onClick={() => setActiveTab(tab.id)}
                 >
@@ -59,7 +64,7 @@ const SPointsSection: React.FC = () => {
                 </button>
               ))}
             </div>
-            
+
             <motion.div
               key={activeTab}
               initial={{ opacity: 0, y: 20 }}
@@ -67,30 +72,41 @@ const SPointsSection: React.FC = () => {
               transition={{ duration: 0.3 }}
               className="bg-gray-50 rounded-2xl p-6 mb-8"
             >
-              {activeTab === 'about' && (
+              {activeTab === "about" && (
                 <p className="text-gray-700">
-                  SPoints are your ticket to exclusive benefits and rewards. Unlike SCoins, which can be spent, 
-                  SPoints accumulate with every purchase, determining your membership status. The more you shop, 
-                  the higher your tier - Silver, Gold, or Platinum - unlocking increasingly premium perks.
+                  SPlus are your ticket to exclusive benefits and rewards.
+                  Unlike SCoins, which can be spent, SPlus accumulate with
+                  every purchase, determining your membership status. The more
+                  you shop, the higher your tier - Silver, Gold, or Platinum -
+                  unlocking increasingly premium perks.
                 </p>
               )}
-              {activeTab === 'awesome' && (
+              {activeTab === "awesome" && (
                 <ul className="space-y-4">
                   <li className="flex items-center">
                     <span className="text-2xl mr-4">🎁</span>
-                    <span><strong>Unlock Discounts:</strong> Enjoy special discounts based on your membership level.</span>
+                    <span>
+                      <strong>Unlock Discounts:</strong> Enjoy special discounts
+                      based on your membership level.
+                    </span>
                   </li>
                   <li className="flex items-center">
                     <span className="text-2xl mr-4">🌟</span>
-                    <span><strong>Exclusive Deals:</strong> Access unique offers tailored to your membership tier.</span>
+                    <span>
+                      <strong>Exclusive Deals:</strong> Access unique offers
+                      tailored to your membership tier.
+                    </span>
                   </li>
                   <li className="flex items-center">
                     <span className="text-2xl mr-4">🔄</span>
-                    <span><strong>Never Expires:</strong> Your SPoints keep accumulating, continually elevating your status.</span>
+                    <span>
+                      <strong>Never Expires:</strong> Your SPlus keep
+                      accumulating, continually elevating your status.
+                    </span>
                   </li>
                 </ul>
               )}
-              {activeTab === 'levels' && (
+              {activeTab === "levels" && (
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {membershipLevels.map((level, index) => (
                     <motion.div
@@ -108,14 +124,14 @@ const SPointsSection: React.FC = () => {
                 </div>
               )}
             </motion.div>
-            
+
             <div className="text-center">
               <motion.button
                 className="bg-red-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-red-700 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Start Earning SPoints Now!
+                Start Earning SPlus Now!
               </motion.button>
             </div>
           </div>
@@ -125,4 +141,4 @@ const SPointsSection: React.FC = () => {
   );
 };
 
-export default SPointsSection;
+export default SPlusSection;

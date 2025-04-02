@@ -46,7 +46,7 @@ const DistributerSection = () => {
     <section className="w-full max-w-full bg-gray-50 mt-6 md:mt-16 md:py-20 py-12 flex items-start">
       <div className="mx-auto max-w-7xl container grid md:grid-cols-2 gap-8 animate-in">
         <div className="text-left space-y-6 ">
-          <h1 className='md:text-5xl mb-7 text-3xl font-bold'><span className='text-[#BC1E3A]'>Distributor</span> And Theater Enhancements</h1>
+          <h1 className='md:text-5xl mb-7 text-3xl font-bold'><span className='text-[#2C2C2C]'>Distributor</span> And Theater Enhancements</h1>
 
           <Accordion type="single" collapsible className="w-full">
             {content.map((info, index) => (

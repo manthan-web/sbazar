@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className="flex max-w-full z-50 backdrop-blur-lg sticky top-0 items-center py-6 justify-between px-6 md:px-12">
     <Link href="/" className="text-4xl font-bold">
-      <Image src={"/snext-logo.png"} height={110} width={140} alt="logo of Snext" className="object-cover text-white" />
+      <Image src={"/snext-logo.png"} height={110} width={120} alt="logo of Snext" className="object-cover text-white" />
     </Link>
 
 
@@ -37,7 +37,7 @@ const Navbar = () => {
           borderRadius: "12px",
         }}
       >
-        <Button className="rounded-2xl bg-[#BC1E3A] shadow-md flex py-6 items-center">
+        <Button className="rounded-2xl bg-[#2C2C2C] shadow-md flex py-6 items-center">
           <div className="flex items-center justify-center gap-1">
             <FaApple className="text-white" size={24} />
             <BiLogoPlayStore className="text-white" size={24} />

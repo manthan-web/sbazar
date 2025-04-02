@@ -14,7 +14,7 @@ interface IssueCardProps {
 const IssueCard: React.FC<IssueCardProps> = ({ icon: Icon, title, description }) => (
     <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
         <div className="flex items-center mb-2">
-            <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
+            <Icon className="w-6 h-6 text-[#2C2C2C] mr-2" />
             <h3 className="text-lg font-semibold">{title}</h3>
         </div>
         <p className="text-sm text-gray-600">{description}</p>
@@ -68,12 +68,12 @@ const SolutionsSection = () => {
         <div className="py-12 md:py-24 animate-fade-in px-6 bg-gray-100">
             <div className="max-w-7xl space-y-8 mx-auto px-4 sm:px-6 lg:px-8">
                 <div className='md:space-y-3 text-center mb-12'>
-                    <h1 className='md:text-5xl text-3xl font-bold'>Snext <span className='text-[#BC1E3A]'>Solutions</span></h1>
+                    <h1 className='md:text-5xl text-3xl font-bold'>Snext <span className='text-[#2C2C2C]'>Solutions</span></h1>
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-8">
                     {/* Smart Search Section */}
-                    <div className="lg:w-1/2 bg-[#BC1E3A]/10 backdrop-blur-2xl rounded-3xl flex flex-col md:flex-row justify-between shadow-md h-[30rem] md:h-[18rem]">
+                    <div className="lg:w-1/2 bg-[#2C2C2C]/10 backdrop-blur-2xl rounded-3xl flex flex-col md:flex-row justify-between shadow-md h-[30rem] md:h-[18rem]">
                         <div className="md:w-1/2 p-8 flex flex-col justify-center pr-4">
                             <h2 className="text-4xl font-bold mb-4">Digital Ticket Booking</h2>
                             <p className="text-gray-600">

@@ -1,36 +1,47 @@
-"use client"
+"use client";
 
-import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import Image from 'next/image'
-import Link from 'next/link'
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
+import Link from "next/link";
+
+export enum SectionCards {
+  ECOMMERCE = "ECOMMERCE",
+  SOCIAL = "SOCIAL",
+  BUSINESS = "BUSINESS",
+}
 
 const sections = [
   {
-    id: 'ecommerce',
-    title: 'E-Commerce',
-    description: 'Bringing the Indian diaspora in Europe closer to their heritage through curated products.',
+    id: SectionCards.ECOMMERCE,
+    title: "E-Commerce",
+    description:
+      "Bringing the Indian diaspora in Europe closer to their heritage through curated products.",
     image: "/pot-image.jpg",
-    href: "/ecommerce"
+    href: "/ecommerce",
   },
   {
-    id: 'social',
-    title: 'Social',
-    description: 'Connecting the Indian diaspora in Europe through community events and social networking.',
+    id: SectionCards.SOCIAL,
+    title: "Social",
+    description:
+      "Connecting the Indian diaspora in Europe through community events and social networking.",
     image: "/social-image.png",
-    href: "/social"
+    href: "/social",
   },
   {
-    id: 'business',
-    title: 'Business',
-    description: 'Exploring additional services and opportunities for the Indian diaspora in Europe.',
+    id: SectionCards.BUSINESS,
+    title: "Business",
+    description:
+      "Exploring additional services and opportunities for the Indian diaspora in Europe.",
     image: "/business-img.png",
-    href: "/business"
-  }
-]
+    href: "/business",
+  },
+];
 
 export default function ImprovedThreeSections() {
-  const [expandedSection, setExpandedSection] = useState('social')
+  const [expandedSection, setExpandedSection] = useState<SectionCards>(
+    SectionCards.ECOMMERCE
+  );
 
   return (
     <div className="flex flex-col mb-28 overflow-x-hidden md:px-0 md:flex-row gap-4 max-w-7xl mx-auto px-12 rounded-lg p-4 md:h-[400px] overflow-hidden">
@@ -38,13 +49,19 @@ export default function ImprovedThreeSections() {
         <motion.div
           key={section.id}
           className={`bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer
-            ${expandedSection === section.id 
-              ? 'md:w-[70%] h-auto md:h-full' 
-              : 'md:w-[15%] h-16 md:h-full'
+            ${
+              expandedSection === section.id
+                ? "md:w-[70%] h-auto md:h-full"
+                : "md:w-[15%] h-16 md:h-full"
             }`}
           layout
           transition={{
-            layout: { duration: 0.3, type: "spring", stiffness: 100, damping: 20 }
+            layout: {
+              duration: 0.3,
+              type: "spring",
+              stiffness: 100,
+              damping: 20,
+            },
           }}
           onClick={() => setExpandedSection(section.id)}
         >
@@ -52,10 +69,15 @@ export default function ImprovedThreeSections() {
             className="h-full relative"
             initial={false}
             animate={{
-              width: "100%"
+              width: "100%",
             }}
             transition={{
-              width: { duration: 0.3, type: "spring", stiffness: 100, damping: 20 }
+              width: {
+                duration: 0.3,
+                type: "spring",
+                stiffness: 100,
+                damping: 20,
+              },
             }}
           >
             <AnimatePresence mode="wait">
@@ -68,14 +90,21 @@ export default function ImprovedThreeSections() {
                   transition={{ duration: 0.2, delay: 0.1 }}
                   className="flex flex-col md:flex-row w-full h-full"
                 >
-                  <div className='p-6 flex flex-col justify-between md:w-1/2 h-full'>
+                  <div className="p-6 flex flex-col justify-between md:w-1/2 h-full">
                     <div>
-                      <h2 className="md:text-4xl font-bold mb-4 text-xl text-[#BC1E3A]">{section.title}</h2>
-                      <p className="text-sm mb-6 text-gray-600 leading-relaxed">{section.description}</p>
+                      <h2 className="md:text-4xl font-bold mb-4 text-xl text-[#2C2C2C]">
+                        {section.title}
+                      </h2>
+                      <p className="text-sm mb-6 text-gray-600 leading-relaxed">
+                        {section.description}
+                      </p>
                     </div>
-                    <Link href={section.href} className="bg-[#BC1E3A] text-white px-6 py-2 rounded-md self-start hover:bg-red-600 transition-colors duration-200">
+                    <Link
+                      href={section.href}
+                      className="bg-[#2C2C2C] text-white px-6 py-2 rounded-md self-start hover:bg-red-600 transition-colors duration-200"
+                    >
                       Explore
-                    </Link> 
+                    </Link>
                   </div>
                   <div className="md:w-1/2 h-48 md:block hidden md:h-full relative overflow-hidden">
                     <Image
@@ -96,7 +125,7 @@ export default function ImprovedThreeSections() {
                   transition={{ duration: 0.2 }}
                   className="h-full w-full flex items-center justify-center"
                 >
-                  <span className="text-lg font-bold text-[#BC1E3A] whitespace-nowrap md:rotate-90 md:transform md:origin-center md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2">
+                  <span className="text-lg font-bold text-[#2C2C2C] whitespace-nowrap md:rotate-90 md:transform md:origin-center md:absolute md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2">
                     {section.title}
                   </span>
                 </motion.div>
@@ -106,5 +135,5 @@ export default function ImprovedThreeSections() {
         </motion.div>
       ))}
     </div>
-  )
+  );
 }

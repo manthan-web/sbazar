@@ -40,7 +40,7 @@ const MobileSection = ({ src }: { src: string }) => {
       {/* Rounded background effect */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <div className="w-[80%] h-[80%] rounded-full blur-3xl opacity-20">
-          <div className="w-full h-full bg-gradient-to-br from-[#BC1E3A] via-[#D84A5A] to-[#E8A9A9] mix-blend-multiply"></div>
+          <div className="w-full h-full bg-gradient-to-br from-[#2C2C2C] via-[#D84A5A] to-[#E8A9A9] mix-blend-multiply"></div>
           <div className="absolute inset-0 bg-gradient-to-tl from-gray-200 via-gray-300 to-gray-100 mix-blend-overlay"></div>
         </div>
       </div>

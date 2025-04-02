@@ -13,7 +13,7 @@ interface FeaturesCardProps {
 const FeaturesCard: React.FC<FeaturesCardProps> = ({ icon: Icon, title, description }) => (
   <div className="bg-white p-6 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg border border-gray-100">
     <div className="flex items-center mb-3">
-      <Icon className="w-7 h-7 text-[#BC1E3A] mr-3" />
+      <Icon className="w-7 h-7 text-[#2C2C2C] mr-3" />
       <h3 className="text-xl font-semibold">{title}</h3>
     </div>
     <p className="text-sm text-gray-600 leading-relaxed">{description}</p>
@@ -60,7 +60,7 @@ const ExistingIssuesSection: React.FC = () => {
   return (
     <section className="py-24 px-6 bg-gray-50" ref={sectionRef}>
       <div className='max-w-4xl mx-auto text-center mb-16'>
-        <h1 className='text-4xl md:text-5xl font-bold mb-4'>Weekly & Flash <span className='text-[#BC1E3A]'>Deals</span></h1>
+        <h1 className='text-4xl md:text-5xl font-bold mb-4'>Weekly & Flash <span className='text-[#2C2C2C]'>Deals</span></h1>
         <p className='text-xl md:text-2xl font-normal text-gray-600'>Distribution and Viewing</p>
       </div>
 

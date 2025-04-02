@@ -11,7 +11,7 @@ interface ComingUpCardProps {
 const ComingUpCard: React.FC<ComingUpCardProps> = ({ icon: Icon, title, description }) => (
     <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-300 hover:shadow-lg">
         <div className="flex items-center mb-2">
-            <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
+            <Icon className="w-6 h-6 text-[#2C2C2C] mr-2" />
             <h3 className="text-lg font-semibold">{title}</h3>
         </div>
         <p className="text-sm text-gray-600">{description}</p>
@@ -64,7 +64,7 @@ const ComingUpSection = () => {
 
                 <div className="text-center mb-16">
                     <h1 className="text-5xl md:text-7xl font-bold mb-4">
-                        <span className="text-zinc-900">The</span> <span className="text-[#BC1E3A]">Coming Up</span>
+                        <span className="text-zinc-900">The</span> <span className="text-[#2C2C2C]">Coming Up</span>
                     </h1>
                     <p className="text-2xl md:text-3xl text-gray-400 font-light tracking-wide">
                         Something here....

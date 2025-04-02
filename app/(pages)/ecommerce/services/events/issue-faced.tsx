@@ -16,7 +16,7 @@ const IssueCard: React.FC<IssueCardProps> = ({ icon: Icon, title, description })
   <div className="bg-white p-4 rounded-lg shadow-md transition-all duration-200 hover:cursor-pointer  group/issue">
     <div className="group-hover/issue:translate-x-2 transition duration-200">
       <div className="flex items-center mb-2">
-        <Icon className="w-6 h-6 text-[#BC1E3A] mr-2" />
+        <Icon className="w-6 h-6 text-[#2C2C2C] mr-2" />
         <h3 className="text-lg font-semibold">{title}</h3>
       </div>
       <p className="text-sm text-gray-600">{description}</p>
@@ -80,7 +80,7 @@ const IssueFacedSection: React.FC = () => {
   return (
     <section className="py-16 mx-auto px-6 max-w-full w-full bg-gray-50 overflow-hidden" ref={sectionRef}>
       <div className='md:space-y-3 px-6 text-center mb-12'>
-        <h1 className='md:text-5xl text-3xl font-bold'><span className='text-[#BC1E3A]'>Key</span> Challenges</h1>
+        <h1 className='md:text-5xl text-3xl font-bold'><span className='text-[#2C2C2C]'>Key</span> Challenges</h1>
         <p className='text-lg md:text-2xl text-gray-600'>Our community faces several obstacles in bringing people together for events</p>
       </div>
 

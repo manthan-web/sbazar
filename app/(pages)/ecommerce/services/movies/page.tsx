@@ -13,7 +13,7 @@ const MoviePage = () => {
         <div className='container mx-auto px-4'>
           <div className='text-center mb-8 md:mb-12'>
             <h1 className='text-3xl md:text-6xl font-bold mb-2 md:mb-4'>
-              <span className='text-[#BC1E3A]'>Movie</span> Module
+              <span className='text-[#2C2C2C]'>Movie</span> Module
             </h1>
             <p className='text-lg md:text-2xl text-gray-600'>Lights🚦Camera🎥 Action🕺</p>
           </div>

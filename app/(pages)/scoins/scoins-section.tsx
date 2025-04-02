@@ -18,7 +18,7 @@ const InfoCard: React.FC<InfoCardProps> = ({ title, items }) => (
     whileHover={{ scale: 1.02 }}
     transition={{ type: "spring", stiffness: 300 }}
   >
-    <h3 className="font-bold text-2xl text-[#BC1E3A] mb-4">{title}</h3>
+    <h3 className="font-bold text-2xl text-[#2C2C2C] mb-4">{title}</h3>
     {items.map((item, index) => (
       <p key={index} className="text-zinc-700 font-normal text-base">
         <span className="font-semibold text-zinc-900">{item.label}</span> {item.content}
@@ -105,7 +105,7 @@ const SCoinsSectionComplete: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <span className="text-[#BC1E3A]">S</span>Coins
+          <span className="text-[#2C2C2C]">S</span>Coins
         </motion.h2>
         <motion.p 
           className="text-base sm:text-lg md:text-xl max-w-4xl mx-auto text-center mb-12"

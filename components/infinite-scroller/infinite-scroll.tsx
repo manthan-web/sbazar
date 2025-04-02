@@ -1,23 +1,11 @@
-"use client"
-import React, { useRef, useEffect } from 'react';
-import { motion, useAnimation, useMotionValue } from 'framer-motion';
+"use client";
+import React, { useRef, useEffect } from "react";
+import { motion, useAnimation, useMotionValue } from "framer-motion";
 
-interface Logo {
-  name: string;
+interface InfiniteScrollCarouselProps {
+  names: string[];
 }
-
-const logos: Logo[] = [
-  { name: 'Truffi' },
-  { name: 'Altall' },
-  { name: 'Kinua' },
-  { name: 'TANO' },
-  { name: 'Sarala' },
-  { name: 'Kalo' },
-  { name: 'KRATE' },
-  { name: 'Massui' },
-];
-
-const InfiniteScrollCarousel: React.FC = () => {
+const InfiniteScrollCarousel = ({ names }: InfiniteScrollCarouselProps) => {
   const carouselRef = useRef<HTMLDivElement>(null);
   const controls = useAnimation();
   const x = useMotionValue(0);
@@ -64,14 +52,16 @@ const InfiniteScrollCarousel: React.FC = () => {
         style={{ x }}
         animate={controls}
       >
-        {[...logos, ...logos, ...logos].map((logo, index) => (
+        {names.map((logo, index) => (
           <motion.div
-            key={`${logo.name}-${index}`}
+            key={`${logo}-${index}`}
             className="flex-shrink-0"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <span className="text-4xl italic md:text-5xl md:mr-24 mr-12 hover:cursor-pointer font-normal text-opacity-20 text-zinc-800">{logo.name}</span>
+            <span className="text-4xl italic md:text-5xl md:mr-24 mr-12 hover:cursor-pointer font-normal text-opacity-20 text-zinc-800">
+              {logo}
+            </span>
           </motion.div>
         ))}
       </motion.div>

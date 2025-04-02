@@ -39,7 +39,7 @@ const EcommerceModule = () => {
     >
       <div className="max-w-5xl w-full space-y-6">
         <motion.h1
-          className="font-extrabold text-6xl md:text-9xl text-center text-[#BC1E3A] leading-[4rem] md:leading-[8rem]"
+          className="font-extrabold text-6xl md:text-9xl text-center text-[#2C2C2C] leading-[4rem] md:leading-[8rem]"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}

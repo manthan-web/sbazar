@@ -3,14 +3,14 @@
 import { usePathname, useRouter } from 'next/navigation'
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { sections, Section } from './lib/section'
+import { Section, sections } from './lib/section'
 
 export function Sidebar() {
   const pathname = usePathname()
   const router = useRouter()
 
   const handleSectionClick = (section: Section) => {
-    router.push(`/policies/${section.slug}`)
+    router.push(`/aboutus/${section.slug}`)
   }
 
   return (
@@ -22,7 +22,7 @@ export function Sidebar() {
             key={section.id}
             variant="ghost"
             className={`w-full justify-start px-4 transition-colors ${
-              pathname === `/policies/${section.slug}`
+              pathname === `/aboutus/${section.slug}`
                 ? "bg-[#2C2C2C] text-white hover:bg-[#2C2C2C]/90"
                 : "hover:bg-[#2C2C2C]/10"
             }`}

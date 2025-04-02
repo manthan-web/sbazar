@@ -10,7 +10,7 @@ const AboutUs: React.FC = () => {
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 flex items-start">
+      <section className="w-full flex items-start">
         <div className="container mx-auto grid md:grid-cols-2 gap-8 p-6">
           <div className="text-left space-y-6 animate-fade-in-left">
             <h2 className="text-4xl md:text-6xl font-bold text-black">
@@ -57,42 +57,3 @@ const AboutUs: React.FC = () => {
 
 export default AboutUs;
 
-{
-  /* <svg
-                className="w-full h-full"
-                viewBox="0 0 1000 700"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M250,200 C300,150 600,150 650,400"
-                  stroke="url(#gradient)"
-                  strokeWidth="3"
-                  fill="none"
-                  strokeDasharray="10,10"
-                  className="connecting-line"
-                >
-                  <animate
-                    attributeName="strokeDashoffset"
-                    from="100"
-                    to="0"
-                    dur="5s"
-                    repeatCount="indefinite"
-                  />
-                </path>
-                <circle cx="250" cy="200" r="8" fill="#4CAF50" />
-                <circle cx="650" cy="400" r="8" fill="#FF5722" />
-                <defs>
-                  <linearGradient
-                    id="gradient"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="100%"
-                  >
-                    <stop offset="0%" stopColor="#4CAF50" />
-                    <stop offset="100%" stopColor="#FF5722" />
-                  </linearGradient>
-                </defs>
-              </svg> */
-}

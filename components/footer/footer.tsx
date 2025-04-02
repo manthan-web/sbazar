@@ -46,7 +46,7 @@ export default function FooterSection() {
                 </li>
                 <li>
                   <Link
-                    href="/Social"
+                    href="/social"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Social
@@ -54,7 +54,7 @@ export default function FooterSection() {
                 </li>
                 <li>
                   <Link
-                    href="/Social"
+                    href="/business"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Business
@@ -69,7 +69,7 @@ export default function FooterSection() {
               <ul className="space-y-4">
                 <li>
                   <Link
-                    href="/aboutus/introduction"
+                    href="/about-us/introduction"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Mission & Vision
@@ -77,7 +77,7 @@ export default function FooterSection() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/about-us/vision2virtual"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Vision to Virtual
@@ -85,7 +85,7 @@ export default function FooterSection() {
                 </li>
                 <li>
                   <Link
-                    href="#"
+                    href="/about-us/impressum"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Impressum
@@ -100,7 +100,7 @@ export default function FooterSection() {
               <ul className="space-y-4">
                 <li>
                   <Link
-                    href="https://www.snext.app/policies/introduction"
+                    href="/policies/terms-and-conditions"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Terms & Conditions
@@ -108,7 +108,7 @@ export default function FooterSection() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.snext.app/policies/introduction"
+                    href="/policies/privacy-policy"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Privacy Policy
@@ -116,7 +116,7 @@ export default function FooterSection() {
                 </li>
                 <li>
                   <Link
-                    href="https://www.snext.app/policies/payment-policy"
+                    href="/policies/payment-policy"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Payment Policy
@@ -179,7 +179,7 @@ export default function FooterSection() {
             </div>
             <div className="text-center mb-8">
               <button className="text-gray-600 hover:underline">
-                © 2024 SNext All Rights Reserved.
+                © 2025 SNext All Rights Reserved.
               </button>
               {/* <p className="text-gray-600 mt-2">Lorem ipsum is simply dummy text</p> */}
               {/* <p className="text-gray-600 mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> */}

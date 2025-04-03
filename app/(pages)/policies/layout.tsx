@@ -17,7 +17,7 @@ export default function PoliciesLayout({
 
   useEffect(() => {
     if (pathname === '/policies') {
-      router.push('/policies/introduction')
+      router.push('/policies/privacy-policy')
     }
   }, [pathname, router])
 

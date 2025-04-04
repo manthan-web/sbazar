@@ -79,7 +79,7 @@ If a brand fails to meet standards, Snext will reevaluate or withdraw support.
 
 ### 6.1 Partnering for Collective Growth
 Brands aligned with Snext's ideals—cultural preservation, sustainability, community empowerment—are invited to collaborate.  
-- **Contact:** spp@snext.app
+- **Contact:** hello@snext.app
 
 ### 6.2 Comprehensive Review Process
 - Rigorous checks ensure alignment with diaspora needs.  
@@ -99,7 +99,7 @@ Endorsed brands enrich the diaspora experience with authentic products that prio
 ## 8. Contact for Collaboration
 
 ### 8.1 Next Steps & Inquiries
-- **Email:** spp@snext.app  
+- **Email:** hello@snext.app  
 - **Snext Platform:** Stay updated on new endorsements.  
 
 ### 8.2 A Shared Mission
@@ -161,7 +161,7 @@ At Snext, transparency is the foundation of trust. Here's everything you need to
 - **Name:** Snext UG (haftungsbeschränkt)  
 - **Address:** Masurenstr. 9, D-50765 Köln, Germany  
 - **Telephone:** +49 176 77991199  
-- **E-Mail:** info@snext.app  
+- **E-Mail:** hello@snext.app  
 - **Represented by:** Saravanan Jayabalan, CEO  
 
 ## Registration Details
@@ -181,8 +181,8 @@ As per § 55 Abs. 2 RStV, Saravanan Jayabalan, at our headquarters.
   },
   {
     id: 4,
-    title: "Green Ticket Initiative",
-    slug: "green-ticket-initiative",
+    title: "Movie Module",
+    slug: "movie-module",
     content: `
 # Snext's Green Ticket Initiative: Pioneering Green Choices 🌿
 
@@ -207,7 +207,7 @@ Ready to align your entertainment choices with your eco-values? The Green Ticket
 
 ## Get Your Green Ticket
 
-To learn more about the Green Ticket initiative and explore how you can contribute to sustainability while enjoying quality entertainment, visit Snext or reach out at greenticket@snext.app.
+To learn more about the Green Ticket initiative and explore how you can contribute to sustainability while enjoying quality entertainment, visit Snext or reach out at hello@snext.app.
 
 **Snext's Green Ticket: Transforming choices into actions for a sustainable future. 🌱**
     `
@@ -390,7 +390,7 @@ Transform your influence into **meaningful engagement** and become an integral p
 ## 📞 Contact Us
 
 Interested in joining SIP?  
-📧 Email us at **sip@snext.app**  
+📧 Email us at **hello@snext.app**  
 💬 Or connect with our **helpdesk** for more details.
 
     `
@@ -453,7 +453,7 @@ Your journey will be filled with **experiences, rewards**, and the opportunity t
 
 ## ✉️ Ready to Level Up?
 
-📧 Email us at **scap@snext.app**  
+📧 Email us at **hello@snext.app**  
 Begin your **rewarding journey** with SCAP — where every level unlocks **new possibilities**.
 `
   },
@@ -510,7 +510,7 @@ Embrace this opportunity to **grow your business** while making a **positive imp
 
 ## ✉️ Interested in Joining?
 
-📧 Email us at **spp@snext.app** with:
+📧 Email us at **hello@snext.app** with:
 - Your **business proposal**  
 - How you plan to **support our community**  
 - Your **social impact initiative**
@@ -566,7 +566,7 @@ Join the Snext Student Chapter to:
 
 ## ✨ Start Your Snext Student Chapter Journey
 
-📧 Email us at **student@snext.app** to learn more and unlock your **exclusive student benefits**.
+📧 Email us at **hello@snext.app** to learn more and unlock your **exclusive student benefits**.
 
 ---
 
@@ -634,7 +634,7 @@ Splus is designed to reflect your loyalty and engagement. As you continue to sho
 Because we value every step of your journey with us. Because your loyalty deserves recognition and reward. Because together, we can create a shopping experience that's not just about transactions, but about making a difference.
 
 ## Start Your Splus Adventure
-Dive into the tiered world of Splus and discover how every purchase can bring you closer to extraordinary rewards and experiences. For a deep dive into how you can maximize your Splus, visit our Membership Section or contact us at Splus@snext.app.
+Dive into the tiered world of Splus and discover how every purchase can bring you closer to extraordinary rewards and experiences. For a deep dive into how you can maximize your Splus, visit our Membership Section or contact us at hello@snext.app.
 
 **Welcome to the rewarding world of Splus – where your loyalty shapes the future.**
     `
@@ -665,7 +665,7 @@ SCash is not just about today's savings; it's about tomorrow's possibilities. Fr
 Be among the first to embrace the change. As we gear up to introduce SCash, join us in anticipation of a shopping evolution on Snext.
 
 ## Get Ready for SCash
-Eager to learn more or express your interest in SCash? Reach out at scash@snext.app and let's embark on this exciting journey together.
+Eager to learn more or express your interest in SCash? Reach out at hello@snext.app and let's embark on this exciting journey together.
 
 **Welcome to SCash at Snext – Where every deposit opens a world of possibilities.**
     `
@@ -695,7 +695,7 @@ Every product you purchase from our Save Food sections not only brings joy to yo
 ## Together, We Can Make a Difference
 Embrace the journey towards sustainability with Snext. By selecting products from our Save Food initiative, you're joining a community dedicated to creating a positive impact. Let's reduce waste, save resources, and share the joy of making a difference, one purchase at a time.
 
-For more information on how you can be a part of this initiative, visit our Save Food section or contact us at info@snext.app.
+For more information on how you can be a part of this initiative, visit our Save Food section or contact us at hello@snext.app.
     `
   },
   {

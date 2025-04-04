@@ -212,7 +212,7 @@ Continuing to use Snext after an update denotes acceptance of any refined terms.
 
 ### 7.1 Reach Out to Us
 For further details or help in adjusting cookie preferences:  
-- **Email**: [hello@Snext.app](mailto:hello@Snext.app)  
+- **Email**: [hello@snext.app](mailto:hello@snext.app)  
 - **Support**: We provide diaspora-friendly guidance, whether you're a new user or a returning member needing adjustments.  
 
 ### 7.2 Conclusion: Smooth, Personalized & Respectful
@@ -307,7 +307,7 @@ Every revision respects both diaspora feedback and evolving legal frameworks (**
 
 ### 8.1 We're Here for You
 For queries about Snext's data security or to flag concerns:  
-- **Email**: [support@snext.app](mailto:support@snext.app)  
+- **Email**: [hello@snext.app](mailto:hello@snext.app)  
 - **Response**: Our diaspora-friendly team handles issues swiftly, minimizing disruptions to user trust.  
 
 ### 8.2 Partnership of Integrity
@@ -373,7 +373,7 @@ Snext follows global data protection laws, ensuring payment details are stored s
 
 ### 5.2 Peace of Mind with Live Support
 For any issues, our support team is available:
-- **Email**: support@snext.app
+- **Email**: hello@snext.app
 - **App Chat** (where available)
 
 ## 6. Privacy & Data Protection
@@ -399,7 +399,7 @@ Transparent transactions foster trust, encouraging participation in our diaspora
 ## 9. Need Assistance or Have Questions?
 
 ### 9.1 Reach Out Anytime
-- **Email**: support@snext.app
+- **Email**: hello@snext.app
 - **Phone**: (+49) xxxxxxx (check official site for updates)
 
 ### 9.2 Open Dialogue
@@ -506,7 +506,7 @@ To uphold hygiene and maintain product quality for diaspora families, these stri
 ## 8. Assistance & Continuous Policy Refinement
 
 ### 8.1 Customer Support
-For uncertainties or clarifications about returns, our customer service stands ready at **support@snext.app**. Every step is user-friendly, ensuring diaspora members quickly navigate issues.
+For uncertainties or clarifications about returns, our customer service stands ready at **hello@snext.app**. Every step is user-friendly, ensuring diaspora members quickly navigate issues.
 
 ### 8.2 Policy Updates
 As Snext scales—introducing advanced next-day deliveries, new product lines, or diaspora-led expansions—our return guidelines might adapt. We'll announce changes promptly, staying faithful to user-centric values.
@@ -634,7 +634,7 @@ As we introduce new modules—like next-day deliveries, cultural events, or adva
 ## 10. Conclusion: Shop with Confidence, Every Time
 At Snext, Buyer Protection transcends a mere policy statement. It's a bond of trust—assuring diaspora members they're not just purchasing items but also investing in a platform that merges quality, security, and community care.  
 Whether it's receiving authentic products, enjoying secure financial transactions, or relishing straightforward returns, Snext safety net guarantees peace of mind across all interactions.  
-For inquiries, clarifications, or assistance, reach out to **support@snext.app**. In the journey to keep diaspora life vibrant and hassle-free, Snext stands as your companion—where reliability meets heart, and every click is confidently protected.  
+For inquiries, clarifications, or assistance, reach out to **hello@snext.app**. In the journey to keep diaspora life vibrant and hassle-free, Snext stands as your companion—where reliability meets heart, and every click is confidently protected.  
 `,
   },
   {
@@ -914,7 +914,7 @@ Amid a diverse, global diaspora, cost-of-living concerns and cultural needs conv
 ## 6. Contact & Further Support
 
 ### 6.1 Reaching Out
-- **Support Email:** support@snext.app
+- **Support Email:** hello@snext.app
 - **In-App Chat:** Quick, personalized responses.
 
 ### 6.2 Open Dialogue

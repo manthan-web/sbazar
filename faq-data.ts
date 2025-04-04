@@ -275,7 +275,7 @@ export const scoinsFaqContent = [
   {
     value: "item-8",
     triggerTitle: "How do I start with SCoins?",
-    content: "Begin by making purchases or referring friends to Snext. For more details on maximizing your SCoins, contact scoins@snext.app."
+    content: "Begin by making purchases or referring friends to Snext. For more details on maximizing your SCoins, contact hello@snext.app."
   }
 ]
 
@@ -318,7 +318,7 @@ export const programmsFaqContent = [
   {
     value: "item-8",
     triggerTitle: "How to start with SAP?",
-    content: "Connect with us at partnership@snext.app to set up your association's account and begin the journey."
+    content: "Connect with us at hello@snext.app to set up your association's account and begin the journey."
   },
   {
     value: "item-9",

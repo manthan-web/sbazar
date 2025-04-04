@@ -179,4 +179,416 @@ As per § 55 Abs. 2 RStV, Saravanan Jayabalan, at our headquarters.
 
       `,
   },
+  {
+    id: 4,
+    title: "Green Ticket Initiative",
+    slug: "movie-module",
+    content: `# 🎬 Eco-Friendly Entertainment & Movie Module at Snext
+
+## Eco-Friendly Entertainment  
+- **Each ticket supports reforestation**, aligning with our commitment to a **sustainable future**.  
+- **Visionary Approach**: Inspired by *Dr. A.P.J. Abdul Kalam's* legacy, aiming for a **greener planet through cinema**.  
+- **Community Impact**: Be part of a movement where your movie nights **contribute to global environmental efforts**.
+
+---
+
+## 🎥 Movie Module – For Indian Cinema Lovers
+
+### Discover and Explore  
+A dedicated platform to **explore detailed information** on Indian movies—covering genres, directors, cast, plot summaries, and more.
+
+### Community and Reviews  
+Connect with a passionate **community of film lovers**.  
+- Share reviews  
+- Rate movies  
+- Exchange personal insights on your favorite films
+
+### Interactive Features  
+Have fun with:  
+- 🎯 Quizzes  
+- 📊 Polls  
+- 💬 Discussions  
+...all centered around Indian cinema!
+
+### 🌱 Green Ticket Initiative  
+Your engagement within the Movie Module helps **support reforestation** and Snext’s **Green Ticket Initiative**. Watch and help the planet grow 🌍.
+
+### Stay Updated  
+Don’t miss out on:  
+- 📰 Latest movie news  
+- 🎞️ Upcoming releases  
+- ⭐ Special features and community spotlights  
+
+---
+
+**We’re excited about the community and connections the Movie Module will build among Indian movie fans.**  
+Let’s celebrate cinema while nurturing the planet. 🌿
+
+    `
+  },
+  {
+    id: 5,
+    title: "Grocery Modules",
+    slug: "grocery-module",
+    content: `
+Welcome to a world where grocery shopping is redefined with each tap on your screen.  
+Our **Grocery Module** isn't just a section — it's the **essence of home, delivered.**
+
+---
+
+## 🛒 Aisles of Variety
+
+- **Extensive Selection**:  
+  Explore over **2,000 products** that bring the **authentic Indian bazaar experience** to your doorstep.  
+  From daily staples to those **hard-to-find specialty items**, we’ve got you covered.
+
+- **Trends & Traditions**:  
+  Stay connected to the **pulse of India** with our **Trends feature** — a colorful mosaic of:  
+  - 🎉 Seasonal favorites  
+  - 🎊 Cultural festivities  
+  - 🧘‍♀️ Health-focused essentials  
+
+---
+
+## 💸 Exclusive Deals
+
+- **Single Product Deals (SPD)**:  
+  Try something new or grab a favorite at a **great price** with handpicked **single-item offers**.
+
+- **Multi-Product Deals (MPD)**:  
+  Bundle up and save! Perfect for:  
+  - 🛒 Stocking up  
+  - 🍛 Preparing for a feast  
+
+---
+
+## 👑 Member Perks
+
+- **Member Spl Deals (MSD)**:  
+  Extra discounts **exclusively for members**, adding joy and savings to every order.
+
+- **SCoins & SPlus**:  
+  - 🪙 Earn rewards with every purchase  
+  - 🔁 Engage in platform activities  
+  - 💰 Redeem points for even more discounts  
+
+---
+
+## 📲 Smart Shopping Made Easy
+
+- **User-Friendly Interface**:  
+  Navigate with ease using tags that highlight:  
+  - 🔥 Hot deals  
+  - 🎯 Seasonal picks  
+  - 🧭 Personalized suggestions  
+
+Whether you're a tech whiz or just want simple browsing — **shopping is easy and fun**.
+
+---
+
+## 🌱 Sustainable Choices
+
+- **Conscious Consumerism**:  
+  Every purchase supports a **greener world**.  
+  Join initiatives like:  
+  - ♻️ Eco-friendly packaging  
+  - 🍽️ Save Food campaigns  
+
+---
+
+## 🌐 A Vision of Taste and Technology
+
+The Grocery Module at **Snext** goes beyond transactions.  
+It’s a community that:  
+- Celebrates culture 🇮🇳  
+- Cares for the environment 🌍  
+- Embraces smart, seamless shopping 💡  
+
+**Every item tells a story. Every deal is a delight. Every click connects you to home.**
+
+    `
+  },
+  {
+    id: 6,
+    title: "SAP",
+    slug: "sap",
+    content: `
+Join **SAP (Snext Association Program)** and connect with Snext’s vibrant community and powerful resources to **empower your association**.
+
+---
+
+## 🌟 What SAP Offers
+
+- **🎯 Sponsorship Opportunities**  
+  Apply for sponsorships **twice a year** using **SCoins** from your wallet to support your cultural and community events.
+
+- **👥 Community Engagement**  
+  Boost visibility and participation with **Snext’s platform support** for your events.
+
+- **💎 Exclusive Benefits**  
+  Enjoy access to **rewarding experiences** through our **unique SCoins currency system**.
+
+---
+
+## 💡 Why Join?
+
+- **🚀 Achieve Your Goals**  
+  SAP is designed to help your association **thrive** by supporting **cultural preservation** and **community activities**.
+
+- **🛠️ Ease of Management**  
+  Simplify **event planning and community engagement** using Snext's tools.
+
+- **🌍 Build Stronger Connections**  
+  Connect and collaborate within the **Indian diaspora**, sharing and celebrating your **cultural heritage**.
+
+---
+
+## 🎉 Get Started with SAP
+
+Embark on a journey of **growth, collaboration, and celebration**.  
+**We're here to support you every step of the way.**
+
+---
+
+## 📞 Contact Us
+
+For more information or to join SAP:  
+📧 **hello@snext.app**  
+💬 Or reach out to our **helpdesk** for further assistance.
+
+    `
+  },
+
+  {
+    id: 7,
+    title: "SIP",
+    slug: "snex-influencer-program",
+    content: `
+
+Step into **Snext's Influencer Program (SIP)** and amplify your voice within a community that values **authenticity**, **creativity**, and **inspiration**.
+
+---
+
+## ✨ SIP Highlights
+
+- **🎤 Platform to Shine**  
+  Showcase your influence and become a **key figure** in our community, reaching a **diverse and engaged audience**.
+
+- **🤝 Collaborative Opportunities**  
+  Partner with us on exciting projects that **broaden horizons**—with **exclusive perks** that celebrate your contributions.
+
+- **🎨 Creative Freedom**  
+  Unleash your imagination as part of a journey that **celebrates innovation and personal expression**.
+
+---
+
+## 💡 Why Participate?
+
+- **📈 Expand Your Reach**  
+  Leverage **Snext’s growing platform** to **grow your audience** and make a lasting impact.
+
+- **💬 Join a Supportive Network**  
+  Be part of an **ecosystem of influencers** that values collaboration, creativity, and **mutual success**.
+
+- **🔥 Drive Inspiration**  
+  Use your platform to **inspire, engage, and lead**, setting trends and sharing meaningful content.
+
+---
+
+## 🚀 Get Involved with SIP
+
+Transform your influence into **meaningful engagement** and become an integral part of **Snext’s vision**.
+
+---
+
+## 📞 Contact Us
+
+Interested in joining SIP?  
+📧 Email us at **sip@snext.app**  
+💬 Or connect with our **helpdesk** for more details.
+
+    `
+  },
+
+  {
+    id: 8,
+    title: "SCAP",
+    slug: "snext-community-ambassadors-program",
+    content: `
+**Unleash Your Influence, Reap the Rewards**
+
+---
+
+## 🚀 Elevate Your Impact with SCAP
+
+Become a **champion of Snext’s mission** to connect, celebrate, and enrich our global community.  
+**SCAP** empowers you to share the essence of Snext, bringing our **diverse and vibrant marketplace to life** as a Community Ambassador.
+
+---
+
+## 🛡️ Ambassador Levels & Perks
+
+### 🎤 Be the Voice  
+Start your journey as a **Level 1 Ambassador** by sharing your Snext stories, participating in events, and engaging with our growing community.
+
+### 📈 Progress & Unlock Rewards  
+Climb from **Level 1 to Level 5** — with each level bringing **greater perks**:
+- 🎁 Special discounts  
+- 🎫 Exclusive event invites  
+- 🔓 Early access to new features
+
+### 👑 Champion Benefits  
+Reach the top and enjoy:
+- 🌟 Premium recognition across Snext platforms  
+- 🎉 Special gifts  
+- 🌐 Meaningful influence in shaping the Snext experience
+
+---
+
+## 💬 Why Join SCAP?
+
+- **🤝 Community & Connection**  
+  Join a network of passionate individuals promoting **cultural diversity** and **commercial vibrancy**.
+
+- **💎 Rewards That Grow with You**  
+  The more you engage, the more you earn — enjoy rewards that truly reflect your impact and involvement.
+
+- **🌍 Make a Difference**  
+  Help **expand the Snext community** while fostering a platform that champions **heritage, unity, and sustainability**.
+
+---
+
+## 📢 Join the Movement
+
+Step into your role as a **Snext Community Ambassador** through SCAP.  
+Your journey will be filled with **experiences, rewards**, and the opportunity to **shape the future** of our community.
+
+---
+
+## ✉️ Ready to Level Up?
+
+📧 Email us at **scap@snext.app**  
+Begin your **rewarding journey** with SCAP — where every level unlocks **new possibilities**.
+`
+  },
+  {
+    id: 9,
+    title: "SPP",
+    slug: "snext-partnership-program",
+    content: `
+**Where Business Meets Impact**
+
+---
+
+## 🚀 Forge New Paths with SPP
+
+Are you a **business owner** or an **entrepreneur** brimming with ideas?  
+Snext invites you to join the **Snext Partnership Program (SPP)** — a platform where **innovative business** meets **community enrichment**.  
+
+Together, let’s create opportunities that **celebrate cultural heritage** and **drive meaningful social impact**.
+
+---
+
+## 🌟 Why Join SPP?
+
+- **🌍 Expand Your Reach**  
+  Showcase your products or services to a **broader audience** that shares deep connections with **Indian culture and values**.
+
+- **🤝 Collaborative Innovation**  
+  Work with Snext to **refine and execute business ideas** that address real community needs.
+
+- **🌱 Drive Social Change**  
+  Integrate **social impact** into your business model, contributing to the **well-being and growth** of the community.
+
+---
+
+## 🔍 SPP Highlights
+
+- **📣 Business Visibility**  
+  Connect with customers through Snext’s **extensive network**, focused on cultural and social values.
+
+- **💖 Community Contribution**  
+  Be part of a partnership that values **economic success** while **prioritizing community well-being**.
+
+- **🌟 Social Impact Challenge**  
+  Share your **vision for a social initiative** aligned with your business — and show your **commitment to making a difference**.
+
+---
+
+## 💼 Become a Snext Partner Today
+
+Embrace this opportunity to **grow your business** while making a **positive impact**.  
+**SPP is your platform to innovate, inspire, and give back.**
+
+---
+
+## ✉️ Interested in Joining?
+
+📧 Email us at **spp@snext.app** with:
+- Your **business proposal**  
+- How you plan to **support our community**  
+- Your **social impact initiative**
+
+Let’s build something **extraordinary** together.
+`
+  },
+  {
+    id: 10,
+    title: "Snext Student Chapter",
+    slug: "snext-student-chapter",
+    content: `
+
+## 🚀 Elevate Your Student Experience with Snext
+
+Welcome to the **Snext Student Chapter**, where your student life is enhanced through **exclusive benefits**, a **supportive global community**, and opportunities designed just for you.  
+It’s your personal portal to **deals, growth, and meaningful connections**.
+
+---
+
+## 💡 Why Join the Student Chapter?
+
+- **💰 Tailored Deals**  
+  Enjoy a curated range of **discounts and offers**, specifically designed to support students in their academic and everyday needs.
+
+- **✅ Simple Verification**  
+  Join effortlessly using your **university ID** and gain access to a **secure, student-only** section within the Snext app.
+
+- **📱 Exclusive App Section**  
+  Discover a space **just for students**, filled with special offers, resources, and everything you need to succeed and thrive.
+
+---
+
+## 🔮 What's Next?
+
+We’re building a future of **growth and collaboration** with:
+- **Mentorship Programs**  
+- **Cultural Exchange Initiatives**  
+- **Impactful Student Projects**
+
+All aimed at **empowering students** and helping you unlock your full potential.
+
+---
+
+## 🌍 Be a Part of Our Vision
+
+Join the Snext Student Chapter to:
+- Save on essentials and luxuries  
+- Build global connections  
+- Engage in experiences that **enrich your student life**
+
+---
+
+## ✨ Start Your Snext Student Chapter Journey
+
+📧 Email us at **student@snext.app** to learn more and unlock your **exclusive student benefits**.
+
+---
+
+**Snext Student Chapter**: *Shaping the Future, Together.*
+`
+  },
+
+
+
+
 ];

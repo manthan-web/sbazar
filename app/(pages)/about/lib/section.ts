@@ -15,7 +15,7 @@ export const sections: Section[] = [
 ## 1. Introduction: Beyond Promotions
 
 ### 1.1 Endorsements as a Testament
-At **SBazar**, endorsing a brand transcends mere marketing. Each endorsement conveys a shared vision of excellence and community well-being. In supporting select partners, we affirm our promise to bring authentic, reliable products and services to diaspora users, seamlessly aligned with SBazar's cultural ethos and social impact.
+At **Snext**, endorsing a brand transcends mere marketing. Each endorsement conveys a shared vision of excellence and community well-being. In supporting select partners, we affirm our promise to bring authentic, reliable products and services to diaspora users, seamlessly aligned with Snext's cultural ethos and social impact.
 
 ### 1.2 Our Core Principles
 Quality, authenticity, and community satisfaction guide every endorsement we consider. While we occasionally receive compensation, no paid relationship can override our cornerstone values: **trust, integrity, and transparency**.
@@ -26,7 +26,7 @@ Quality, authenticity, and community satisfaction guide every endorsement we con
 
 ### 2.1 Shared Values
 Endorsed brands must demonstrate an unwavering commitment to:
-- **Excellence:** Meeting or surpassing SBazar's quality benchmarks.  
+- **Excellence:** Meeting or surpassing Snext's quality benchmarks.  
 - **Ethical Conduct:** Adopting fair labor practices, honest marketing, and respect for consumer rights.  
 - **Transparency:** Disclosing relevant ingredients or features and addressing user concerns promptly.  
 
@@ -56,7 +56,7 @@ Monetary collaborations sustain operations but never overshadow authenticity.
 ## 4. Reviews & Community-Driven Feedback
 
 ### 4.1 Welcome Constructive Criticism
-SBazar encourages honest reviews—whether praise or critique—to maintain high standards.  
+Snext encourages honest reviews—whether praise or critique—to maintain high standards.  
 - **Empowered Consumers:** Users shape brand endorsements through reviews.  
 
 ### 4.2 Continuous Improvement
@@ -67,10 +67,10 @@ SBazar encourages honest reviews—whether praise or critique—to maintain high
 ## 5. The Right to Withdraw Endorsement
 
 ### 5.1 Ensuring Compliance
-If a brand fails to meet standards, SBazar will reevaluate or withdraw support.  
+If a brand fails to meet standards, Snext will reevaluate or withdraw support.  
 - **Rapid Response:** Immediate withdrawal if user trust is compromised.  
 
-### 5.2 Protecting SBazar's Integrity
+### 5.2 Protecting Snext's Integrity
 - This policy safeguards diaspora users against subpar products.  
 
 ---
@@ -78,8 +78,8 @@ If a brand fails to meet standards, SBazar will reevaluate or withdraw support.
 ## 6. Open Invitation to Brands
 
 ### 6.1 Partnering for Collective Growth
-Brands aligned with SBazar's ideals—cultural preservation, sustainability, community empowerment—are invited to collaborate.  
-- **Contact:** spp@sbazar.app
+Brands aligned with Snext's ideals—cultural preservation, sustainability, community empowerment—are invited to collaborate.  
+- **Contact:** spp@snext.app
 
 ### 6.2 Comprehensive Review Process
 - Rigorous checks ensure alignment with diaspora needs.  
@@ -92,15 +92,15 @@ Brands aligned with SBazar's ideals—cultural preservation, sustainability, com
 Endorsed brands enrich the diaspora experience with authentic products that prioritize user welfare.  
 
 ### 7.2 Transparency in Partnerships
-- Every endorsement reflects SBazar's commitment to community-led values.  
+- Every endorsement reflects Snext's commitment to community-led values.  
 
 ---
 
 ## 8. Contact for Collaboration
 
 ### 8.1 Next Steps & Inquiries
-- **Email:** spp@sbazar.app  
-- **SBazar Platform:** Stay updated on new endorsements.  
+- **Email:** spp@snext.app  
+- **Snext Platform:** Stay updated on new endorsements.  
 
 ### 8.2 A Shared Mission
 - Each endorsement is a testament to trust and quality.  
@@ -108,7 +108,7 @@ Endorsed brands enrich the diaspora experience with authentic products that prio
 ---
 
 ## 9. Conclusion: A Testament to Shared Values
-SBazar's **Brand Endorsement Policy** underscores our pursuit of genuine alliances. By choosing SBazar-endorsed products, the diaspora invests in a flourishing marketplace that transcends borders and fosters deeper cultural connections.
+Snext's **Brand Endorsement Policy** underscores our pursuit of genuine alliances. By choosing Snext-endorsed products, the diaspora invests in a flourishing marketplace that transcends borders and fosters deeper cultural connections.
 
     `,
   },

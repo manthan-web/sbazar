@@ -69,7 +69,7 @@ export default function FooterSection() {
               <ul className="space-y-4">
                 <li>
                   <Link
-                    href="/about-us/introduction"
+                    href="/about/mission-vision"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Mission & Vision
@@ -77,7 +77,7 @@ export default function FooterSection() {
                 </li>
                 <li>
                   <Link
-                    href="/about-us/vision2virtual"
+                    href="/about/vision2virtual"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Vision to Virtual
@@ -85,10 +85,18 @@ export default function FooterSection() {
                 </li>
                 <li>
                   <Link
-                    href="/about-us/impressum"
+                    href="/about/impressum"
                     className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
                   >
                     Impressum
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/contact-us"
+                    className="text-gray-600 hover:text-[#2C2C2C] transition-colors"
+                  >
+                    Contact Us
                   </Link>
                 </li>
               </ul>

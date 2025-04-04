@@ -1,7 +1,8 @@
 'use client';
 
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Mail, MapPin, Clock } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function ContactSections() {
   return (
@@ -49,11 +50,11 @@ export function ContactSections() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="bg-background p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
             >
-              <Phone className="w-12 h-12 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-              <p className="text-muted-foreground mb-4">Speak directly with our support team</p>
-              <a href="tel:+49 176 77991199" className="text-primary hover:underline">
-              +49 176 77991199
+              <FaWhatsapp className="w-12 h-12 text-primary mb-4" />
+              <h3 className="text-xl font-semibold mb-2">WhatsApp Us</h3>
+              <p className="text-muted-foreground mb-4">Chat with our support team</p>
+              <a href="tel:+4915566116640" className="text-primary hover:underline">
+              +49 155 66116640
               </a>
             </motion.div>
 

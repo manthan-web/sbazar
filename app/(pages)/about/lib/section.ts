@@ -160,7 +160,7 @@ At Snext, transparency is the foundation of trust. Here's everything you need to
 ## Official Company Information
 - **Name:** Snext UG (haftungsbeschränkt)  
 - **Address:** Masurenstr. 9, D-50765 Köln, Germany  
-- **Telephone:** +49 176 77991199  
+- **Telephone:** +49 15566 116640 
 - **E-Mail:** hello@snext.app  
 - **Represented by:** Saravanan Jayabalan, CEO  
 
@@ -708,7 +708,7 @@ Step into the realm of immediate assistance and comprehensive Snext insights wit
 
 ## How It Works:
 - **Personalized Assistance**: Directly through your WhatsApp, Ask Aditi responds promptly to all your inquiries about Snext.
-- **Save and Start**: Just save the number [+49 176 77991199], send "Hello" to initiate the conversation, and delve into a world of instant support and information.
+- **Save and Start**: Just save the number [+49 15566 116640], send "Hello" to initiate the conversation, and delve into a world of instant support and information.
 - **Ask Away**: Curious about a product or service? Want more details on a Snext offering? Ask Aditi is your go-to source for answers.
 
 ## Features at Your Fingertips:
@@ -722,7 +722,7 @@ Step into the realm of immediate assistance and comprehensive Snext insights wit
 - **Simplicity**: Easy access to information enhances your Snext experience.
 
 ## Ready to Chat?
-- **Get in Touch**: Reach out to Ask Aditi at [+49 176 77991199] to start discovering more about Snext.
+- **Get in Touch**: Reach out to Ask Aditi at [+49 15566 116640] to start discovering more about Snext.
 - **Feedback**: Your experiences and insights are invaluable. Share them to help us elevate the Ask Aditi experience.
 
 **Embrace the ease of AI-driven support with Ask Aditi – Snext's commitment to providing you with a hassle-free, informed, and delightful shopping journey.**

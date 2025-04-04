@@ -400,7 +400,7 @@ Transparent transactions foster trust, encouraging participation in our diaspora
 
 ### 9.1 Reach Out Anytime
 - **Email**: hello@snext.app
-- **Phone**: (+49) xxxxxxx (check official site for updates)
+- **Phone**: (+49) 15566 116640 (check official site for updates)
 
 ### 9.2 Open Dialogue
 We value your feedback and continuously improve our services based on user suggestions.

@@ -17,7 +17,7 @@ const AboutUs: React.FC = () => {
               About Us
             </h2>
             <p className="text-zinc-800 font-medium text-lg md:text-xl">
-              At Acme Inc., our mission is to revolutionize the way businesses
+              At Snext, our mission is to revolutionize the way businesses
               operate. We believe in the power of innovation, collaboration, and
               a relentless pursuit of excellence.
             </p>

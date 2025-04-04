@@ -54,7 +54,7 @@ export function ContactSections() {
               <h3 className="text-xl font-semibold mb-2">WhatsApp Us</h3>
               <p className="text-muted-foreground mb-4">Chat with our support team</p>
               <a href="tel:+4915566116640" className="text-primary hover:underline">
-              +49 155 66116640
+              +49 15566 116640
               </a>
             </motion.div>
 

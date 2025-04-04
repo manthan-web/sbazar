@@ -10,7 +10,7 @@ export function Sidebar() {
   const router = useRouter()
 
   const handleSectionClick = (section: Section) => {
-    router.push(`/about-us/${section.slug}`)
+    router.push(`/about/${section.slug}`)
   }
 
   return (
@@ -22,7 +22,7 @@ export function Sidebar() {
             key={section.id}
             variant="ghost"
             className={`w-full justify-start px-4 transition-colors ${
-              pathname === `/about-us/${section.slug}`
+              pathname === `/about/${section.slug}`
                 ? "bg-[#2C2C2C] text-white hover:bg-[#2C2C2C]/90"
                 : "hover:bg-[#2C2C2C]/10"
             }`}

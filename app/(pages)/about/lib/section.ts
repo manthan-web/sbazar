@@ -3,6 +3,7 @@ export interface Section {
   title: string;
   slug: string;
   content: string;
+  subsections?: Section[];
 }
 
 export const sections: Section[] = [
@@ -181,9 +182,15 @@ As per § 55 Abs. 2 RStV, Saravanan Jayabalan, at our headquarters.
   },
   {
     id: 4,
-    title: "Movie Module",
-    slug: "movie-module",
-    content: `
+    title: "Modules",
+    slug: "modules",
+    content: "",
+    subsections: [
+      {
+        id: 41,
+        title: "Movie Module",
+        slug: "movie",
+        content: `
 # Snext's Green Ticket Initiative: Pioneering Green Choices 🌿
 
 Embrace Sustainability with Snext: The Green Ticket initiative marks a significant leap towards integrating sustainability into every aspect of our platform, starting with the movie module. This initiative reflects our dedication to offering choices that not only entertain but also nurture the planet, resonating with the eco-conscious values shared by visionaries like Dr. A.P.J. Abdul Kalam.
@@ -210,13 +217,13 @@ Ready to align your entertainment choices with your eco-values? The Green Ticket
 To learn more about the Green Ticket initiative and explore how you can contribute to sustainability while enjoying quality entertainment, visit Snext or reach out at hello@snext.app.
 
 **Snext's Green Ticket: Transforming choices into actions for a sustainable future. 🌱**
-    `
-  },
-  {
-    id: 5,
-    title: "Grocery Modules",
-    slug: "grocery-module",
-    content: `
+        `,
+      },
+      {
+        id: 42,
+        title: "Grocery Module",
+        slug: "grocery",
+        content: `
 Welcome to a world where grocery shopping is redefined with each tap on your screen.  
 Our **Grocery Module** isn't just a section — it's the **essence of home, delivered.**
 
@@ -292,13 +299,21 @@ It's a community that:
 
 **Every item tells a story. Every deal is a delight. Every click connects you to home.**
 
-    `
+        `,
+      },
+    ],
   },
   {
-    id: 6,
-    title: "SAP",
-    slug: "sap",
-    content: `
+    id: 5,
+    title: "Programs",
+    slug: "programs",
+    content: "",
+    subsections: [
+      {
+        id: 51,
+        title: "SAP",
+        slug: "sap",
+        content: `
 Join **SAP (Snext Association Program)** and connect with Snext's vibrant community and powerful resources to **empower your association**.
 
 ---
@@ -342,14 +357,13 @@ For more information or to join SAP:
 📧 **hello@snext.app**  
 💬 Or reach out to our **helpdesk** for further assistance.
 
-    `
-  },
-
-  {
-    id: 7,
-    title: "SIP",
-    slug: "snex-influencer-program",
-    content: `
+        `,
+      },
+      {
+        id: 52,
+        title: "SIP",
+        slug: "sip",
+        content: `
 
 Step into **Snext's Influencer Program (SIP)** and amplify your voice within a community that values **authenticity**, **creativity**, and **inspiration**.
 
@@ -393,14 +407,13 @@ Interested in joining SIP?
 📧 Email us at **hello@snext.app**  
 💬 Or connect with our **helpdesk** for more details.
 
-    `
-  },
-
-  {
-    id: 8,
-    title: "SCAP",
-    slug: "snext-community-ambassadors-program",
-    content: `
+        `,
+      },
+      {
+        id: 53,
+        title: "SCAP",
+        slug: "scap",
+        content: `
 **Unleash Your Influence, Reap the Rewards**
 
 ---
@@ -455,13 +468,13 @@ Your journey will be filled with **experiences, rewards**, and the opportunity t
 
 📧 Email us at **hello@snext.app**  
 Begin your **rewarding journey** with SCAP — where every level unlocks **new possibilities**.
-`
-  },
-  {
-    id: 9,
-    title: "SPP",
-    slug: "snext-partnership-program",
-    content: `
+        `,
+      },
+      {
+        id: 54,
+        title: "SPP",
+        slug: "spp",
+        content: `
 **Where Business Meets Impact**
 
 ---
@@ -516,12 +529,14 @@ Embrace this opportunity to **grow your business** while making a **positive imp
 - Your **social impact initiative**
 
 Let's build something **extraordinary** together.
-`
+        `,
+      },
+    ],
   },
   {
-    id: 10,
-    title: "Snext Student Chapter",
-    slug: "snext-student-chapter",
+    id: 6,
+    title: "Student Chapter",
+    slug: "student-chapter",
     content: `
 
 ## 🚀 Elevate Your Student Experience with Snext
@@ -571,13 +586,19 @@ Join the Snext Student Chapter to:
 ---
 
 **Snext Student Chapter**: *Shaping the Future, Together.*
-`
+    `,
   },
   {
-    id: 11,
-    title: "SCoins",
-    slug: "scoins",
-    content: `
+    id: 7,
+    title: "Rewards",
+    slug: "rewards",
+    content: "",
+    subsections: [
+      {
+        id: 71,
+        title: "SCoins",
+        slug: "scoins",
+        content: `
 # Instant Rewards, Infinite Possibilities 💫
 
 Unlock Immediate Benefits with SCoins: SCoins are here to transform how you shop and engage on Snext. Every action not only connects you deeper with our vibrant community but also rewards you in ways that matter.
@@ -604,13 +625,13 @@ Because every purchase should reward you. Because every referral should enrich y
 Embrace the rewarding experience of SCoins. For more details on earning, redeeming, and envisioning the future of your rewards, reach out at hello@snext.app.
 
 **Welcome to the era of SCoins – where rewards meet purpose.**
-    `
-  },
-  {
-    id: 12,
-    title: "Splus",
-    slug: "splus",
-    content: `
+        `,
+      },
+      {
+        id: 72,
+        title: "Splus",
+        slug: "splus",
+        content: `
 # Elevate Every Purchase, Enrich Every Moment 🌟
 
 Unlock Tiered Rewards with Splus: Splus revolutionizes your Snext experience, offering a gateway to exclusive benefits and privileges. Each purchase not only brings you closer to our vibrant community but elevates your status and rewards.
@@ -637,13 +658,13 @@ Because we value every step of your journey with us. Because your loyalty deserv
 Dive into the tiered world of Splus and discover how every purchase can bring you closer to extraordinary rewards and experiences. For a deep dive into how you can maximize your Splus, visit our Membership Section or contact us at hello@snext.app.
 
 **Welcome to the rewarding world of Splus – where your loyalty shapes the future.**
-    `
-  },
-  {
-    id: 13,
-    title: "SCash",
-    slug: "scash",
-    content: `
+        `,
+      },
+      {
+        id: 73,
+        title: "SCash",
+        slug: "scash",
+        content: `
 # Unlock Financial Flexibility with SCash at Snext
 
 Get ready to revolutionize your shopping with SCash, the upcoming feature set to redefine savings and flexibility on Snext. SCash introduces a smarter way to manage your shopping budget, enhancing your purchasing power.
@@ -668,10 +689,12 @@ Be among the first to embrace the change. As we gear up to introduce SCash, join
 Eager to learn more or express your interest in SCash? Reach out at hello@snext.app and let's embark on this exciting journey together.
 
 **Welcome to SCash at Snext – Where every deposit opens a world of possibilities.**
-    `
+        `,
+      },
+    ],
   },
   {
-    id: 14,
+    id: 8,
     title: "Save Food Initiative",
     slug: "save-food-initiative",
     content: `
@@ -696,13 +719,19 @@ Every product you purchase from our Save Food sections not only brings joy to yo
 Embrace the journey towards sustainability with Snext. By selecting products from our Save Food initiative, you're joining a community dedicated to creating a positive impact. Let's reduce waste, save resources, and share the joy of making a difference, one purchase at a time.
 
 For more information on how you can be a part of this initiative, visit our Save Food section or contact us at hello@snext.app.
-    `
+    `,
   },
   {
-    id: 15,
-    title: "Ask Aditi",
-    slug: "ask-aditi",
-    content: `
+    id: 9,
+    title: "AI Features",
+    slug: "ai-features",
+    content: "",
+    subsections: [
+      {
+        id: 91,
+        title: "Ask Aditi",
+        slug: "ask-aditi",
+        content: `
 
 Step into the realm of immediate assistance and comprehensive Snext insights with Ask Aditi, your AI-powered companion available through WhatsApp.
 
@@ -726,13 +755,13 @@ Step into the realm of immediate assistance and comprehensive Snext insights wit
 - **Feedback**: Your experiences and insights are invaluable. Share them to help us elevate the Ask Aditi experience.
 
 **Embrace the ease of AI-driven support with Ask Aditi – Snext's commitment to providing you with a hassle-free, informed, and delightful shopping journey.**
-    `
-  },
-  {
-    id: 16,
-    title: "Aditi Insight",
-    slug: "aditi-insight",
-    content: `
+        `,
+      },
+      {
+        id: 92,
+        title: "Aditi Insight",
+        slug: "aditi-insight",
+        content: `
 
 Embark on a journey to the future with Aditi Insight, the upcoming feature of the Snext app that's set to redefine your online shopping experience by adding a personal touch to every selection.
 
@@ -763,10 +792,12 @@ Embark on a journey to the future with Aditi Insight, the upcoming feature of th
 - **Your Feedback Matters**: Your insights will help us refine Aditi Insight. We're excited to hear your thoughts once it launches!
 
 **Anticipate a shopping experience that knows you, with Aditi Insight – your soon-to-arrive personal shopping assistant within the Snext app.**
-    `
+        `,
+      },
+    ],
   },
   {
-    id: 17,
+    id: 10,
     title: "Careers",
     slug: "careers",
     content: `
@@ -819,6 +850,6 @@ Embrace the journey of continuous learning and growth with Snext. We are committ
 Be proactive and make the first move. Let's discover together how your journey and Snext's can intertwine. Send your CV, a brief introduction, and a note on how you can contribute to careers@snext.app. We're always on the lookout for extraordinary talent to join our quest for excellence.
 
 **Join us as we continue to navigate the exciting world of e-commerce, and be a part of our story that blends ambition with purpose.**
-    `
+        `,
   },
 ];

@@ -1,13 +1,11 @@
-import { sections } from "../lib/section";
+import { sections } from "../../lib/section";
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 
 export async function generateStaticParams() {
-  const params: { slug: string; subsection?: string }[] = [];
+  const params: { slug: string; subsection: string }[] = [];
   
   sections.forEach((section) => {
-    params.push({ slug: section.slug });
-    
     if (section.subsections) {
       section.subsections.forEach((subsection) => {
         params.push({ 
@@ -21,37 +19,29 @@ export async function generateStaticParams() {
   return params;
 }
 
-export default function PolicyPage({ 
+export default function SubsectionPage({ 
   params 
 }: { 
-  params: { slug: string; subsection?: string } 
+  params: { slug: string; subsection: string } 
 }) {
   const section = sections.find((s) => s.slug === params.slug);
 
-  if (!section) {
+  if (!section || !section.subsections) {
     notFound();
   }
 
-  let content = section.content;
-  let title = section.title;
-
-  if (params.subsection && section.subsections) {
-    const subsection = section.subsections.find(
-      (sub) => sub.slug === params.subsection
-    );
-    
-    if (!subsection) {
-      notFound();
-    }
-    
-    content = subsection.content;
-    title = subsection.title;
+  const subsection = section.subsections.find(
+    (sub) => sub.slug === params.subsection
+  );
+  
+  if (!subsection) {
+    notFound();
   }
 
   return (
     <>
       <h1 className="mb-6 text-3xl text-[#2C2C2C] font-bold">
-        {title}
+        {subsection.title}
       </h1>
       <ReactMarkdown
         components={{
@@ -87,8 +77,8 @@ export default function PolicyPage({
           ),
         }}
       >
-        {content}
+        {subsection.content}
       </ReactMarkdown>
     </>
   );
-}
+} 

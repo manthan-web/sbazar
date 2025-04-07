@@ -320,26 +320,26 @@ Join **SAP (Snext Association Program)** and connect with Snext's vibrant commun
 
 ## 🌟 What SAP Offers
 
-- **🎯 Sponsorship Opportunities**  
+ **🎯 Sponsorship Opportunities**  
   Apply for sponsorships **twice a year** using **SCoins** from your wallet to support your cultural and community events.
 
-- **👥 Community Engagement**  
+ **👥 Community Engagement**  
   Boost visibility and participation with **Snext's platform support** for your events.
 
-- **💎 Exclusive Benefits**  
+ **💎 Exclusive Benefits**  
   Enjoy access to **rewarding experiences** through our **unique SCoins currency system**.
 
 ---
 
 ## 💡 Why Join?
 
-- **🚀 Achieve Your Goals**  
+ **🚀 Achieve Your Goals**  
   SAP is designed to help your association **thrive** by supporting **cultural preservation** and **community activities**.
 
-- **🛠️ Ease of Management**  
+ **🛠️ Ease of Management**  
   Simplify **event planning and community engagement** using Snext's tools.
 
-- **🌍 Build Stronger Connections**  
+ **🌍 Build Stronger Connections**  
   Connect and collaborate within the **Indian diaspora**, sharing and celebrating your **cultural heritage**.
 
 ---
@@ -371,26 +371,26 @@ Step into **Snext's Influencer Program (SIP)** and amplify your voice within a c
 
 ## ✨ SIP Highlights
 
-- **🎤 Platform to Shine**  
+ **🎤 Platform to Shine**  
   Showcase your influence and become a **key figure** in our community, reaching a **diverse and engaged audience**.
 
-- **🤝 Collaborative Opportunities**  
+ **🤝 Collaborative Opportunities**  
   Partner with us on exciting projects that **broaden horizons**—with **exclusive perks** that celebrate your contributions.
 
-- **🎨 Creative Freedom**  
+ **🎨 Creative Freedom**  
   Unleash your imagination as part of a journey that **celebrates innovation and personal expression**.
 
 ---
 
 ## 💡 Why Participate?
 
-- **📈 Expand Your Reach**  
+ **📈 Expand Your Reach**  
   Leverage **Snext's growing platform** to **grow your audience** and make a lasting impact.
 
-- **💬 Join a Supportive Network**  
+ **💬 Join a Supportive Network**  
   Be part of an **ecosystem of influencers** that values collaboration, creativity, and **mutual success**.
 
-- **🔥 Drive Inspiration**  
+ **🔥 Drive Inspiration**  
   Use your platform to **inspire, engage, and lead**, setting trends and sharing meaningful content.
 
 ---
@@ -407,7 +407,7 @@ Interested in joining SIP?
 📧 Email us at **hello@snext.app**  
 💬 Or connect with our **helpdesk** for more details.
 
-        `,
+  `,
       },
       {
         id: 53,

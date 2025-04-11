@@ -84,27 +84,27 @@ const Events = () => {
                                 <h3 className="text-xl font-semibold text-[#2C2C2C] mb-4">Book Your Tickets</h3>
                                 <ul className="space-y-3 ml-6">
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">1</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">1</span>
                                         <p className="text-zinc-700">Choose the Saturday or Sunday 1:00 PM show at Astor Film Lounge, Cologne</p>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">2</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">2</span>
                                         <p className="text-zinc-700">Select couple seats via Snext</p>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">3</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">3</span>
                                         <p className="text-zinc-700">Register for KinderCare (1 Flat, 10 Kids Only)</p>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">4</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">4</span>
                                         <p className="text-zinc-700">Fill the form below with your child's info</p>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">5</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">5</span>
                                         <p className="text-zinc-700">Slots are first-come, first-serve</p>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">6</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">6</span>
                                         <p className="text-zinc-700">Once full, form will close automatically</p>
                                     </li>
                                 </ul>
@@ -115,15 +115,15 @@ const Events = () => {
                                 <h3 className="text-xl font-semibold text-[#2C2C2C] mb-4">Drop Off at Kinder Flat</h3>
                                 <ul className="space-y-3 ml-6">
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">1</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">1</span>
                                         <p className="text-zinc-700">Location: Private flat just 3 buildings from the theatre</p>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">2</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">2</span>
                                         <p className="text-zinc-700">Time: Drop your child 30 minutes before the movie starts</p>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">3</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">3</span>
                                         <p className="text-zinc-700">Supervision: One trusted Indian caretaker (a local mom, Telugu/Kannada speaking)</p>
                                     </li>
                                 </ul>
@@ -134,11 +134,11 @@ const Events = () => {
                                 <h3 className="text-xl font-semibold text-[#2C2C2C] mb-4">Enjoy the Show</h3>
                                 <ul className="space-y-3 ml-6">
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">1</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">1</span>
                                         <p className="text-zinc-700">Spend 3 hours of real "us-time" 💛</p>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">2</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">2</span>
                                         <p className="text-zinc-700">Optional WhatsApp video check-in available if needed</p>
                                     </li>
                                 </ul>
@@ -149,11 +149,11 @@ const Events = () => {
                                 <h3 className="text-xl font-semibold text-[#2C2C2C] mb-4">Pick Up Post-Movie</h3>
                                 <ul className="space-y-3 ml-6">
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">1</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">1</span>
                                         <p className="text-zinc-700">Collect your child within 15 minutes after the show ends</p>
                                     </li>
                                     <li className="flex items-start">
-                                        <span className="inline-block h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">2</span>
+                                        <span className="h-5 w-5 rounded-full bg-primary text-white flex-shrink-0 flex items-center justify-center text-xs mr-3 mt-1">2</span>
                                         <p className="text-zinc-700">We'll make sure they're safe, fed, and happy</p>
                                     </li>
                                 </ul>
